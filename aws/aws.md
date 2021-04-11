@@ -708,8 +708,8 @@ multi account aws env  - creates 4 accounts  - org account, shared services acco
 - manage containerized apps
 - cluster, task definition, container definition, task, service, regsitry
 
-# fargate
-- serverless engine for ecs and eks
-
 # ECR
 - for container images
+
+# fargate
+- serverless engine for ecs and eks
