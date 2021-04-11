@@ -1,0 +1,25 @@
+# key value pairs
+# indentation shows which property belongs to which object
+
+# use this for clarity: https://onlineyamltools.com/convert-yaml-to-json
+
+base_person: &base  # alias
+  city: mumbai
+  country: india
+
+person:
+  <<: *base
+  name: &myname Smita  # string
+  id: 1  # int
+  is_female: True  # boolean
+  stuff:  # array
+    - laptop
+    - phone
+    - ipod
+  food: [pizza, "peanut butter"]  # array
+  friends:
+    - name: Pooja
+      id: 2
+    - name: Sudhakar
+      id: 3
+  self: *myname  # using alias

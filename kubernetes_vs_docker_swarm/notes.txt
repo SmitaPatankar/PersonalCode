@@ -1,0 +1,2 @@
+kubernetes - autoscaling, monitoring
+docker swarm - LB

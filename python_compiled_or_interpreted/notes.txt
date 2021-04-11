@@ -1,0 +1,3 @@
+compiler - our code to byte code i.e. pyc file - for portability
+python virtual machine/interpreter - byte code to machine language - line by line reading and executing
+diff implementations - Cython, Jython, IronPython(.net), PYPI

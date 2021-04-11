@@ -1,0 +1,34 @@
+# 2nd highest emp salary
+select max(salary) from employee where salary < (select max(salary) from employee)
+
+# emp - ename, deptno, salary
+
+# highest salary in each dept
+select max(salary), deptno from employee group by deptno
+
+# calculate no of employees in dept
+select count(*), deptno from employee group by deptno 
+
+# display alternate records from table
+select * from (select rownum rn, empno, sal, ename from emp) where mod(rn, 2) <> 0;
+
+# display 4th record
+select * from emp where rownum <= 4
+minus
+select * from emp where rownum <= 3
+
+# display 4th record
+select * from (select rownum as rn, employee.* from employee) where rn = 4;
+
+# find duplicate values in column and their count
+select count(ename) as ename_count, ename from emp group by ename
+having ename_count > 1
+order by ename_count
+
+# pattern matching
+# % for 0 or many characters
+# _ for 1 character
+# like
+# not like
+
+# distinct sal

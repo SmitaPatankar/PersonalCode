@@ -1,0 +1,23 @@
+client to server data
+
+symmetric encryption:
+same key for encryption and decryption at client and server respectively - not secure
+
+tls - public key encryption:
+client initiates - server sends public key - client has symmetric key and encrypts it via public key and sends
+server decrypts using private key
+client encrypts data with symmetric key and sends
+client doesnt know if the public key is of server or sniffer - not secure
+
+certs:
+server talks to certificae autority and it makes cert for public key and signs it
+CA has pub and priv key
+signs with private key
+main cert linked to intermediate cert for cert authority for public key
+linked to root cert
+client to server starts
+server sends certs
+client verfies with cert authority by using public key of cert authority and encrypting public key of server and see if some content is received
+until root - root is self signed
+root is on every machine - untrusted root if root goes down
+can install root
