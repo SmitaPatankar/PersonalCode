@@ -12,6 +12,7 @@
 
 ## IAM - roles
 - for resources to access other resources
+- for users to assume
 
 ## IAM - policies (attach to user/group/role)
 
@@ -78,6 +79,7 @@ can have conditions also
 - multipart uploads
 - byte range fetches
 - can be shared in accounts
+- geo targetting is customizing language etc as per location - customized content is received from origin server as per country code sent by cloud front
 
 ## s3 - select
 - fetch partial data using sql queries
@@ -151,6 +153,11 @@ can have conditions also
 - can monitor on prem resources also
 - raises alarms based on metrics
 - recipient needs to subscribe from mail
+- logs are stored in s3
+- can schedule events
+- can trigger lambda event
+- green, yellow(tries to fix) and red status(raises alarm)
+- can reboot/stop/terminate failed instance via alarm action
 
 ## CloudWatch - logs
 
@@ -459,13 +466,15 @@ def lambda_handler(event, context):
 # ec2
 
 ## ec2 - main
-
 - virtual server in cloud
 - on demand, reserved(standard,convertible,scheduled), spot, dedicated hosts(reserved/on demand)
 - AMI, instance type, network, subnet, ebs, tags, sec group(stateful) - linux ssh port 22, windows RDP 3389, http 80, https 443, key pair
 - bootstrap script
+- upgrade/downgrade is done seamlessly by changing to new EC2 in route53 or static ip or nic card
+- stop means shutdown, terminate means shutdown and remove ebs
+- primary private IP cannot be changed
 
-# ec2 - hibernate
+## ec2 - hibernate
 - volume stays, RAM to EBS
 - faster than reboot
 - instance id remains same
@@ -473,7 +482,7 @@ def lambda_handler(event, context):
 - not more than 60 days
 - for on demand and reserved instances
 
-# ec2 - placement groups
+## ec2 - placement groups
 - clustered - single AZ
 - spread - opp - distinct h/w racks n/ws powers - critical  - diff AZs in region   
 - partitioned - multiple instances in a partition  and multiple partitions  - each partition in own rack  - diff AZs in region  
@@ -485,8 +494,9 @@ def lambda_handler(event, context):
 - volume and ec2 must be in same az
 - volume is replicaed across AZ
 - ssd(provisioned/general purpose IOPS), magnetic(throught put optimized, cold HDD)
-- can create snapshot
+- can create snapshot that is stored in s3 (retention handled by ops automator cloud formation template)
 - can be encrypted
+- replicated within AZ
 
 # command line
 - aws configure (access key, secret key, region, data format)
@@ -506,6 +516,7 @@ def lambda_handler(event, context):
 - automatic failover
 - automated backups as snapshots in s3
 - encrypted at rest
+- standaby instance in diff AZ for failure of main
 
 # DynamoDB
 - NoSQL
@@ -520,6 +531,9 @@ def lambda_handler(event, context):
 - streams available
 - migration service available (homeogenous automated schema conversion, heterogenous manual schema conversion)
 - kms, site to site vpn, direct connect
+- get and put operations
+- flexible querying
+- composite partition sort key
 
 # DAX
 - deynamodb accelerator
@@ -555,8 +569,14 @@ def lambda_handler(event, context):
 
 # cloudformation
 - infrastructure as code
-- create stack from template
-- give variable values
+- create template and store in s3
+- create stack
+- give variable values (parameters)
+- manages sequence
+- outputs
+- resources
+- template version
+- rolledback in case of failure
 
 # sqs
 - for asynchronous integration
@@ -573,6 +593,7 @@ def lambda_handler(event, context):
 
 # snowball
 - load data from on prem to s3
+- currently limited to US
 
 # snowball edge
 - deploy lambda functions on prem
@@ -637,6 +658,7 @@ multi account aws env  - creates 4 accounts  - org account, shared services acco
 - instance cant share volumes but can share EFS
 - AZs, sec group, vpc, encryption , lifecycle
 - install amazon-efs-utils in ec2
+- can be replicated
 
 # Amazon FSx
 - for windows for AD, MS Apps etc
@@ -713,3 +735,23 @@ multi account aws env  - creates 4 accounts  - org account, shared services acco
 
 # fargate
 - serverless engine for ecs and eks
+
+# elastic search
+- visualize logs
+
+# lightsail
+- virtual private server
+
+# chime
+- audio video conferencing
+
+# sagemaker
+- build and train ML model
+
+# lumberyard
+- build and host games
+
+# eip
+- elastic ip address
+- charged when attached to stopped instance/not attached/using more than one EIP for instance
+- stopped and started instance gets same IP

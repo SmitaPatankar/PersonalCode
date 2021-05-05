@@ -1,0 +1,9 @@
+# 1
+
+- route53 - cloudfront - ALB - autoscaling target group with AMI, IAM role for s3 logs, EFS in 2 subnets and no public IP and whitelisted ALB and jump host in sec group
+- db in other subnet and also read replica
+- redis cache
+- login via jump server in vpc
+- git to jenkins to instances for code one by one by taking out from autoscaling
+- update AMI in launch conf
+- s3 and rds automatic backup
