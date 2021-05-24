@@ -129,7 +129,7 @@ a:visited{
     border:1px solid #000;
     margin-top:30px;
     position:relative;
-    background-image:url("my_image.jpg");
+    background-image:url("sample.jpg");
     background-position:100px 200px;
     background-position:center top;
     background-repeat:no-repeat;

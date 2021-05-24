@@ -17,7 +17,6 @@
 ## IAM - policies (attach to user/group/role)
 
 can have conditions also
-
 ```
 {
     "Version": "2012-10-17",
@@ -32,7 +31,8 @@ can have conditions also
 }
 ```
 
-### IAM - policies - AWS managed (can change)
+### IAM - policies - AWS managed (can change)  
+examples:  
 - admin(everything but billing)
 - power (everything but IAM)
 - readonly

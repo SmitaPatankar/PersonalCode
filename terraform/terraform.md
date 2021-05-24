@@ -1,49 +1,27 @@
-# installation
+# Installation
 
-## url
-https://www.terraform.io/downloads.html
+## Windows
+Download terraform and add its binary path to Path env variable.
+Install terraform plugin on IDE.
 
-## steps
+## Linux
+Download terraform via wget wget and unzip and copy it to /usr/local/bin i.e. to one dir from echo $PATH.
 
-#### windows
-download, add binary path to Path env var
+# Notes
 
-### linux
-wget, unzip, copy to /usr/local/bin i.e. to one dir from echo $PATH
+- Terraform uses parallelism for creating resources.
+- Indent by 2 levels.
+- tf file has desired state and state file has current state.
+- .terraform.lock.hcl prevents from changing version in tf file.
+- Classify files as provider.tf, variables.tf, iam.tf, ec2.tf etc.
+- Better to use AMI containing scripts than provisioners.
+- Terraform registry has modules made by community that are verified/not verified by hashicorp.
+- State file has passwords in plaintext.
+- Save credentials in AWS CLI.
+- Terraform cloud has UI, repo, plan - cost - apply, tf var - env var, settings, sentinel policy, encryption of state files.
+- Workspaces have diff env vars and state files.
 
-### mac
-brew install terraform or similar to above for latest version
-
-### ide
-install plugin
-
-# notes
-
-- uses parallelism for creating resources
-- indent by 2 levels
-- tf file has desired state and state file has current state
-- .terraform.lock.hcl prevents from changing version in tf file
-- variables' precedence:  
-    - env var
-    - tf vars
-    - tfvars.json
-    - auto tfvars or auto tfvars.json as per file name
-    - -var or -varfile in provided order
-- data types:
-    - string
-    - list
-    - map
-    - number
-- .tf and .tf.json files are loaded in alphabetical order
-- classify files as provider.tf, variables.tf, iam.tf, ec2.tf etc
-- better to use ami containing scripts than provisioners
-- terraform registry has modules made by community - verified/non verified by hashicorp
-- state file has passwords in plaintext
-- save credentials in aws cli
-- terraform cloud has UI, repo, plan - cost - apply, tf var - env var, settings, sentinel policy, encryption of state files
-- workspaces have diff env vars and state files
-
-# commands
+# Commands
 
 ## init
 ```
@@ -146,12 +124,7 @@ terraform state show aws_instance.xx
 terraform import aws_instance.my_ec2 idfromaws  # needs tf file as of now
 ```
 
-## login
-```
-terraform login
-```
-
-# syntax
+# Syntax
 
 ## comments
 ```
@@ -483,40 +456,6 @@ resource "aws_instance" "xx"{
 }
 ```
 
-## terraform cloud
-
-```
-# sentinel policy
-
-import "tfplan"
-
-main = rule {
-  all tfplan.resources.aws_instance as _, instances {
-    all instances as _, r {
-      (length(r.applied.tags) else 0) > 0
-    }
-  }
-}
-
-# iam.tf
-
-terraform{
-    required_version = "~> 0.12.0"
-    backend "remote" {}
-}
-
-resource "aws_iam_user" "lb"{
-    name = "remoteuser"
-    path = "/system/"
-}
-
-# backend.hcl
-
-workspaces {name = "xx"}
-hostname = "app.terraform.io"
-organization = "xx"
-```
-
 ## conditions
 ```
 resource "aws_instance" "xx"{
@@ -524,22 +463,3 @@ resource "aws_instance" "xx"{
     count = var.istest == true ? 1: 0
 }
 ```
-
-# Sources
-- https://github.com/zealvora/terraform-beginner-to-advanced-resource
-- https://docs.google.com/document/d/179clqsxOGQa-iGKu1dcmz89Vpso9-7Of8opIkXwPr_k/edit?usp=sharing
-- https://docs.google.com/document/d/1zAtDbdmvU8qRTVhxrNq_izjlJz2UBd3VnTQvXFzgKyI/edit?usp=sharing
-- https://docs.google.com/document/d/156GDBzJo-SChuGxoeDTIpFFEbXVT8aPzDFaZdMPJ-qk/edit?usp=sharing
-- https://docs.google.com/document/d/1t8kNEBG1xwob-OabZfF3Ynyw90A7spOWdWD7fTHdj7M/edit?usp=sharing
-- https://docs.google.com/document/d/1QH8gMz5Rp_J4e7dODQqmFSM5XabGZiGWKOoOFkJtls4/edit?usp=sharing
-- https://docs.google.com/document/d/1fNKP1b6Uv1hav03idiaTgbuxHgJ9ujzOh2ALoMBVovE/edit?usp=sharing
-- https://docs.hashicorp.com/sentinel/terraform/
-- https://docs.google.com/document/d/1N_8M8wpCgiZ0D2CXgYuypKBAvtkwduQJ4gdtpVyD1as/edit?usp=sharing
-- https://www.terraform.io/docs/registry/modules/publish.html
-- https://www.terraform.io/docs/enterprise/install/installer.html
-- https://www.terraform.io/docs/enterprise/before-installing/index.html
-- https://www.terraform.io/docs/cloud/vcs/index.html
-- https://www.terraform.io/docs/configuration/syntax.html
-- https://www.terraform.io/docs/backends/types/index.html
-- https://www.terraform.io/docs/commands/cli-config.html
-- https://docs.google.com/document/d/1bgeX2W_f2BQ1uGlNZR5yIk9KUxnPK-VUQs_Hax3mPi0/edit?usp=sharing
