@@ -1,0 +1,23 @@
+# what happens when we go to url on browser?
+- browser searches our history for predictions  
+- browser determines if it's a page visit (or a search)    
+- browser checks HTTP strict transport security list cached with it for the website  
+- accordingly it establishes connection to https(port 443) protocol else http(port 80)  
+- checks dns entry in cache if not, goes forward  
+- browser checks hosts file on OS for dns entry if not, goes forward  
+- if dns over https is enabled, that will be used else normal dns lookup on port 53 will be used  
+- dns request is done by sending udp packet to default dns provider provided by ISP via router 
+- dns search packet contains destination i.e. dns server ip, port 53, source ip, random source port on layer 3
+- dns search packet is sent to router because we dont have mac of dns server  
+- router will change source IP to its public IP and adds network address translation and also do address resolution for getting mac of destination  
+- router receives IP for google.com and then received by browser due to NAT  
+- browser sends request to the ip via diff port via router via tcp    
+- router changes source to public IP and sends to IP   
+- response comes - 3 way handshake  - connection established  
+- for tls connection, browser sends hello to google server along with public key and merged public+private key, tells if it supports application layer protocol navigation(HTTP2,HTTP3 etc), Server name indication i.e domain needed by us   
+- server merges it's private key with our public+priv key and sends along with cert for the site and agrees to HTTP2
+- router and browser receives it  
+- browser sends get/ request with content-type, url, cookies if had received earlier from google via HTTP/2 by compressing into binary and encrypting with symm key via tcp connection  
+- serves sends content type, cookies, headers, compressed and encrypted data  
+- browser decrypts it and based on content type parses html, renders image, executes JS  
+- make get request for images from the data  - cycle continues

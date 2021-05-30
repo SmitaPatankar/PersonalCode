@@ -36,16 +36,6 @@ eg:
 </html>
 ```
   
-# IDE shortcuts
-- enter tagname and press tab
-- enter start tag and just type `</`
-- lorem tab
-- lorem10 tab
-
-# Browser shortcuts
-- ctrl+u on browser to see source code
-- f12 to see more details like JS/networking  # can edit temporarily
-
 # tag display
 - inline - `<span> <img> <a> <strong>`
 - block level - `<div> <h1> <p> <form>`
