@@ -1,0 +1,61 @@
+essence of calculus
+#####################
+area of circle as pi r square is determined by breaking into lines of length 2 pi r i.e. circoumference and assembling into triangle
+breadth of lines is some dummy value dr
+so area of triangle is 0.5 * b * h i.e. 0.5*radius*2pi radius i.e. pi r square
+how about the area of x squares i.e. parabola i.e. what is something into x that gives its square's area i.e. A(x)?
+dA = x^2 * dx
+dA
+--- = x^2
+dx
+dA
+-- = f(x)
+dx
+i.e. derivative i.e. whatever this ratio approaches as ds gets smaller and smaller
+i.e. how sensitive a function is to small changes in input
+derivative of function for area under the graph gives the function to find graph itself
+i.e. fundamental theorom of calculus
+derivatives and integrals are inverse of each other
+
+paradox of derivative
+#####################
+s = distance
+distance travelled in time
+distance on y and time on x
+s(t)
+v(t)
+velocity = change in distance / change in time i.e. distance travelled per unit time
+i.e. ds/dt i.e. rise/run
+s(t+dt) - s(t)/dt in metres per second
+ds/dt(t) = s(t+dt) - s(t)/dt
+usually slope of line
+but as dt approaches 0, it is the tangent line
+derivative is best constant approximation for rate of change around a point
+solving comes to ds/dt (t) = 3(t)^2
+derivative of 3 cube is 3 t square
+simplifies problem as we approach 0
+
+derivative formulas through geometry
+####################################
+eg: f(x) = x^2
+square + slightly more = 2 rectangles + small square - ignore square
+by calculating, df/dx = 2x
+d(x^4)/dx = 4x^3
+d(x^n)/dx = nx^(n-1) i.e. power rule
+f(x) = 1/x
+circle with radius 1
+if we cover theta of circle i.e. if we travel radius by theta angle, sin is the height
+if we traverse through the circle, height increases and decreases i.e. wave
+d(sin(theta))/dtheta = adj/hyp of traingle = cos(theta)
+
+chain rule and product rule
+###########################
+add functions, multiply functions or apply one on another
+minus is just negative multiplication
+division is just inverse
+derivative of sum of 2 functions is sum of their derivative
+d/dx(g(x) + h(x)) = dg/dx + dh/dx
+d/dx(g(x) * h(x)) = left d right right d left i.e. d/dx(g(x))h(x) + d/dx(h(x))g(x)
+d/dx(2f(x)) = 2*d/dx(f(x))
+d/dx(g(h(x))) = dg/dh(h(x))*dh/dx(h)
+i.e. chain rule
