@@ -1,26 +1,9 @@
 Write a program to print duplicate elements from  a list.
-C:\REPOSITORIES\MyRepo\python\python_scenario_based_programs\find_duplicates_in_array\find_duplicates_in_array.py
-
 Write a program to print elements in list1 that are not in list2.
-C:\REPOSITORIES\MyRepo\python\python_scenario_based_programs\find_unique_elements_from_list1_as_compared_to_list2.py
-
 How will we find the data type of dataframe?
-C:\REPOSITORIES\MyRepo\python\python_scenario_based_programs\find_data_type_of_pandas_df.py
-
 How will we read each row in pandas?
-C:\REPOSITORIES\MyRepo\python\python_scenario_based_programs\read_each_row_from_pandas_df.py
-
 How to format a csv with color, decimal places, date format using pandas?
-C:\REPOSITORIES\MyRepo\python\python_scenario_based_programs\format_csv_colour_dateformat_decimalplaces_using_pandas\format_csv_colour_dateformat_decimalplaces_using_pandas.py
-
 How will we check if 2 dfs are equal?
-C:\REPOSITORIES\MyRepo\python\python_scenario_based_programs\check_equality_of_2_pandas_dfs.py
-
 What is the difference between join, merge and concat in pandas?
-C:\REPOSITORIES\MyRepo\python\python_scenario_based_programs\diff_between_pandas_merge_join_concat.py
-
 How to resolve ascii encoding error while reading csv file via pandas?
-C:\REPOSITORIES\MyRepo\python\python_scenario_based_programs\resolve_ascii_encoding_error_while_reading_csv_via_pandas\resolve_ascii_encoding_error_while_reading_csv_via_pandas.py
-
 How will we write new line on top of csv?
-C:\REPOSITORIES\MyRepo\python\python_scenario_based_programs\add_new_line_on_top_of_csv\add_new_line_on_top_of_csv.py
