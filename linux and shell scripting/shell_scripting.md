@@ -418,3 +418,35 @@ echo "xx"
 set +x
 echo "yy"
 ```
+
+# cut command
+```
+cut -b 1,2,3 filename
+cut -b 1-3,5-7 filename
+cut -b 1- filename
+cut -b -3 filename
+
+cut -c 2,5 filename
+cut -c 2-5 filename
+
+cut -d " " -f 2 filename
+ls -l|cut -d " " -f 1
+```
+
+# tee command to write on stdout and file at same time
+```
+echo "abc"|tee filename
+```
+
+# sort command
+```
+sort filename|tee newfilename
+```
+
+# uniq command on sorted file
+```
+uniq filename newfilename
+uniq -c filename
+uniq -d filename
+uniq -u filename
+```

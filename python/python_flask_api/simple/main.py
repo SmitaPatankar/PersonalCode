@@ -159,7 +159,7 @@ if __name__ == "__main__":
 # python db_operations_pandas_sqlalchemy.py
 
 # terminal
-# python test.py
+# python test_pytest.py
 
 # deploy
 """

@@ -1,7 +1,7 @@
 import os
 import unittest
 from unittest import mock
-from python.python_automation_tests.dev import C, get_random_digital_string, get_capitalized_env_name
+from python import C, get_random_digital_string, get_capitalized_env_name
 
 
 class TestUnittestFramework(unittest.TestCase):
