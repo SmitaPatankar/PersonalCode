@@ -1,0 +1,83 @@
+read big xml*
+write big xml*
+edit big xml
+all above operations with namespaces
+events in xml parsing
+
+read big csv* - pandas
+write big csv* - pandas
+edit big csv
+
+read big txt*
+write big txt*
+edit big txt
+
+read big xls
+write big xls
+edit big xls
+
+read big json*
+write big json*
+edit big json
+
+read big image
+write big image
+edit big image
+
+read big pdf
+write big pdf
+edit big pdf
+
+read big docx
+write big docx
+edit bog docx
+
+read big mp3
+write big mp3
+edit big mp3
+
+read big mp4
+write big mp4
+edit big mp4
+
+read big zipfile*
+write big zipfile*
+edit big zipfile
+
+read big pickle file* - small
+write big pickle file* - small
+edit big pickle file
+
+-----
+
+read big db data
+write big db data
+edit big db data
+delete big db data
+
+-----
+
+convert files from one format to another (xml, csv etc)*
+sort data from big files
+delete files
+learn about line endings in files
+learn about character encodings in files
+learn about binary files
+learn about data in bytes
+learn regular expressions
+
+-----
+
+scrape big html using beautifulsoup
+
+scrape big ui using beautifulsoup
+scrape big ui using selenium
+scrape big ui using scrapy
+
+-----
+
+read big api using library similar to requests
+
+-----
+
+learn about sessions for api
