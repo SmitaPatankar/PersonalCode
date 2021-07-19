@@ -130,13 +130,13 @@ df.to_csv("output.csv", index=False)
 df.to_excel("output.xlsx", index=False)  # sheet_name="xx"
 df.to_csv("output.txt", index=False, sep="\t")
 
-# concatenate 2 dfs (vertical)
+# concatenate 2 dfs (horizontal)
 print(pd.concat((df, df)))
 
-# merge 2 dfs (on column, horizontal)
+# merge 2 dfs (on column, vertical)
 print(pd.merge(df, df, on="Name"))  # how=inner, outer, right, left
 
-# join 2 dfs (on index, horizontal)
+# join 2 dfs (on index, vertical)
 print(pd.join(df, df))  # how=inner, outer, right, left
 
 # create series from scratch

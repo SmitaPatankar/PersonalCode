@@ -8,7 +8,7 @@
 
 # constraints-------------------->
 # test file name must begin with test_ for pytest command without test file name to detect it
-# test method name must begin with test_ for tes methods to be detected in general
+# test method name must begin with test_ for test methods to be detected in general
 
 # run all tests in a file-------------------->
 # pytest test_pytest.py

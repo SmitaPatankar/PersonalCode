@@ -1,0 +1,18 @@
+# selenium
+captcha
+qr code
+MFA
+windows apps
+hw testing
+audio video streaming
+flash video player
+virtual keyboard
+mobile apps
+opensource app ui
+perf testing
+api
+large downloads
+maps
+security
+usability
+cli

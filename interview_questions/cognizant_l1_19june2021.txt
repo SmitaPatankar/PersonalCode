@@ -1,9 +1,0 @@
-Write a program to print duplicate elements from  a list.
-Write a program to print elements in list1 that are not in list2.
-How will we find the data type of dataframe?
-How will we read each row in pandas?
-How to format a csv with color, decimal places, date format using pandas?
-How will we check if 2 dfs are equal?
-What is the difference between join, merge and concat in pandas?
-How to resolve ascii encoding error while reading csv file via pandas?
-How will we write new line on top of csv?

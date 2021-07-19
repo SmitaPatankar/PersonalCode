@@ -1,0 +1,12 @@
+MFA
+pwd rules
+mask password
+old password removed
+invalid password repetition
+source code no pwd
+cookies no sensitive data
+https use
+encrypt data
+refresh/back
+session expired
+sql injection
