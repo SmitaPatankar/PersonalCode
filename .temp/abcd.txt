@@ -1,0 +1,61 @@
+genuine
+key
+
+
+
+tcp
+udp
+
+udp
+
+application
+presentation
+session
+transport - tcp/udp - segment
+network - ip source|destination - packet
+data link - frame
+physical
+
+routing switching
+
+switch - layer 2
+router - layer 3
+
+-----------------------------------
+
+application
+tcp
+
+c variable
+-----------------------------------
+a = 1
+-----------------------------------
+list - tuple
+-----------------------------------
+array
+dictionary
+-----------------------------------
+lambda 
+-----------------------------------
+apis
+-----------------------------------
+requests
+-----------------------------------
+-----------------------------------
+india
+SASE - 1/15 - sd wan
+1 position
+boys
+-----------------------------------
+-->sel automation
+2-3-->
+-----------------------------------
+2020 - sase
+verizon - 13/15
+versa - vendor
+-----------------------------------
+concerto
+-----------------------------------
+vendors licensing
+-----------------------------------
+single platform

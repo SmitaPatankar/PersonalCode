@@ -2,3 +2,10 @@
 
 # sum of all (2 raised to k) where k is 0 to n = 2^(n+1) - 1
 
+def a():
+    print("smita")
+
+def b():
+    print("smita")
+
+print(a == b)
