@@ -1,0 +1,189 @@
+read write edit delete sort - big/small - xml, csv, txt, xls, json, image, pdf, docx, mp3, mp4, zipfile, picklefile, db, api etc
+convert files from one format to another - xml, csv etc
+encoding and decoding of data
+binary files
+data in bytes
+scrapy
+sessions for api
+design patterns eg: singleton
+sql injection
+cross site scripting
+"""
+jump to random line in file
+reverse num via recursion
+real life use of frozen set?????????????????
+# different namespaces in python and order in which they are looked into before returning error? - local, global, builtin
+# difference between vm and container? - container doesnt need hypervisor
+# why do we need to use kubernetes? - orchestration
+# can we override __init__ for taking diff number of parameters?
+# will this program work? and what will happen if we change it to B,A instead of A,B?
+'''
+class A:
+   def method1():
+       print("In A")
+
+class B(A):   
+     def method1(self):
+        print("In B")
+
+class C(A, B):
+      def method1(self):
+        print("In C")
+
+c = C()
+c.method1()
+'''
+# what is the diff in rest api path vs query parameters?
+# how to pass file to api?
+# what is the disdvantage of microservice over monolithic service?
+# what is cron expression for every 15 mins?
+# what does webdriver inherit from?
+# webdriver is an interface or a class or abstract class?
+# can we create methods of abstract classes?
+# diff between class and static method?
+# oops concepts in python
+# will this program work?
+'''
+x = 5
+def func2():
+    x += 3
+func2()
+'''
+# find out whether it is a json or jsonarray?
+# function to get all the sheet names in python using openpyxml?
+# how to switch between windows?
+# function to get handle/handles?
+# difference between abstract class and interface?
+# create dockerfile
+# difference between run and cmd
+# difference between cmd and entrypoint.sh
+# cicd using jenkins
+# waits in selenium
+# wait conditions
+# page factory class?
+which error comes on modifying tuple
+timedouterror in selenium
+ls -l proper output
+/etc/hosts content
+got to end of line via vi
+uname command
+args kwargs
+slice - -1:-7:-1
+difference between search and match
+change params of overriden method
+class and instance method
+'''
+class C:
+    surname = "patankar"
+
+    def __init__(self, name):
+        self.name = name
+
+    @classmethod
+    def myclassmethod(cls):
+        print("start of class method")
+        print(f"my class method {cls.surname}")
+        print("calling instance method from class method")
+        # cls.myinstancemethod()
+        print("not possible")
+        print("end of class method")
+
+    def myinstancemethod(self):
+        print("start of instance method")
+        print(f"my instance method {self.name} {self.surname}")
+        print("calling class method from instance method")
+        self.myclassmethod()
+        print("end of instance of method")
+
+c = C("smita")
+print("calling class method on instance")
+c.myclassmethod()
+print("calling instance method on instance")
+c.myinstancemethod()
+
+print("\n")
+
+print("calling class method on class")
+C.myclassmethod()
+print("calling instance method for class")
+C.myinstancemethod(c)
+'''
+read boolean from excel and click checkbox on ui table
+make classes for ticketing system
+recursive fibonnaci
+deepdive into inheritance
+'''
+# we can call instance method on instance
+# we can call instance method on class if we pass instance as a parameter
+# we cannot call instance method inside class method because we dont know which instance it is for
+
+class C:
+    surname = "patankar"
+
+    def __init__(self, name):
+        self.name = name
+
+    @classmethod
+    def myclassmethod(cls):
+        print("start of class method")
+        print(f"my class method {cls.surname}")
+        print("calling instance method from class method")
+        cls.myinstancemethod()
+        print("not possible")
+        print("end of class method")
+
+    def myinstancemethod(self):
+        print("start of instance method")
+        print(f"my instance method {self.name} {self.surname}")
+        print("calling class method from instance method")
+        self.myclassmethod()
+        print("end of instance of method")
+
+c = C("smita")
+print("calling class method on instance")
+c.myclassmethod()
+print("calling instance method on instance")
+c.myinstancemethod()
+
+print("\n")
+
+print("calling class method on class")
+C.myclassmethod()
+print("calling instance method on class")
+C.myinstancemethod(c)
+'''
+"""
+fib recursive sequence
+html structure for table
+fluent wait
+jscript scroll in element
+2nd largest
+frequency of chars
+reverse number
+call class method in instance method and vice versa
+change parameters of overridden method?
+search vs match in text containing multiple similar strings
+stored procedures
+truncate vs delete
+s3 one bucket vs multiple
+csv 3rd column awk
+
+
+real use of frozen set - vowels
+
+real use of abstract class
+abstract class vs interface
+css vs xpath
+debug
+
+cat fileName.csv | awk -F ";" '{ print $colNum }'
+
+# what are microservices in api?
+# can we call non abstract methods which are there in abstract class?
+# how to form abstract class in python?
+# can abstract class have normal methods?
+# abstract syntax
+# acid properties
+# namespaces
+# mixin
+# openpyxl

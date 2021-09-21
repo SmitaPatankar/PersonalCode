@@ -1,0 +1,179 @@
+query---->
+recovery from ldf?
+what does system db have?
+nvarchar?
+create schema?
+sp vs func?
+grant and revoke?
+concurrent transactions?
+acid?
+inserting random identity value?
+coqleases a,=ll null
+
+
+components----->
+
+ms sql server
+ms sql management studio - client
+
+connection-->
+
+server type - db engine (other options - reporting, analysis etc)
+server ip
+auth - windows/sql server(login pwd) as per installation
+
+db files-->(created and deleted as per db)
+mdf - master data file
+ldf - transaction log file for recovery
+
+sp types-->
+system
+user defined
+
+constraints-->
+pk - unique
+fk - pk of other table - value should exist in other table or be null - for integrity - no action(rollback), cascade/set null/set default on deletion of pk
+not null
+default
+check (check existing data or not) (value should meet constraint or should be null)
+unique - one null, many unique cols
+
+datatypes-->
+int
+nvarchar(50)
+
+###################################################################################
+
+create database xx
+
+alter database xx
+modify name = yy
+-----------------------------
+sp_renameDB 'xx','yy'
+
+drop database xx (not when in use elsewhere or by yourself, hence delete in single user mode, not system db)
+
+alter database xx
+set single_user
+with rollback immediate
+
+create table xx
+(
+id int not null primary key,
+gender nvarchar(5) not null
+)
+
+use xx
+
+alter table person
+add constraint xx 
+foreign key (genderid) references gender (id)
+
+insert into xx values (1,'smita')
+insert into xx (id, name) values (1, 'smita')
+insert into xx (id, name, genderid) values (1, 'smita', null)
+
+alter table person
+add constraint def
+default 3 for genderid (when empty)
+--------------------------------------
+alter table person
+add constraint chk
+check (age > 0 and age < 150)
+
+alter table person
+add xx int
+constraint def default 3
+
+alter table xx
+drop constraint xx
+
+delete from xx
+where id = xx
+
+create table xx
+(
+id int identity(1,1)
+)
+
+insert into table values ('smita')  # id is identity column
+-----------------------------------------------------------
+set identity_insert mytable on
+insert into table (id, name) values (1, 'smita')  # to reuse deleted it
+set identity_insert mytable off # for automatic
+
+dbcc checkident('mytable', reseed, 0)  # to reset after deleting all rows
+
+# last used identity value
+select scope_identity()  # executed query in scope  # same session same scope  # common to return to user
+--------------------------
+select @@identity  # trigger  # same session # any scope
+--------------------------
+select ident_current('mytable')  # any session any scope given table
+
+create trigger tr
+for insert on t1
+as
+begin
+insert into t2 values ("yyyy")
+end
+
+alter table xx
+add constraint uq
+unique(email)
+
+select * from xx
+-----------------
+select * from db.schema.table  # from other db
+
+select id, name from xx
+
+select distinct city from xx
+select distinct city,name from xx
+
+select * from xx
+where id = 5  # <>  # !=  # > >= < <= in between like not  # and or ()
+----------------------------------------------------------------------
+where id in (1,2)
+where id between 5 and 10
+where id like "_smita"  # one
+where id like "%a"  # any
+where id not like "%a"
+where id like "[cd]at" # cat dat
+where id like "[^cd]at"  # not cat dat
+where id = 1 or id = 2
+
+select * from t
+where x = 1
+order by name asc, age desc 
+
+select top 100 * from table
+select top 10 percent * from table
+
+select top 1 *
+from table
+order by salary desc
+
+select sum(salary)  # min max
+from table
+
+select age, gender, max(salary), count(id) as [xx yy]  # col name with spaces
+from table
+group by age, gender
+having max(salary) > 50
+
+joins
+------
+inner join (join)
+left outer join (left join)  # right full
+cross join
+self join for all above
+
+select e.name, e.gender, e.salary, d.deptname
+from emp e inner join dept d
+on e.deptid = d.id  # not for cross join
+
+# not matching
+left join
+where d.id is null
+

@@ -1,0 +1,121 @@
+# 2nd highest - subquery
+select max(salary)
+from table
+where salary < (
+select max(salary)
+from table
+)
+
+# 15th highest - subquery
+select top 1 salary from 
+(
+	select distinct top 15 salary
+	from table
+	order by salary desc
+) result
+order by salary asc
+
+# 15th highest - common table expression - dense_rank over order by
+with result as
+(
+select salary, dense_rank() over (order by salary desc) as denserank
+from employees
+)
+select top 1 salary from result where denserank==15
+
+-----------------------------------------------------------------------------------
+
+# delete duplicate rows - rownumber over partition
+with employeecte as
+(
+select *, row_number() over (partition by id) as rownumber
+from employee
+)
+delete from employeecte where rownumber > 1
+
+-----------------------------------------------------------------------------------
+
+# hired in last n months
+
+select *
+from employees
+where datediff(month, hiredate, getdate()) between 1 and 3  # day year
+order by hiredate desc
+
+--------------------------------------------------------------------------------------
+
+# rows containing numeric data in nvarchar format - isnumeric
+
+select col
+from employees
+where isnumeric(col) = 1
+
+--------------------------------------------------------------------------------------
+
+# dept with highest employees - join
+
+select top 1 d.name
+from employees e 
+join dept d on employees.deptid = dept.id
+group by d.name
+order by count(e.id) desc
+
+---------------------------------------------------------------------------------------
+
+# name starting with - with like
+select * from students where name like "M%"
+
+----------------------------------------------------------------------------------------
+
+# name starting with - without like
+
+select * from students
+where charindex('M', name) = 1
+
+where left(name, 1) = "M"
+
+where substring(name, 1, 1) = "M"
+
+----------------------------------------------------------------------------------------
+
+# born on given date
+select name, dob
+from employees
+where cast(dob as date) = "2017-10-09"
+
+# between 2 dates
+
+where cast(dob as date) between "2017-10-09" and "2017-10-20"
+
+# given day and month
+
+where day(dob) = 9 and month(dob) = 9
+
+# given year
+
+where year(dob) = 2019
+
+# yesterday
+
+where cast(dob as date) = dateadd(day, -1, cast(getdate() as date))
+
+----------------------------------------------------------------------------------------
+
+# extract only numbers - function with patindex, stuff
+
+create function extract_numbers(@input varchar(255)) returns varchar(255)
+as
+begin
+	declare @alphabetindex int = patindex("%^[0-9]%", @input)
+	begin
+		while @alphabetindex > 0
+		begin
+			set @input = Stuff(@input, @alphabetindex, 1, "")
+			set @alphabetindex = patindex("%^[0-9]%", @input)  # [a-zA-z]
+		end
+	end
+	return isnull(@input, 0)
+end
+
+----------------------------------------------------------------------------------------
+stringsplit(str, ",")

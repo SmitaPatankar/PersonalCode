@@ -1,7 +1,7 @@
 # read big
 # https://stackoverflow.com/a/326541/10064174
 from lxml import etree
-context = etree.iterparse("C:/REPOSITORIES/MyRepo/python/python_big_files_handling_web_scraping/sample.xml")
+context = etree.iterparse("C:/REPOSITORIES/MyRepo/PYTHON/python_big_files_handling_web_scraping/sample.xml")
 for index, (event, elem) in enumerate(context):
     if index == 0:
         root = elem

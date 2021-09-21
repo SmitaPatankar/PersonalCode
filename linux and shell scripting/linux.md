@@ -160,8 +160,6 @@ todo
 uptime  
 ```
 
------
-
 # process management commands
 
 ```
@@ -180,8 +178,6 @@ df -h  # check free disk space  # -h for readability
 free -m  # see free ram in mb
 free -g  # see free ram in gb
 ```
-
------
 
 # networking commands
 

@@ -1,0 +1,20 @@
+# company
+
+r&d company - bang, tokyo, cal
+s/w and h/w
+scientific instrumentation, product diagnostics
+mass spectrometer - molecule diagnostics
+eg: gas composition
+app, os
+size of fridge -> size of oven
+v1 - pharma
+v2 - semiconductor
+optical spectrometer
+medical - blood glucose check
+investors for next 4-5 yrs - not profitable
+prod - next yr
+
+# role
+tool development and automation
+python, test automation, pytest, api tests, non func tests, unix
+micrcontroller level, modbus, grpc

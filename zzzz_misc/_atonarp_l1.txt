@@ -1,0 +1,10 @@
+familiar linux commands
+find file names containing text
+find files containing text
+
+ls -l|grep vs just grep?
+xargs?
+
+way of choosing library?
+
+analog clock angle at 4.25

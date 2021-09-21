@@ -2,7 +2,7 @@ import pandas as pd
 
 # read big
 # https://stackoverflow.com/a/25962187/10064174
-with pd.read_csv("C:/REPOSITORIES/MyRepo/python/python_big_files_handling_web_scraping/sample.csv", chunksize=2) as reader:
+with pd.read_csv("C:/REPOSITORIES/MyRepo/PYTHON/python_big_files_handling_web_scraping/sample.csv", chunksize=2) as reader:
     for chunk in reader:
         print(chunk)
 

@@ -12,5 +12,5 @@ class C:
 if __name__ == "__main__":
     fire.Fire(C)  # for standalone functions just do fire.Fire()
 
-# python fire_basics.py --i 3 m 5 2
+# PYTHON fire_basics.py --i 3 m 5 2
 # 21

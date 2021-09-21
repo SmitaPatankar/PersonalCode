@@ -1,0 +1,125 @@
+svn - central
+git - distributed
+
+git config --global user.name "xx"
+git config --global user.email "xx"
+git config --list
+
+git xx --help
+
+.gitignore file
+*.pyc
+
+# local
+git init  # .git dir
+git status
+
+work -> stage chosen files -> commit
+
+git add .
+git add xxfilexx
+
+git reset - from stage
+git reset xxfilexx
+
+git commit -m 'msg'
+
+git log  # see commits
+
+# remote
+git clone xxurlxx xxdirxx
+
+git remote -v
+git branch -a
+
+git diff
+
+git pull
+git push
+
+git push origin master
+
+git branch xx
+git checkout xx
+
+git push -u origin master
+
+git branch -a
+
+git checkout master
+git pull origin master
+git branch --merged
+git merge xx
+git push origin master
+
+git branch -d xx
+git push origin --delete xx
+
+git checkout xx.py
+
+git commit --amend -m "new msg"  # local only suggested
+
+git commit --amend # new file # change msg also
+
+git log --stat
+
+# move commit from master to feature
+# cherry pick
+
+git checkout feature
+git cherry-pick mastercommithash
+git checkout master
+# soft mixed hard reset
+git reset --soft mastercommithash  # staging kept
+git reset --mixed mastercommithash  # default  # working kept
+git reset --hard mastercommithash  # deleted from master
+
+git clean df # untracked files and dirs
+
+garbage collection after many days
+
+git reflog
+git checkout hashbeforereset
+git branch backup
+
+# remote
+git revert commithash  # new commit
+
+git diff hash hash
+
+# git stash
+# dont commit but keep in temp
+# go to other branch or got to original state
+
+git stash save "did this this"
+git diff - nothing
+git stash list
+git stash apply xx  # git stash pop
+git stash drop xx
+git stash clear
+
+download diffmerge
+
+copy paste config
+
+git difftool
+Y
+
+git mergetool
+
+git add -A
+git add -A mydir/
+git add mydir
+git add --no-all mydir  # ignore removal
+git add -u  # not untracked files  # only updated/deleted
+git add . # current dir
+
+merge - squish
+rebase - separate
+
+git checkout fb
+git rebase master  # against latest master
+
+git checkout master
+git rebase fb
+git push

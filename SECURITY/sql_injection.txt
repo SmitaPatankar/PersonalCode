@@ -1,0 +1,8 @@
+drop table
+update bad data
+retrieve more info
+overload db
+
+id=1 or 1=1
+
+hence check id is number

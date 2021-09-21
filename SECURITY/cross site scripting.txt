@@ -1,0 +1,13 @@
+# attackers inject scripts via our website
+# sniff cookies
+# repeat attacks
+# take down server
+
+stored attack
+- enter script in product name - eg: alert message
+- server should cleanup
+
+reflected attack
+- bad website having script to take to other website on click
+- has cookies of user
+- set content-security-policy: none or from known url on server js

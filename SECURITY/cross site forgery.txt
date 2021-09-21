@@ -1,0 +1,2 @@
+evil site uses same token as given by legitimate site to user
+csrf token sent to user by leg site is to be sent back everytime

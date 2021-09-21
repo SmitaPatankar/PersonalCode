@@ -16,6 +16,6 @@ quick sort - take an element from start - find element > than that, from end, fi
 insertion sort - insert at correct position - O(n^2) - too many swaps and comparisons if smaller elements are towards end
 merge sort - into 2 arrays and so on - merge them in pairs - O(n log n)`
 shell sort - optimized insertion sort - take a gap like 3 - sort - move - reduce gap, reduce gap, gap i.e. insertion sort - O(nlog^2n)
-python list sort uses hybrid merge and insertion
+PYTHON list sort uses hybrid merge and insertion
 selection sort - find min swap with first, so on for 2nd position - O(n^2)
 """

@@ -1,0 +1,6 @@
+Mumbai
+100
+Bangalore
+50
+Pune
+20

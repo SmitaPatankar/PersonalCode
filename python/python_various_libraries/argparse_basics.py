@@ -24,6 +24,6 @@ args = parse_args(
 print(args.id)
 print(args.name)
 
-# python argparse_basics.py --id 1 --name smita
+# PYTHON argparse_basics.py --id 1 --name smita
 # 1
 # smita

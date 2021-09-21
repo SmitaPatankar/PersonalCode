@@ -45,7 +45,7 @@ services:
          ports:  
             - {hostport}:{containerport}  
          volumes:  
-            - xx:/abc/pqr  
+            - xx:/abc/pqr
          environment:  
             - key:value  
 volumes:  

@@ -1,7 +1,7 @@
 # read big
 # https://stackoverflow.com/a/17326199/10064174
 import ijson
-for prefix, type_, value in ijson.parse(open("C:/REPOSITORIES/MyRepo/python/python_big_files_handling_web_scraping/sample.json")):
+for prefix, type_, value in ijson.parse(open("C:/REPOSITORIES/MyRepo/PYTHON/python_big_files_handling_web_scraping/sample.json")):
     if prefix == "item" and type_ == "map_key":
         print(value, end=" >>>> ")
     elif type_ == "string":

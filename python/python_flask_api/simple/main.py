@@ -156,10 +156,10 @@ if __name__ == "__main__":
 # close
 
 # terminal
-# python db_operations_pandas_sqlalchemy.py
+# PYTHON db_operations_pandas_sqlalchemy.py
 
 # terminal
-# python test_pytest.py
+# PYTHON test_pytest.py
 
 # deploy
 """
@@ -169,11 +169,11 @@ apache2 -version
 ufw app list
 ufw allow 'Apache'
 systemctl status apache2
-apt-get install libapache-mod-wsgi python-dev
+apt-get install libapache-mod-wsgi PYTHON-dev
 cd /var/www
 mkdir webApp
 cd webApp
-apt-get install python-pip
+apt-get install PYTHON-pip
 pip install flask
 pip install flask_sqlalchemy
 sudo vi /etc/apache2/sites-available/webApp.conf
@@ -202,7 +202,7 @@ systemctl reload apache2
 
 sudo vi webapp.wsgi
 
-#!/usr/bin/python
+#!/usr/bin/PYTHON
 import sys
 import logging
 logging.basicConfig(stream=sys.stderr)

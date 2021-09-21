@@ -1,12 +1,12 @@
 # for local execution
 # uncomment create_tables() from app.py
 # add secret_key to app.py
-# python app.py - one terminal
-# python api_caller.py - another terminal
+# PYTHON app.py - one terminal
+# PYTHON api_caller.py - another terminal
 
 # for proper deployed execution
 # follow deployment instructions from notes.txt
-# python api_caller.py
+# PYTHON api_caller.py
 
 import requests
 import json

@@ -2,6 +2,7 @@
 # https://stackoverflow.com/a/31322359/10064174
 """convert into bytes to save in memory"""
 b = 'I am a string'.encode('ASCII')
+print(b)
 
 # decode
 # https://stackoverflow.com/a/31322359/10064174

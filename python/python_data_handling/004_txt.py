@@ -1,6 +1,6 @@
 # read big
 # https://stackoverflow.com/a/6475407/10064174
-with open("C:/REPOSITORIES/MyRepo/python/python_big_files_handling_web_scraping/sample.txt") as f:
+with open("C:/REPOSITORIES/MyRepo/PYTHON/python_big_files_handling_web_scraping/sample.txt") as f:
     for line in f:
         print(line, end="")
 
@@ -17,3 +17,7 @@ with open("C:/REPOSITORIES/MyRepo/.trash/output.txt", "w", buffering=5) as f:
             break
         if count % 10 == 0:
             time.sleep(1)
+
+# f.readline()
+# f.tell() - shows where pointer is in file
+# f.seek(0) - move pointer to a position

@@ -34,5 +34,5 @@ for root, dirs, files in os.walk("D:/"):
         result = os.path.join(root, d)
         print(result)
 
-# D:/PROJECT STUDY\python random\PyramidTutorial\venv\Include
-# D:/PROJECT STUDY\python random\PyramidTutorial\venv\Lib
+# D:/PROJECT STUDY\PYTHON random\PyramidTutorial\venv\Include
+# D:/PROJECT STUDY\PYTHON random\PyramidTutorial\venv\Lib

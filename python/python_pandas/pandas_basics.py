@@ -32,7 +32,7 @@ my_df = pd.DataFrame(columns=["id", "name"])
 print(df.describe())
 print(df.info())
 print(df.index)
-print(df.is_null())
+# print(df.is_null())
 print(df.index.names)
 
 # display complete df
@@ -57,8 +57,8 @@ print(df.loc[~df["Name"].str.contains("Mega")])
 print(df.loc[df["Type 1"].str.contains("Fire|Grass", regex=True)])
 print(df.loc[df["Name"].str.contains("^pi[a-z]$")])
 print(df.loc[df["Type 1"].str.contains("fire|grass", regex=True, flags=re.I)])
-print(df.loc["A"])
-print(df.loc[["A", "B"]])
+# print(df.loc["A"])
+# print(df.loc[["A", "B"]])
 
 # group df rows
 print(df.groupby(["Type 1", "Type 2"]).count())
@@ -145,23 +145,19 @@ arr = np.array(my_data)
 labels = ['a', 'b', 'c']
 d = {'a': 10, 'b': 20, 'c': 30}
 
-print(pd.Series(data=my_data))
-print(pd.Series(data=my_data, index=labels))
+print(pd.Series(my_data))
 print(pd.Series(arr))
+print(pd.Series(my_data, labels))
 print(pd.Series(arr, labels))
 print(pd.Series(d))
-print(pd.Series([sum,print,len]))  # holding references to builtin functions as data points
+print(pd.Series([sum, print, len]))  # holding references to builtin functions as data points
 
 # create dataframe from scratch
-data ={"Company": ["GOOG", "GOOG", "MSFT", "MSFT", "FB", "FB"],
-       "Person": ["Sam", "Charlie", "Amy", "Vanessa", "Carl", "Sarah"],
-       "Sales": [200,120,340,124,243,350]}
-d = {'A': [1,2,np.nan],
-     'B': [5,np.nan, np.nan],
-     'C': [1,2,3]}
+d = {'A': [1, 2, np.nan],
+     'B': [5, np.nan, np.nan],
+     'C': [1, 2, 3]}
 
-print(pd.DataFrame(data))
-print(pd.DataFrame(data, index=[2,3,4,5,6,7]))
+print(pd.DataFrame(d, index=[2, 3, 4, 5, 6, 7]))
 print(pd.DataFrame(d))
 
 # modify df with null values
@@ -174,7 +170,7 @@ df.drop('new', axis=1, inplace=True)
 
 # df operations
 print(df > 0)
-print(df[df>0])
-print(df['W']>0)
-print(df[df['W']>0])
+print(df[df > 0])
+print(df['W'] > 0)
+print(df[df['W'] > 0])
 print(df[(df['W'] > 0) & (df['Y'] > 1)])
