@@ -1,0 +1,4108 @@
+Learn more about
+-----------------
+http://ccbv.co.uk/
+http://bit.ly/1JHSoe8
+
+http://www.pythontutor.com/
+https://en.wikipedia.org/wiki/Fluent_interface
+context managers
+Collections
+# doctest: +ELLIPSIS
+magnitude of complex numbers
+hypot
+%r
+ROW_FMT = '{0:2d} @ {1:2d}    {2}{0:<2d}'
+print('haystack ->', ' '.join('%2d' % n for n in HAYSTACK))
+https://stackoverflow.com/questions/1436703/difference-between-str-and-repr
+gettext.gettext - _
+print('{:15} | {:^9} | {:^9}'.format('', 'lat.', 'long.'))
+fmt = '{:20} | {:9.4f} | {:9.4f}'
+http://python.org/dev/peps/pep-3132/
+http://python.org/dev/peps/pep-3113/
+https://github.com/fluentpython/example-code
+http://code.activestate.com/recipes/577197-sortedcollection/
+binary search
+Python in a Nutshell, 2nd Edition (O’Reilly) by Alex Martelli has excellent coverage of the data model.
+David Beazley has two books covering the data model in detail in the context of Python 3: Python Essential Reference, 4th Edition (Addison-Wesley Professional), and Python Cookbook, 3rd Edition (O’Reilly), coauthored with Brian K. Jones.
+The Art of the Metaobject Protocol (AMOP, MIT Press) by Gregor Kiczales, Jim des Rivieres, and Daniel G. Bobrow explains the concept of a metaobject protocol (MOP), of which the Python data model is one example.
+https://en.wikipedia.org/wiki/Object_model
+https://docs.python.org/3/reference/datamodel.html
+http://docs.zope.org/zope.interface/
+http://hugunin.net/story_of_jython.html
+https://learning.oreilly.com/library/view/fluent-python/9781491946237/ch09.html#private_protected_sec
+http://bit.ly/1Vm72Mf
+https://mail.python.org/pipermail/python-list/2002-September/112991.html
+https://mail.python.org/pipermail/python-list/2002-September/114716.html
+https://github.com/fluentpython/example-code/blob/master/02-array-seq/listcomp_speed.py
+https://github.com/fluentpython/example-code
+http://python.org/dev/peps/pep-3132/
+https://docs.python.org/3/library/gettext.html
+https://www.python.org/dev/peps/pep-3113/
+http://wiki.scipy.org/Tentative_NumPy_Tutorial
+https://en.wikipedia.org/wiki/Fluent_interface
+http://code.activestate.com/recipes/577197-sortedcollection/
+https://docs.python.org/3/library/bisect.html
+https://docs.python.org/3/library/pickle.html
+https://stackoverflow.com/questions/4845418/when-should-a-memoryview-be-used/
+http://www.netlib.org/
+http://www.scipy.org/install.html
+queue
+multiprocessing
+asyncio
+heapq
+ch1 - http://shop.oreilly.com/product/0636920027072.do
+http://docs.python.org/3/howto/sorting.html
+http://python.org/dev/peps/pep-3132/
+http://bugs.python.org/issue2292
+https://www.python.org/dev/peps/pep-0448/
+http://bit.ly/1Vm6K7Y
+http://bit.ly/py-data-analysis
+http://ipython.org/notebook.html
+https://docs.python.org/3/library/collections.html
+https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html
+https://docs.python.org/3/reference/datamodel.html#objects-values-and-types
+http://en.wikipedia.org/wiki/Timsort
+https://docs.python.org/3/library/collections.html
+http://shop.oreilly.com/product/0636920027072.do
+http://oreil.ly/1LGCRLr
+http://hg.python.org/cpython/file/tip/Objects/dictobject.c
+http://bit.ly/1JzEjiR
+https://www.python.org/dev/peps/pep-0218/
+https://www.python.org/dev/peps/pep-0274/
+http://www.json.org/fatfree.html
+http://bit.ly/1QmmPFj
+https://learning.oreilly.com/library/view/fluent-python/9781491946237/ch12.html#subclass_builtin_woes
+https://learning.oreilly.com/library/view/fluent-python/9781491946237/ch03.html#further_reading_dict
+https://www.python.org/dev/peps/pep-0467/
+http://bit.ly/1Vm7ZnI
+http://bit.ly/1Vm7YjA
+http://bit.ly/1Vm83DZ
+http://python.org/dev/peps/pep-0263/
+https://pypi.python.org/pypi/chardet
+http://bit.ly/1IqvCUZ
+http://bit.ly/1IqvRPV
+https://docs.python.org/3/library/unicodedata.html
+https://docs.python.org/3/library/re.html
+https://www.python.org/dev/peps/pep-0383/
+http://docs.python.org/3/howto/functional.html
+https://www.python.org/dev/peps/pep-3155/
+https://www.python.org/dev/peps/pep-3155/
+functools.partialmethod
+http://shop.oreilly.com/product/0636920027072.do - 7
+http://bit.ly/1Vm8dv2
+https://www.python.org/dev/peps/pep-3107/
+http://bit.ly/1FHiOXf
+http://docs.python.org/3/howto/functional.html
+https://github.com/kachayev/fn.py
+http://bit.ly/1FHiTdh
+http://bobo.readthedocs.org/en/latest/
+http://bit.ly/1FHiUxR
+http://shop.oreilly.com/product/0636920027072.do - 8.2.1
+http://bit.ly/1HGBXeQ
+http://norvig.com/design-patterns/
+http://docs.python.org/3/library/dis.html
+http://www.python.org/dev/peps/pep-3104/
+https://www.python.org/dev/peps/pep-0443/
+x == None compares IDs??????
+http://bit.ly/1GsWPac
+http://bit.ly/1GsWTa7
+http://docs.python.org/3/library/weakref.html
+http://bit.ly/1GsXB6Z
+http://bit.ly/1Gt4vJF
+http://bit.ly/1Gt4vJF
+http://pandas.pydata.org/
+http://www.numpy.org/
+_getattr_
+
+The Python Data Model
+*********************
+
+special method names are always written with leading and trailing double underscores
+For example, the syntax obj[key] is supported by the __getitem__ special method. In order to evaluate my_collection[key], the interpreter calls my_collection.__getitem__(key)
+dunder-getitem - spl method
+
+use of collections.namedtuple to construct a simple class to represent individual cards
+Since Python 2.6, namedtuple can be used to build classes of objects that are just bundles of attributes with no custom methods, like a database record.
+
+use standard or spl methods
+Iteration is often implicit. If a collection has no __contains__ method, the in operator does a sequential scan. Case in point: in works with our FrenchDeck class because it is iterable. Check it out:
+
+# program 2
+
+The first thing to know about special methods is that they are meant to be called by the Python interpreter, and not by you.
+
+You don’t write my_object.__len__(). You write len(my_object) and, if my_object is an instance of a user-defined class, then Python calls the __len__ instance method you implemented.
+
+the statement for i in x: actually causes the invocation of iter(x), which in turn may call x.__iter__() if that is available.
+
+__init__
+
+If you need to invoke a special method, it is usually better to call the related built-in function (e.g., len, iter, str, etc)
+
+Vector(2, 4) + Vector(2, 1) results in Vector(4, 5)
+>>> v1 = Vector(2, 4)
+>>> v2 = Vector(2, 1)
+>>> v1 + v2
+Vector(4, 5)
+
+>>> v = Vector(3, 4)
+>>> abs(v)
+5.0  # magnitude
+
+>>> v * 3
+Vector(9, 12)
+>>> abs(v * 3)
+15.0
+
+# program 3
+		
+The __repr__ special method is called by the repr built-in to get the string representation of the object for inspection. If we did not implement __repr__, vector instances would be shown in the console like <Vector object at 0x10e100070>.
+
+The interactive console and debugger call repr on the results of the expressions evaluated, as does the %r placeholder in classic formatting with the % operator, and the !r conversion field in the new Format String Syntax used in the str.format method.
+
+Note that in our __repr__ implementation, we used %r to obtain the standard representation of the attributes to be displayed. This is good practice, because it shows the crucial difference between Vector(1, 2) and Vector('1', '2')—the latter would not work in the context of this example, because the constructor’s arguments must be numbers, not str.
+
+The string returned by __repr__ should be unambiguous and, if possible, match the source code necessary to re-create the object being represented. That is why our chosen representation looks like calling the constructor of the class (e.g., Vector(3, 4)).
+
+Contrast __repr__ with __str__, which is called by the str() constructor and implicitly used by the print function. __str__ should return a string suitable for display to end users.
+
+choose __repr__, because when no custom __str__ is available, Python will call __repr__ as a fallback.
+
++ and *, to show basic usage of __add__ and __mul__
+
+the methods create and return a new instance of Vector
+
+Python applies bool(x), which always returns True or False
+
+By default, instances of user-defined classes are considered truthy, unless either __bool__ or __len__ is implemented. 
+
+If __bool__ is not implemented, Python tries to invoke x.__len__()
+ def __bool__(self):
+        return bool(self.x or self.y)
+		
+Table 1-1. Special method names (operators excluded)
+Category	Method names
+String/bytes representation
+
+__repr__, __str__, __format__, __bytes__
+
+Conversion to number
+
+__abs__, __bool__, __complex__, __int__, __float__, __hash__, __index__
+
+Emulating collections
+
+__len__, __getitem__, __setitem__, __delitem__, __contains__
+
+Iteration
+
+__iter__, __reversed__, __next__
+
+Emulating callables
+
+__call__
+
+Context management
+
+__enter__, __exit__
+
+Instance creation and destruction
+
+__new__, __init__, __del__
+
+Attribute management
+
+__getattr__, __getattribute__, __setattr__, __delattr__, __dir__
+
+Attribute descriptors
+
+__get__, __set__, __delete__
+
+Class services
+
+__prepare__, __instancecheck__, __subclasscheck__
+
+Table 1-2. Special method names for operators
+Category	Method names and related operators
+Unary numeric operators
+
+__neg__ -, __pos__ +, __abs__ abs()
+
+Rich comparison operators
+
+__lt__ >, __le__ <=, __eq__ ==, __ne__ !=, __gt__ >, __ge__ >=
+
+Arithmetic operators
+
+__add__ +, __sub__ -, __mul__ *, __truediv__ /, __floordiv__ //, __mod__ %, __divmod__ divmod() , __pow__ ** or pow(), __round__ round()
+
+Reversed arithmetic operators
+
+__radd__, __rsub__, __rmul__, __rtruediv__, __rfloordiv__, __rmod__, __rdivmod__, __rpow__
+
+Augmented assignment arithmetic operators
+
+__iadd__, __isub__, __imul__, __itruediv__, __ifloordiv__, __imod__, __ipow__
+
+Bitwise operators
+
+__invert__ ~, __lshift__ <<, __rshift__ >>, __and__ &, __or__ |, __xor__ ^
+
+Reversed bitwise operators
+
+__rlshift__, __rrshift__, __rand__, __rxor__, __ror__
+
+Augmented assignment bitwise operators
+
+__ilshift__, __irshift__, __iand__, __ixor__, __ior__
+
+
+Data Structures
+****************
+
+container sequences - list, tuple, and collections.deque can hold items of different types. - stores references
+flat sequences - str, bytes, bytearray, memoryview, and array.array hold items of one type. - stores in memory
+
+Mutable sequences - list, bytearray, array.array, collections.deque, and memoryview
+Immutable sequences - tuple, str, and bytes
+
+mutable sequences - __setitem__, __delitem__, insert, append, reverse, extend, pop, remove, __iadd__
+sequence - __getitem__, __contains__, __iter__, __reversed__, index, count
+container - __contains__, iterable - __iter__, sized - __len__
+
+# program 4,5
+
+LISTCOMP IS MEANT TO BUILD NEW LIST
+FOR LOOP SHOULD DO MULTIPLE OPERATIONS
+IF YOU ARE NOT DOING ANYTHING WITH NEW LIST DO NOT USE LISTCOMPS
+DON'T WRITE MORE THAN 2 LINES OF LIST COMPS
+
+In Python code, line breaks are ignored inside pairs of [], {}, or (). So you can build multiline lists, listcomps, genexps, dictionaries and the like without using the ugly \ line continuation escape.
+
+# program 6
+....
+
+# def fn(a, (b, c), d):) allowed in python2 not 3
+
+Dictionaries and Sets
+************************
+
+Module namespaces, class and instance attributes, and function keyword arguments are some of the fundamental constructs where dictionaries are deployed.
+The built-in functions live in __builtins__.__dict__.
+Hash tables are the engines behind Python’s high-performance dicts.
+sets are implemented with hash tables as well\
+The collections.abc module provides the Mapping and MutableMapping ABCs to formalize the interfaces of dict and similar types
+
+The main value of the ABCs is documenting and formalizing the minimal interfaces for mappings, and serving as criteria for isinstance tests in code that needs to support mappings in a broad sense
+032
+
+the values need not be hashable, only the keys
+
+immutable types(str, bytes, numeric types) are hashable
+A tuple is hashable only if all its items are hashable
+
+User-defined types are hashable by default because their hash value is their id() and they all compare not equal.
+
+OrderedDict.popitem() removes the first item inserted (FIFO); an optional last argument, if set to True, pops the last item (LIFO).
+
+Text versus Bytes
+*****************
+
+Character Issues
+------------------------------------
+The code point for A (U+0041) is encoded as the single byte \x41 in the UTF-8 encoding, or as the bytes \x41\x00 in UTF-16LE encoding.
+bytes for computer
+string for humans
+
+Byte Essentials
+----------------
+bytes immutable
+bytearray mutable
+Each item in bytes or bytearray is an integer from 0 to 255
+slice of byte or bytearray produces object of same type
+For bytes in the printable ASCII range—from space to ~—the ASCII character itself is used.
+For bytes corresponding to tab, newline, carriage return, and \, the escape sequences \t, \n, \r, and \\ are used.
+For every other byte value, a hexadecimal escape sequence is used (e.g., \x00 is the null byte).
+many str and regex methods are supported by byte and bytearray
+they also have fromhex
+
+structs and memory views
+------------------------
+“Memory Views”, the memoryview class does not let you create or store byte sequences, but provides shared memory access to slices of data from other binary sequences, packed arrays, and buffers such as Python Imaging Library (PIL) images,2 without copying the bytes.
+
+Chapter 5. First-Class Functions
+----------------------------------
+functions are objects
+i.e. we can pass them and return them from other functions
+read its attributes
+etc
+343536
+
+callable objects
+--------------
+callable() to check if object is callable using ()
+
+When invoked, a class runs its __new__ method to create an instance, then __init__ to initialize it, and finally the instance is returned to the caller. Because there is no new operator in Python, calling a class is like calling a function. (Usually calling a class creates an instance of the same class, but other behaviors are possible by overriding __new__.
+If a class defines a __call__ method, then its instances may be invoked as functions.
+
+37.....45
+
+decorators closures and ol
+----------------------------
+46............53
+
+Object References, Mutability, and Recycling
+-------------------------------------------
+objects and their names are diff
+variables are labels/sticky notes not boxes
+same object-->
+>>> a = [1, 2, 3]
+>>> b = a
+>>> a.append(4)
+>>> b
+[1, 2, 3, 4]
+
+variable is assigned to object. Not vice versa.
+i.e. right hand side happens first
+>>> class Gizmo:
+...    def __init__(self):
+...         print('Gizmo id: %d' % id(self))
+...
+>>> x = Gizmo()
+Gizmo id: 4301489152
+>>> y = Gizmo() * 10
+Gizmo id: 4301489432
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for *: 'Gizmo' and 'int'
+>>>
+>>> dir()
+['Gizmo', '__builtins__', '__doc__', '__loader__', '__name__',
+'__package__', '__spec__', 'x']
+
+one object can have multiple labels(variables)
+the second variable is an alias of the first one
+>>> charles = {'name': 'Charles L. Dodgson', 'born': 1832}
+>>> lewis = charles
+>>> lewis is charles
+True
+>>> id(charles), id(lewis)
+(4300473992, 4300473992)
+>>> lewis['balance'] = 950
+>>> charles
+{'name': 'Charles L. Dodgson', 'balance': 950, 'born': 1832}
+
+Different object with same values
+thats not aliasing
+same values but different identities
+>>> alex = {'name': 'Charles L. Dodgson', 'born': 1832, 'balance': 950}
+>>> alex == charles  # __eq__ method of dict
+True
+>>> alex is not charles
+True
+
+identity is like address which never changes after creation
+is function compares id()
+
+is operator is faster than ==, because it cannot be overloaded
+if x is None:
+    pass
+
+tuples hold references to objects
+if inside items are mutable, they can be changed
+only references/contents it holds are immutable, not the referenced objects
+i.e. id of elements in tuple never changes
+>>> t1 = (1, 2, [30, 40])
+>>> t2 = (1, 2, [30, 40])
+>>> t1 == t2
+True
+>>> id(t1[-1])
+4302515784
+>>> t1[-1].append(99)
+>>> t1
+(1, 2, [30, 40, 99])
+>>> id(t1[-1])  6
+4302515784
+>>> t1 == t2  7
+False
+tuples with immutable objects are u hashable
++= creates new tuple object
+
+copies are shallow by default
+>>> l1 = [3, [55, 44], (7, 8, 9)]
+>>> l2 = list(l1)
+>>> l2
+[3, [55, 44], (7, 8, 9)]
+>>> l2 == l1
+True
+>>> l2 is l1
+False
+
+l2 = l1[:]
+creates shallow copy i.e. internal elments are referenced
+if all r immutable no problem, else an issue
+
+l1 = [3, [66, 55, 44], (7, 8, 9)]
+l2 = list(l1)
+l1.append(100)  # only added to 1 , coz main list is edited
+l1[1].remove(55)  # changed on both lists, coz internal mutable object is changed
+print('l1:', l1)
+print('l2:', l2)
+l2[1] += [33, 22]  # changed on both lists, as internal mutable object is changed
+l2[2] += (10, 11)  # changed on 2nd list only, as internal immutable object is changed
+print('l1:', l1)
+print('l2:', l2)
+
+hence we need deep copy to make copies of internal objects also
+# import copy
+# copy.copy() - shallow
+# copy.deepcopy()
+
+class Bus:
+    def __init__(self, passengers=None):
+        if passengers is None:
+            self.passengers = []
+        else:
+            self.passengers = list(passengers)
+    def pick(self, name):
+        self.passengers.append(name)
+    def drop(self, name):
+        self.passengers.remove(name)
+
+>>> import copy
+>>> bus1 = Bus(['Alice', 'Bill', 'Claire', 'David'])
+>>> bus2 = copy.copy(bus1)
+>>> bus3 = copy.deepcopy(bus1)
+>>> id(bus1), id(bus2), id(bus3)
+(4301498296, 4301499416, 4301499752)
+>>> bus1.drop('Bill')
+>>> bus2.passengers
+['Alice', 'Claire', 'David']
+>>> id(bus1.passengers), id(bus2.passengers), id(bus3.passengers)
+(4302658568, 4302658568, 4302657800)
+>>> bus3.passengers
+['Alice', 'Bill', 'Claire', 'David']
+
+how python handles cyclic references due to deepcopy
+>>> a = [10, 20]
+>>> b = [a, 30]
+>>> a.append(b)
+>>> a
+[10, 20, [[...], 30]]
+>>> from copy import deepcopy
+>>> c = deepcopy(a)
+>>> c
+[10, 20, [[...], 30]]
+
+parameter passing in python is by sharing
+i.e. parameters in the functions are aliases or copies of actual object
+function can change any mutable object, but not its identity
+>>> def f(a, b):
+...     a += b
+...     return a
+...
+>>> x = 1
+>>> y = 2
+>>> f(x, y)
+3
+>>> x, y
+(1, 2)
+>>> a = [1, 2]
+>>> b = [3, 4]
+>>> f(a, b)
+[1, 2, 3, 4]
+>>> a, b
+([1, 2, 3, 4], [3, 4])
+>>> t = (10, 20)
+>>> u = (30, 40)
+>>> f(t, u)
+(10, 20, 30, 40)
+>>> t, u
+((10, 20), (30, 40))
+
+mutable types as default parameters is a bad idea:
+class HauntedBus:
+    """A bus model haunted by ghost passengers"""
+    def __init__(self, passengers=[]):
+        self.passengers = passengers
+    def pick(self, name):
+        self.passengers.append(name)
+    def drop(self, name):
+        self.passengers.remove(name)
+>>> bus1 = HauntedBus(['Alice', 'Bill'])
+>>> bus1.passengers
+['Alice', 'Bill']
+>>> bus1.pick('Charlie')
+>>> bus1.drop('Alice')
+>>> bus1.passengers  1
+['Bill', 'Charlie']
+>>> bus2 = HauntedBus()  2
+>>> bus2.pick('Carrie')
+>>> bus2.passengers
+['Carrie']
+>>> bus3 = HauntedBus()  3
+>>> bus3.passengers  4
+['Carrie']
+>>> bus3.pick('Dave')
+>>> bus2.passengers  5
+['Carrie', 'Dave']
+>>> bus2.passengers is bus3.passengers  6
+True
+>>> bus1.passengers  7
+['Bill', 'Charlie']
+default value is evaluated when the function is defined i..e mosty when the module is loaded
+default value becomes the attribute of the function
+>>> dir(HauntedBus.__init__)  # doctest: +ELLIPSIS
+['__annotations__', '__call__', ..., '__defaults__', ...]
+>>> HauntedBus.__init__.__defaults__
+(['Carrie', 'Dave'],)
+>>> HauntedBus.__init__.__defaults__[0] is bus2.passengers
+True
+
+hence better to give None as default and then assign [] internally
+i.e. align caller and called function's expectations
+
+class TwilightBus:
+    """A bus model that makes passengers vanish"""
+    def __init__(self, passengers=None):
+        if passengers is None:
+            self.passengers = []  1
+        else:
+            self.passengers = passengers  2
+    def pick(self, name):
+        self.passengers.append(name)
+    def drop(self, name):
+        self.passengers.remove(name)  3
+>>> basketball_team = ['Sue', 'Tina', 'Maya', 'Diana', 'Pat']  1
+>>> bus = TwilightBus(basketball_team)  2
+>>> bus.drop('Tina')  3
+>>> bus.drop('Pat')
+>>> basketball_team  4
+['Sue', 'Maya', 'Diana']
+
+Hence make a copy of mutable parameters for object
+def __init__(self, passengers=None):
+    if passengers is None:
+        self.passengers = []
+    else:
+        self.passengers = list(passengers)
+if in doubt create copy, unless you need to actually mutate
+
+when objects become unreachable, they are garbage collected
+del deletes the variable not object
+del can result in garbage collection, if that's the only reference to the object or object becomes unreachable
+
+__del__ should not be called. it is used by python when object is about to get destroyed to release external resources
+
+>>> import weakref
+>>> s1 = {1, 2, 3}
+>>> s2 = s1         1
+>>> def bye():      2
+...     print('Gone with the wind...')
+...
+>>> ender = weakref.finalize(s1, bye)  3
+>>> ender.alive  4
+True
+>>> del s1
+>>> ender.alive  5
+True
+>>> s2 = 'spam'  6
+Gone with the wind...
+>>> ender.alive
+False
+
+weak reference does not get added to ref count, it is for something like cache.
+if object is present, it will be returned when calling weak ref, else None
+>>> import weakref
+>>> a_set = {0, 1}
+>>> wref = weakref.ref(a_set)  1
+>>> wref
+<weakref at 0x100637598; to 'set' at 0x100636748>
+>>> wref()  2
+{0, 1}
+>>> a_set = {2, 3, 4}  3
+>>> wref()  4
+{0, 1}
+>>> wref() is None  5
+False  # wref is now assigned to False
+>>> wref() is None  6
+True
+in console non none returns are bound to _
+
+use WeakKeyDictionary, WeakValueDictionary, WeakSet, and finalize instead of weakref.ref directly
+
+WeakValueDictionary
+class Cheese:
+    def __init__(self, kind):
+        self.kind = kind
+    def __repr__(self):
+        return 'Cheese(%r)' % self.kind
+when value is garbage collected, key is removed
+>>> import weakref
+>>> stock = weakref.WeakValueDictionary()  1
+>>> catalog = [Cheese('Red Leicester'), Cheese('Tilsit'),
+...                 Cheese('Brie'), Cheese('Parmesan')]
+...
+>>> for cheese in catalog:
+...     stock[cheese.kind] = cheese  2
+...
+>>> sorted(stock.keys())
+['Brie', 'Parmesan', 'Red Leicester', 'Tilsit']  3
+>>> del catalog
+>>> sorted(stock.keys())
+['Parmesan']  4
+>>> del cheese
+>>> sorted(stock.keys())
+[]
+
+class MyList(list):
+    """list subclass whose instances may be weakly referenced"""
+a_list = MyList(range(10))
+# a_list can be the target of a weak reference
+wref_to_a_list = weakref.ref(a_list)
+
+>>> t1 = (1, 2, 3)
+>>> t2 = tuple(t1)
+>>> t2 is t1  1
+True
+>>> t3 = t1[:]
+>>> t3 is t1  2
+True
+# str bytes and frozenset also
+# fs[:] does not work if fs is a frozenset. But fs.copy() has the same effect
+
+# strings with same values have same IDs
+>>> t1 = (1, 2, 3)
+>>> t3 = (1, 2, 3)  1
+>>> t3 is t1  2
+False
+>>> s1 = 'ABC'
+>>> s2 = 'ABC'  3
+>>> s2 is s1 4
+True
+# same for small int
+# better use == for comparing int and string
+# is is for internal purpose
+
+Instances of user-defined classes are mutable by default in Python
+Every attribute of the object must also be immutable
+
+A Pythonic Object
+-------------------
+repr() - how developer wants to see it
+str() - user
+
+>>> v1 = Vector2d(3, 4)
+>>> print(v1.x, v1.y)  1
+3.0 4.0
+>>> x, y = v1  2
+>>> x, y
+(3.0, 4.0)
+>>> v1  3
+Vector2d(3.0, 4.0)
+>>> v1_clone = eval(repr(v1))  4
+>>> v1 == v1_clone  5
+True
+>>> print(v1)  6
+(3.0, 4.0)
+>>> octets = bytes(v1)  7
+>>> octets
+b'd\\x00\\x00\\x00\\x00\\x00\\x00\\x08@\\x00\\x00\\x00\\x00\\x00\\x00\\x10@'
+>>> abs(v1)  8
+5.0
+>>> bool(v1), bool(Vector2d(0, 0))  9
+(True, False)
+-------------------------------------
+from array import array
+import math
+
+
+class Vector2d:
+    typecode = 'd'  1
+
+    def __init__(self, x, y):
+        self.x = float(x)    2
+        self.y = float(y)
+
+    def __iter__(self):
+        return (i for i in (self.x, self.y))  3
+
+    def __repr__(self):
+        class_name = type(self).__name__
+        return '{}({!r}, {!r})'.format(class_name, *self)  4
+
+    def __str__(self):
+        return str(tuple(self))  5
+
+    def __bytes__(self):
+        return (bytes([ord(self.typecode)]) +  6
+                bytes(array(self.typecode, self)))  7
+
+    def __eq__(self, other):
+        return tuple(self) == tuple(other)  8
+
+    def __abs__(self):
+        return math.hypot(self.x, self.y)  9
+
+    def __bool__(self):
+        return bool(abs(self))  10
+
+   @classmethod  1
+    def frombytes(cls, octets):  2
+        typecode = chr(octets[0])  3
+        memv = memoryview(octets[1:]).cast(typecode)  4
+        return cls(*memv)  5
+
+class method's most common use is for alternative constructors
+static method's receive no special first argument
+>>> class Demo:
+...     @classmethod
+...     def klassmeth(*args):
+...         return args  1
+...     @staticmethod
+...     def statmeth(*args):
+...         return args  2
+...
+>>> Demo.klassmeth()  3
+(<class '__main__.Demo'>,)
+>>> Demo.klassmeth('spam')
+(<class '__main__.Demo'>, 'spam')
+>>> Demo.statmeth()   4
+()
+>>> Demo.statmeth('spam')
+('spam',)
+
+# module level methods are better than static methods in a class of other closely related code.
+
+__format__(format_spec) is called by format method
+>>> brl = 1/2.43  # BRL to USD currency conversion rate
+>>> brl
+0.4115226337448559
+>>> format(brl, '0.4f')  1
+'0.4115'
+>>> '1 BRL = {rate:0.2f} USD'.format(rate=brl)  2
+'1 BRL = 0.41 USD'
+
+>>> format(42, 'b')  # b for base 2, x for base 10
+'101010'
+>>> format(2/3, '.1%')
+'66.7%'
+
+>>> from datetime import datetime
+>>> now = datetime.now()
+>>> format(now, '%H:%M:%S')
+'18:49:05'
+>>> "It's now {:%I:%M %p}".format(now)
+"It's now 06:49 PM"
+
+If a class has no __format__, the method inherited from object returns str(my_object).
+>>> v1 = Vector2d(3, 4)
+>>> format(v1)
+'(3.0, 4.0)'
+>>> format(v1, '.3f')
+Traceback (most recent call last):
+  ...
+TypeError: non-empty format string passed to object.__format__
+
+>>> v1 = Vector2d(3, 4)
+>>> format(v1)
+'(3.0, 4.0)'
+>>> format(v1, '.2f')
+'(3.00, 4.00)'
+>>> format(v1, '.3e')
+'(3.000e+00, 4.000e+00)'
+
+def __format__(self, fmt_spec=''):
+    components = (format(c, fmt_spec) for c in self)  1
+    return '({}, {})'.format(*components)  2
+
+def angle(self):
+    return math.atan2(self.y, self.x)
+
+def __format__(self, fmt_spec=''):
+    if fmt_spec.endswith('p'):  1
+        fmt_spec = fmt_spec[:-1]  2
+        coords = (abs(self), self.angle())  3
+        outer_fmt = '<{}, {}>'  4
+    else:
+        coords = self  5
+        outer_fmt = '({}, {})'  6
+    components = (format(c, fmt_spec) for c in coords)  7
+    return outer_fmt.format(*components)  8
+
+>>> format(Vector2d(1, 1), 'p')
+'<1.4142135623730951, 0.7853981633974483>'
+>>> format(Vector2d(1, 1), '.3ep')
+'<1.414e+00, 7.854e-01>'
+>>> format(Vector2d(1, 1), '0.5fp')
+'<1.41421, 0.78540>'
+
+# make it hashable
+
+>>> v1 = Vector2d(3, 4)
+>>> hash(v1)
+Traceback (most recent call last):
+  ...
+TypeError: unhashable type: 'Vector2d'
+>>> set([v1])
+Traceback (most recent call last):
+  ...
+TypeError: unhashable type: 'Vector2d'
+
+>>> v1.x, v1.y
+(3.0, 4.0)
+>>> v1.x = 7
+Traceback (most recent call last):
+  ...
+AttributeError: can't set attribute
+
+# make it immutable first
+
+class Vector2d:
+    typecode = 'd'
+
+    def __init__(self, x, y):
+        self.__x = float(x)  1
+        self.__y = float(y)
+
+    @property  2
+    def x(self):  3
+        return self.__x  4
+
+    @property  5
+    def y(self):
+        return self.__y
+
+    def __iter__(self):
+        return (i for i in (self.x, self.y))  6
+
+def __hash__(self):
+    return hash(self.x) ^ hash(self.y)
+
+>>> v1 = Vector2d(3, 4)
+>>> v2 = Vector2d(3.1, 4.2)
+>>> hash(v1), hash(v2)
+(7, 384307168202284039)
+>>> set([v1, v2])
+{Vector2d(3.1, 4.2), Vector2d(3.0, 4.0)}
+
+>>> v1 = Vector2d(3, 4)
+>>> v2 = Vector2d(3.1, 4.2)
+>>> hash(v1), hash(v2)
+(7, 384307168202284039)
+>>> set([v1, v2])
+{Vector2d(3.1, 4.2), Vector2d(3.0, 4.0)}
+
+"""
+A two-dimensional vector class
+
+    >>> v1 = Vector2d(3, 4)
+    >>> print(v1.x, v1.y)
+    3.0 4.0
+    >>> x, y = v1
+    >>> x, y
+    (3.0, 4.0)
+    >>> v1
+    Vector2d(3.0, 4.0)
+    >>> v1_clone = eval(repr(v1))
+    >>> v1 == v1_clone
+    True
+    >>> print(v1)
+    (3.0, 4.0)
+    >>> octets = bytes(v1)
+    >>> octets
+    b'd\\x00\\x00\\x00\\x00\\x00\\x00\\x08@\\x00\\x00\\x00\\x00\\x00\\x00\\x10@'
+    >>> abs(v1)
+    5.0
+    >>> bool(v1), bool(Vector2d(0, 0))
+    (True, False)
+
+
+Test of ``.frombytes()`` class method:
+
+    >>> v1_clone = Vector2d.frombytes(bytes(v1))
+    >>> v1_clone
+    Vector2d(3.0, 4.0)
+    >>> v1 == v1_clone
+    True
+
+
+Tests of ``format()`` with Cartesian coordinates:
+
+    >>> format(v1)
+    '(3.0, 4.0)'
+    >>> format(v1, '.2f')
+    '(3.00, 4.00)'
+    >>> format(v1, '.3e')
+    '(3.000e+00, 4.000e+00)'
+
+
+Tests of the ``angle`` method::
+
+    >>> Vector2d(0, 0).angle()
+    0.0
+    >>> Vector2d(1, 0).angle()
+    0.0
+    >>> epsilon = 10**-8
+    >>> abs(Vector2d(0, 1).angle() - math.pi/2) < epsilon
+    True
+    >>> abs(Vector2d(1, 1).angle() - math.pi/4) < epsilon
+    True
+
+
+Tests of ``format()`` with polar coordinates:
+
+    >>> format(Vector2d(1, 1), 'p')  # doctest:+ELLIPSIS
+    '<1.414213..., 0.785398...>'
+    >>> format(Vector2d(1, 1), '.3ep')
+    '<1.414e+00, 7.854e-01>'
+    >>> format(Vector2d(1, 1), '0.5fp')
+    '<1.41421, 0.78540>'
+
+
+Tests of `x` and `y` read-only properties:
+
+    >>> v1.x, v1.y
+    (3.0, 4.0)
+    >>> v1.x = 123
+    Traceback (most recent call last):
+      ...
+    AttributeError: can't set attribute
+
+
+Tests of hashing:
+
+    >>> v1 = Vector2d(3, 4)
+    >>> v2 = Vector2d(3.1, 4.2)
+    >>> hash(v1), hash(v2)
+    (7, 384307168202284039)
+    >>> len(set([v1, v2]))
+    2
+
+"""
+
+from array import array
+import math
+
+class Vector2d:
+    typecode = 'd'
+
+    def __init__(self, x, y):
+        self.__x = float(x)
+        self.__y = float(y)
+
+    @property
+    def x(self):
+        return self.__x
+
+    @property
+    def y(self):
+        return self.__y
+
+    def __iter__(self):
+        return (i for i in (self.x, self.y))
+
+    def __repr__(self):
+        class_name = type(self).__name__
+        return '{}({!r}, {!r})'.format(class_name, *self)
+
+    def __str__(self):
+        return str(tuple(self))
+
+    def __bytes__(self):
+        return (bytes([ord(self.typecode)]) +
+                bytes(array(self.typecode, self)))
+
+    def __eq__(self, other):
+        return tuple(self) == tuple(other)
+
+    def __hash__(self):
+        return hash(self.x) ^ hash(self.y)
+
+    def __abs__(self):
+        return math.hypot(self.x, self.y)
+
+    def __bool__(self):
+        return bool(abs(self))
+
+    def angle(self):
+        return math.atan2(self.y, self.x)
+
+    def __format__(self, fmt_spec=''):
+        if fmt_spec.endswith('p'):
+            fmt_spec = fmt_spec[:-1]
+            coords = (abs(self), self.angle())
+            outer_fmt = '<{}, {}>'
+        else:
+            coords = self
+            outer_fmt = '({}, {})'
+        components = (format(c, fmt_spec) for c in coords)
+        return outer_fmt.format(*components)
+
+    @classmethod
+    def frombytes(cls, octets):
+        typecode = chr(octets[0])
+        memv = memoryview(octets[1:]).cast(typecode)
+        return cls(*memv)
+
+private attrs __ are name mangled with class name in python
+__mood becomes _Classname__mood
+its for safety, not security
+>>> v1 = Vector2d(3, 4)
+>>> v1.__dict__
+{'_Vector2d__y': 4.0, '_Vector2d__x': 3.0}
+>>> v1._Vector2d__x
+3.0
+
+possible but wrong
+v1._Vector__x = 7
+
+_ protected
+
+ALLCAPS constants
+
+save space with __slots__ class attribute
+python saves instance attrs as dict
+dicts cause memory overhead due to hashes for fast access
+__slots__ lets it save it in a tuple instead
+__slots__ is only per class, so inheriting it doesnt make sense
+class Vector2d:
+    __slots__ = ('__x', '__y')
+    typecode = 'd'
+    # methods follow (omitted in book listing)
+# good when you have millions of instances
+# numpy and scipy are useful for handling millions of numeric instances
+
+$ time python3 mem_test.py vector2d_v3.py
+Selected Vector2d type: vector2d_v3.Vector2d
+Creating 10,000,000 Vector2d instances
+Initial RAM usage:      5,623,808
+  Final RAM usage:  1,558,482,944
+
+real  0m16.721s
+user  0m15.568s
+sys 0m1.149s
+$ time python3 mem_test.py vector2d_v3_slots.py
+Selected Vector2d type: vector2d_v3_slots.Vector2d
+Creating 10,000,000 Vector2d instances
+Initial RAM usage:      5,718,016
+  Final RAM usage:    655,466,496
+
+real  0m13.605s
+user  0m13.163s
+sys 0m0.434s
+
+When __slots__ is specified in a class, its instances will not be allowed to have any other attributes apart from those named in __slots__.
+
+having '__dict__' in __slots__ may entirely defeat its purpose
+
+weakref attrs also need to be put in slots
+
+pandas data analysis library, which can handle nonnumeric data and import/export to many different tabular data formats.
+
+Overriding Class Attributes
+--------------------------
+>>> from vector2d_v3 import Vector2d
+>>> v1 = Vector2d(1.1, 2.2)
+>>> dumpd = bytes(v1)
+>>> dumpd
+b'd\x9a\x99\x99\x99\x99\x99\xf1?\x9a\x99\x99\x99\x99\x99\x01@'
+>>> len(dumpd)  1
+17
+>>> v1.typecode = 'f'  2
+>>> dumpf = bytes(v1)
+>>> dumpf
+b'f\xcd\xcc\x8c?\xcd\xcc\x0c@'
+>>> len(dumpf)  3
+9
+>>> Vector2d.typecode  4
+'d'
+
+>>> Vector2d.typecode = 'f'
+
+>>> from vector2d_v3 import Vector2d
+>>> class ShortVector2d(Vector2d):  1
+...     typecode = 'f'
+...
+>>> sv = ShortVector2d(1/11, 1/27)  2
+>>> sv
+ShortVector2d(0.09090909090909091, 0.037037037037037035)  3
+>>> len(bytes(sv))  4
+9
+
+def __repr__(self):
+    class_name = type(self).__name__
+    return '{}({!r}, {!r})'.format(class_name, *self)
+
+class name not hardcoded for inheritance
+
+A Pythonic object should be as simple as the requirements allow—and not a parade of language features.
+
+Sequence Hacking, Hashing, and Slicing
+----------------------------------------------
+>>> Vector([3.1, 4.2])
+Vector([3.1, 4.2])
+>>> Vector((3, 4, 5))
+Vector([3.0, 4.0, 5.0])
+>>> Vector(range(10))
+Vector([0.0, 1.0, 2.0, 3.0, 4.0, ...])
+
+from array import array
+import reprlib
+import math
+
+
+class Vector:
+    typecode = 'd'
+
+    def __init__(self, components):
+        self._components = array(self.typecode, components)  1
+
+    def __iter__(self):
+        return iter(self._components)  2
+
+    def __repr__(self):
+        components = reprlib.repr(self._components)  3
+        components = components[components.find('['):-1]  4
+        return 'Vector({})'.format(components)
+
+    def __str__(self):
+        return str(tuple(self))
+
+    def __bytes__(self):
+        return (bytes([ord(self.typecode)]) +
+                bytes(self._components))  5
+
+    def __eq__(self, other):
+        return tuple(self) == tuple(other)
+
+    def __abs__(self):
+        return math.sqrt(sum(x * x for x in self))  6
+
+    def __bool__(self):
+        return bool(abs(self))
+
+    @classmethod
+    def frombytes(cls, octets):
+        typecode = chr(octets[0])
+        memv = memoryview(octets[1:]).cast(typecode)
+        return cls(memv)  7
+
+
+import collections
+
+Card = collections.namedtuple('Card', ['rank', 'suit'])
+
+class FrenchDeck:
+    ranks = [str(n) for n in range(2, 11)] + list('JQKA')
+    suits = 'spades diamonds clubs hearts'.split()
+
+    def __init__(self):
+        self._cards = [Card(rank, suit) for suit in self.suits
+                                        for rank in self.ranks]
+
+    def __len__(self):
+        return len(self._cards)
+
+    def __getitem__(self, position):
+        return self._cards[position]
+
+# duck typing creating new element like builtin one eg: above sequence
+
+class Vector:
+    # many lines omitted
+    # ...
+
+    def __len__(self):
+        return len(self._components)
+
+    def __getitem__(self, index):
+        return self._components[index]
+
+>>> v1 = Vector([3, 4, 5])
+>>> len(v1)
+3
+>>> v1[0], v1[-1]
+(3.0, 5.0)
+>>> v7 = Vector(range(7))
+>>> v7[1:4]
+array('d', [1.0, 2.0, 3.0])
+
+>>> class MySeq:
+...     def __getitem__(self, index):
+...         return index  1
+...
+>>> s = MySeq()
+>>> s[1]  2
+1
+>>> s[1:4]  3
+slice(1, 4, None)
+>>> s[1:4:2]  4
+slice(1, 4, 2)
+>>> s[1:4:2, 9]  5
+(slice(1, 4, 2), 9)
+>>> s[1:4:2, 7:9]  6
+(slice(1, 4, 2), slice(7, 9, None))
+
+>>> slice  1
+<class 'slice'>
+>>> dir(slice) 2
+['__class__', '__delattr__', '__dir__', '__doc__', '__eq__',
+ '__format__', '__ge__', '__getattribute__', '__gt__',
+ '__hash__', '__init__', '__le__', '__lt__', '__ne__',
+ '__new__', '__reduce__', '__reduce_ex__', '__repr__',
+ '__setattr__', '__sizeof__', '__str__', '__subclasshook__',
+ 'indices', 'start', 'step', 'stop']
+
+S.indices(len) -> (start, stop, stride)
+
+>>> slice(None, 10, 2).indices(5)  1
+(0, 5, 2)
+>>> slice(-3, None, None).indices(5)  2
+(2, 5, 1)
+
+def __len__(self):
+    return len(self._components)
+
+def __getitem__(self, index):
+    cls = type(self)  1
+    if isinstance(index, slice):  2
+        return cls(self._components[index])  3
+    elif isinstance(index, numbers.Integral):  4
+        return self._components[index]  5
+    else:
+        msg = '{cls.__name__} indices must be integers'
+        raise TypeError(msg.format(cls=cls))  6
+
+>>> v7 = Vector(range(7))
+>>> v7[-1]  1
+6.0
+>>> v7[1:4]  2
+Vector([1.0, 2.0, 3.0])
+>>> v7[-1:]  3
+Vector([6.0])
+>>> v7[1,2]  4
+Traceback (most recent call last):
+  ...
+TypeError: Vector indices must be integers
+
+>>> v = Vector(range(10))
+>>> v.x
+0.0
+>>> v.y, v.z, v.t
+(1.0, 2.0, 3.0)
+
+shortcut_names = 'xyzt'
+
+    def __getattr__(self, name):
+        cls = type(self)  1
+        if len(name) == 1:  2
+            pos = cls.shortcut_names.find(name)  3
+            if 0 <= pos < len(self._components):  4
+                return self._components[pos]
+        msg = '{.__name__!r} object has no attribute {!r}'  5
+        raise AttributeError(msg.format(cls, name))
+
+
+>>> v = Vector(range(5))
+>>> v
+Vector([0.0, 1.0, 2.0, 3.0, 4.0])
+>>> v.x  1
+0.0
+>>> v.x = 10  2
+>>> v.x  3
+10
+>>> v
+Vector([0.0, 1.0, 2.0, 3.0, 4.0])  4
+
+__getattr__ is called as fallback for not getting attributes
+
+
+    def __setattr__(self, name, value):
+        cls = type(self)
+        if len(name) == 1:  1
+            if name in cls.shortcut_names:  2
+                error = 'readonly attribute {attr_name!r}'
+            elif name.islower():  3
+                error = "can't set attributes 'a' to 'z' in {cls_name!r}"
+            else:
+                error = ''  4
+            if error:  5
+                msg = error.format(cls_name=cls.__name__, attr_name=name)
+                raise AttributeError(msg)
+        super().__setattr__(name, value)  6
+
+>>> 2 * 3 * 4 * 5  # the result we want: 5! == 120
+120
+>>> import functools
+>>> functools.reduce(lambda a,b: a*b, range(1, 6))
+120
+
+
+reduce gets a 2 arg function and a sequence
+function is applied on first two args, then the result and 3rd arg etc
+
+>>> n = 0
+>>> for i in range(1, 6):  1
+...     n ^= i
+...
+>>> n
+1
+>>> import functools
+>>> functools.reduce(lambda a, b: a^b, range(6))  2
+1
+>>> import operator
+>>> functools.reduce(operator.xor, range(6))  3
+1
+
+from array import array
+import reprlib
+import math
+import functools  1
+import operator  2
+
+
+class Vector:
+    typecode = 'd'
+
+    # many lines omitted in book listing...
+
+    def __eq__(self, other):  3
+        return tuple(self) == tuple(other)
+
+    def __hash__(self):
+        hashes = (hash(x) for x in self._components)  4
+        return functools.reduce(operator.xor, hashes, 0)  5
+
+ def __hash__(self):
+        hashes = map(hash, self._components)
+        return functools.reduce(operator.xor, hashes)
+
+map is a generator in python3
+
+  def __eq__(self, other):
+        return tuple(self) == tuple(other)
+
+  def __eq__(self, other):
+        if len(self) != len(other):  1
+            return False
+        for a, b in zip(self, other):  2
+            if a != b:  3
+                return False
+        return True  4
+
+zip is also a generator
+
+ def __eq__(self, other):
+        return len(self) == len(other) and all(a == b for a, b in zip(self, other))
+
+>>> zip(range(3), 'ABC')  1
+<zip object at 0x10063ae48>
+>>> list(zip(range(3), 'ABC'))  2
+[(0, 'A'), (1, 'B'), (2, 'C')]
+>>> list(zip(range(3), 'ABC', [0.0, 1.1, 2.2, 3.3]))  3
+[(0, 'A', 0.0), (1, 'B', 1.1), (2, 'C', 2.2)]
+>>> from itertools import zip_longest  4
+>>> list(zip_longest(range(3), 'ABC', [0.0, 1.1, 2.2, 3.3], fillvalue=-1))
+[(0, 'A', 0.0), (1, 'B', 1.1), (2, 'C', 2.2), (-1, -1, 3.3)]
+
+zip_longest as fill in value for shorter sequence, None by default
+>>> format(Vector([-1, -1, -1, -1]), 'h')
+'<2.0, 2.0943951023931957, 2.186276035465284, 3.9269908169872414>'
+>>> format(Vector([2, 2, 2, 2]), '.3eh')
+'<4.000e+00, 1.047e+00, 9.553e-01, 7.854e-01>'
+>>> format(Vector([0, 1, 0, 0]), '0.5fh')
+'<1.00000, 1.57080, 0.00000, 0.00000>'
+
+"""
+A multidimensional ``Vector`` class, take 5
+
+A ``Vector`` is built from an iterable of numbers::
+
+    >>> Vector([3.1, 4.2])
+    Vector([3.1, 4.2])
+    >>> Vector((3, 4, 5))
+    Vector([3.0, 4.0, 5.0])
+    >>> Vector(range(10))
+    Vector([0.0, 1.0, 2.0, 3.0, 4.0, ...])
+
+
+Tests with two dimensions (same results as ``vector2d_v1.py``)::
+
+    >>> v1 = Vector([3, 4])
+    >>> x, y = v1
+    >>> x, y
+    (3.0, 4.0)
+    >>> v1
+    Vector([3.0, 4.0])
+    >>> v1_clone = eval(repr(v1))
+    >>> v1 == v1_clone
+    True
+    >>> print(v1)
+    (3.0, 4.0)
+    >>> octets = bytes(v1)
+    >>> octets
+    b'd\\x00\\x00\\x00\\x00\\x00\\x00\\x08@\\x00\\x00\\x00\\x00\\x00\\x00\\x10@'
+    >>> abs(v1)
+    5.0
+    >>> bool(v1), bool(Vector([0, 0]))
+    (True, False)
+
+
+Test of ``.frombytes()`` class method:
+
+    >>> v1_clone = Vector.frombytes(bytes(v1))
+    >>> v1_clone
+    Vector([3.0, 4.0])
+    >>> v1 == v1_clone
+    True
+
+
+Tests with three dimensions::
+
+    >>> v1 = Vector([3, 4, 5])
+    >>> x, y, z = v1
+    >>> x, y, z
+    (3.0, 4.0, 5.0)
+    >>> v1
+    Vector([3.0, 4.0, 5.0])
+    >>> v1_clone = eval(repr(v1))
+    >>> v1 == v1_clone
+    True
+    >>> print(v1)
+    (3.0, 4.0, 5.0)
+    >>> abs(v1)  # doctest:+ELLIPSIS
+    7.071067811...
+    >>> bool(v1), bool(Vector([0, 0, 0]))
+    (True, False)
+
+
+Tests with many dimensions::
+
+    >>> v7 = Vector(range(7))
+    >>> v7
+    Vector([0.0, 1.0, 2.0, 3.0, 4.0, ...])
+    >>> abs(v7)  # doctest:+ELLIPSIS
+    9.53939201...
+
+
+Test of ``.__bytes__`` and ``.frombytes()`` methods::
+
+    >>> v1 = Vector([3, 4, 5])
+    >>> v1_clone = Vector.frombytes(bytes(v1))
+    >>> v1_clone
+    Vector([3.0, 4.0, 5.0])
+    >>> v1 == v1_clone
+    True
+
+
+Tests of sequence behavior::
+
+    >>> v1 = Vector([3, 4, 5])
+    >>> len(v1)
+    3
+    >>> v1[0], v1[len(v1)-1], v1[-1]
+    (3.0, 5.0, 5.0)
+
+
+Test of slicing::
+
+    >>> v7 = Vector(range(7))
+    >>> v7[-1]
+    6.0
+    >>> v7[1:4]
+    Vector([1.0, 2.0, 3.0])
+    >>> v7[-1:]
+    Vector([6.0])
+    >>> v7[1,2]
+    Traceback (most recent call last):
+      ...
+    TypeError: Vector indices must be integers
+
+
+Tests of dynamic attribute access::
+
+    >>> v7 = Vector(range(10))
+    >>> v7.x
+    0.0
+    >>> v7.y, v7.z, v7.t
+    (1.0, 2.0, 3.0)
+
+Dynamic attribute lookup failures::
+
+    >>> v7.k
+    Traceback (most recent call last):
+      ...
+    AttributeError: 'Vector' object has no attribute 'k'
+    >>> v3 = Vector(range(3))
+    >>> v3.t
+    Traceback (most recent call last):
+      ...
+    AttributeError: 'Vector' object has no attribute 't'
+    >>> v3.spam
+    Traceback (most recent call last):
+      ...
+    AttributeError: 'Vector' object has no attribute 'spam'
+
+
+Tests of hashing::
+
+    >>> v1 = Vector([3, 4])
+    >>> v2 = Vector([3.1, 4.2])
+    >>> v3 = Vector([3, 4, 5])
+    >>> v6 = Vector(range(6))
+    >>> hash(v1), hash(v3), hash(v6)
+    (7, 2, 1)
+
+
+Most hash values of non-integers vary from a 32-bit to 64-bit CPython build::
+
+    >>> import sys
+    >>> hash(v2) == (384307168202284039 if sys.maxsize > 2**32 else 357915986)
+    True
+
+
+Tests of ``format()`` with Cartesian coordinates in 2D::
+
+    >>> v1 = Vector([3, 4])
+    >>> format(v1)
+    '(3.0, 4.0)'
+    >>> format(v1, '.2f')
+    '(3.00, 4.00)'
+    >>> format(v1, '.3e')
+    '(3.000e+00, 4.000e+00)'
+
+
+Tests of ``format()`` with Cartesian coordinates in 3D and 7D::
+
+    >>> v3 = Vector([3, 4, 5])
+    >>> format(v3)
+    '(3.0, 4.0, 5.0)'
+    >>> format(Vector(range(7)))
+    '(0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0)'
+
+
+Tests of ``format()`` with spherical coordinates in 2D, 3D and 4D::
+
+    >>> format(Vector([1, 1]), 'h')  # doctest:+ELLIPSIS
+    '<1.414213..., 0.785398...>'
+    >>> format(Vector([1, 1]), '.3eh')
+    '<1.414e+00, 7.854e-01>'
+    >>> format(Vector([1, 1]), '0.5fh')
+    '<1.41421, 0.78540>'
+    >>> format(Vector([1, 1, 1]), 'h')  # doctest:+ELLIPSIS
+    '<1.73205..., 0.95531..., 0.78539...>'
+    >>> format(Vector([2, 2, 2]), '.3eh')
+    '<3.464e+00, 9.553e-01, 7.854e-01>'
+    >>> format(Vector([0, 0, 0]), '0.5fh')
+    '<0.00000, 0.00000, 0.00000>'
+    >>> format(Vector([-1, -1, -1, -1]), 'h')  # doctest:+ELLIPSIS
+    '<2.0, 2.09439..., 2.18627..., 3.92699...>'
+    >>> format(Vector([2, 2, 2, 2]), '.3eh')
+    '<4.000e+00, 1.047e+00, 9.553e-01, 7.854e-01>'
+    >>> format(Vector([0, 1, 0, 0]), '0.5fh')
+    '<1.00000, 1.57080, 0.00000, 0.00000>'
+"""
+
+from array import array
+import reprlib
+import math
+import numbers
+import functools
+import operator
+import itertools  1
+
+
+class Vector:
+    typecode = 'd'
+
+    def __init__(self, components):
+        self._components = array(self.typecode, components)
+
+    def __iter__(self):
+        return iter(self._components)
+
+    def __repr__(self):
+        components = reprlib.repr(self._components)
+        components = components[components.find('['):-1]
+        return 'Vector({})'.format(components)
+
+    def __str__(self):
+        return str(tuple(self))
+
+    def __bytes__(self):
+        return (bytes([ord(self.typecode)]) +
+                bytes(self._components))
+
+    def __eq__(self, other):
+        return (len(self) == len(other) and
+                all(a == b for a, b in zip(self, other)))
+
+    def __hash__(self):
+        hashes = (hash(x) for x in self)
+        return functools.reduce(operator.xor, hashes, 0)
+
+    def __abs__(self):
+        return math.sqrt(sum(x * x for x in self))
+
+    def __bool__(self):
+        return bool(abs(self))
+
+    def __len__(self):
+        return len(self._components)
+
+    def __getitem__(self, index):
+        cls = type(self)
+        if isinstance(index, slice):
+            return cls(self._components[index])
+        elif isinstance(index, numbers.Integral):
+            return self._components[index]
+        else:
+            msg = '{.__name__} indices must be integers'
+            raise TypeError(msg.format(cls))
+
+    shortcut_names = 'xyzt'
+
+    def __getattr__(self, name):
+        cls = type(self)
+        if len(name) == 1:
+            pos = cls.shortcut_names.find(name)
+            if 0 <= pos < len(self._components):
+                return self._components[pos]
+        msg = '{.__name__!r} object has no attribute {!r}'
+        raise AttributeError(msg.format(cls, name))
+
+    def angle(self, n):  2
+        r = math.sqrt(sum(x * x for x in self[n:]))
+        a = math.atan2(r, self[n-1])
+        if (n == len(self) - 1) and (self[-1] < 0):
+            return math.pi * 2 - a
+        else:
+            return a
+
+    def angles(self):  3
+        return (self.angle(n) for n in range(1, len(self)))
+
+    def __format__(self, fmt_spec=''):
+        if fmt_spec.endswith('h'):  # hyperspherical coordinates
+            fmt_spec = fmt_spec[:-1]
+            coords = itertools.chain([abs(self)],
+                                     self.angles())  4
+            outer_fmt = '<{}>'  5
+        else:
+            coords = self
+            outer_fmt = '({})'  6
+        components = (format(c, fmt_spec) for c in coords)  7
+        return outer_fmt.format(', '.join(components))  8
+
+    @classmethod
+    def frombytes(cls, octets):
+        typecode = chr(octets[0])
+        memv = memoryview(octets[1:]).cast(typecode)
+        return cls(memv)
+
+Interfaces: From Protocols to ABCs
+--------------------------------------
+ducktyping is checking whether some class has some required methods without really checking isinstanceof
+
+monkey patching
+
+>>> def set_card(deck, position, card):  1
+...     deck._cards[position] = card
+...
+>>> FrenchDeck.__setitem__ = set_card  2
+>>> shuffle(deck)  3
+>>> deck[:5]
+[Card(rank='3', suit='hearts'), Card(rank='4', suit='diamonds'), Card(rank='4',
+suit='clubs'), Card(rank='7', suit='hearts'), Card(rank='9', suit='spades')]
+
+no need of subclassing also
+
+>>> class Struggle:
+...     def __len__(self): return 23
+...
+>>> from collections import abc
+>>> isinstance(Struggle(), abc.Sized)
+True
+
+but has issues
+
+hence abc
+and do isinstance(the_arg, collections.abc.Sequence)
+
+Duck typing to handle a string or an iterable of strings
+---------------------------------------------------------
+ try:  1
+        field_names = field_names.replace(',', ' ').split()  2
+    except AttributeError:  3
+        pass  4
+    field_names = tuple(field_names)  5
+
+Subclassing an ABC
+-----------------------
+import collections
+
+Card = collections.namedtuple('Card', ['rank', 'suit'])
+
+class FrenchDeck2(collections.MutableSequence):
+    ranks = [str(n) for n in range(2, 11)] + list('JQKA')
+    suits = 'spades diamonds clubs hearts'.split()
+
+    def __init__(self):
+        self._cards = [Card(rank, suit) for suit in self.suits
+                                        for rank in self.ranks]
+
+    def __len__(self):
+        return len(self._cards)
+
+    def __getitem__(self, position):
+        return self._cards[position]
+
+    def __setitem__(self, position, value):  1
+        self._cards[position] = value
+
+    def __delitem__(self, position):  2
+        del self._cards[position]
+
+    def insert(self, position, value):  3
+        self._cards.insert(position, value)
+
+
+Iterable, Container, and Sized
+Sequence, Mapping, and Set
+MappingView
+Callable and Hashable
+Iterator
+
+
+isinstance(x, numbers.Integral)
+
+
+Number
+
+Complex
+
+Real
+
+Rational
+
+Integral
+
+Defining and Using an ABC
+--------------------------
+import abc
+
+class Tombola(abc.ABC):  1
+
+    @abc.abstractmethod
+    def load(self, iterable):  2
+        """Add items from an iterable."""
+
+    @abc.abstractmethod
+    def pick(self):  3
+        """Remove item at random, returning it.
+
+        This method should raise `LookupError` when the instance is empty.
+        """
+
+    def loaded(self):  4
+        """Return `True` if there's at least 1 item, `False` otherwise."""
+        return bool(self.inspect())  5
+
+
+    def inspect(self):
+        """Return a sorted tuple with the items currently inside."""
+        items = []
+        while True:  6
+            try:
+                items.append(self.pick())
+            except LookupError:
+                break
+        self.load(items)  7
+        return tuple(sorted(items))
+
+>>> from tombola import Tombola
+>>> class Fake(Tombola):  1
+...     def pick(self):
+...         return 13
+...
+>>> Fake  2
+<class '__main__.Fake'>
+<class 'abc.ABC'>, <class 'object'>)
+>>> f = Fake()  3
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: Can't instantiate abstract class Fake with abstract methods load
+
+class Tombola(metaclass=abc.ABCMeta):    # ...
+
+class MyABC(abc.ABC):
+    @classmethod
+    @abc.abstractmethod
+    def an_abstract_classmethod(cls, ...):
+        pass
+
+import random
+
+from tombola import Tombola
+
+
+class BingoCage(Tombola):  1
+
+    def __init__(self, items):
+        self._randomizer = random.SystemRandom()  2
+        self._items = []
+        self.load(items)  3
+
+    def load(self, items):
+        self._items.extend(items)
+        self._randomizer.shuffle(self._items)  4
+
+    def pick(self):  5
+        try:
+            return self._items.pop()
+        except IndexError:
+            raise LookupError('pick from empty BingoCage')
+
+    def __call__(self):  6
+        self.pick()
+
+import random
+
+from tombola import Tombola
+
+
+class LotteryBlower(Tombola):
+
+    def __init__(self, iterable):
+        self._balls = list(iterable)  1
+
+    def load(self, iterable):
+        self._balls.extend(iterable)
+
+    def pick(self):
+        try:
+            position = random.randrange(len(self._balls))  2
+        except ValueError:
+            raise LookupError('pick from empty BingoCage')
+        return self._balls.pop(position)  3
+
+    def loaded(self):  4
+        return bool(self._balls)
+
+    def inspect(self):  5
+        return tuple(sorted(self._balls))
+
+virtual subclass of Tombola
+-----------------------------
+from random import randrange
+
+from tombola import Tombola
+
+@Tombola.register  1
+class TomboList(list):  2
+
+    def pick(self):
+        if self:  3
+            position = randrange(len(self))
+            return self.pop(position)  4
+        else:
+            raise LookupError('pop from empty TomboList')
+
+    load = list.extend  5
+
+    def loaded(self):
+        return bool(self)  6
+
+    def inspect(self):
+        return tuple(sorted(self))
+
+# Tombola.register(TomboList)  7
+
+>>> from tombola import Tombola>>> from tombolist import TomboList>>> issubclass(TomboList, Tombola)True>>> t = TomboList(range(100))>>> isinstance(t, Tombola)True
+
+>>> TomboList.__mro__
+(<class 'tombolist.TomboList'>, <class 'list'>, <class 'object'>)
+
+Tombola is not in Tombolist.__mro__, so Tombolist does not inherit any methods from Tombola.
+
+$ python3 tombola_runner.py
+BingoCage        23 tests,  0 failed - OK
+LotteryBlower    23 tests,  0 failed - OK
+TumblingDrum     23 tests,  0 failed - OK
+TomboList        23 tests,  0 failed - OK
+
+import doctest
+
+from tombola import Tombola
+
+# modules to test
+import bingo, lotto, tombolist, drum  1
+
+TEST_FILE = 'tombola_tests.rst'
+TEST_MSG = '{0:16} {1.attempted:2} tests, {1.failed:2} failed - {2}'
+
+
+def main(argv):
+    verbose = '-v' in argv
+    real_subclasses = Tombola.__subclasses__()  2
+    virtual_subclasses = list(Tombola._abc_registry)  3
+
+    for cls in real_subclasses + virtual_subclasses:  4
+        test(cls, verbose)
+
+
+def test(cls, verbose=False):
+
+    res = doctest.testfile(
+            TEST_FILE,
+            globs={'ConcreteTombola': cls},  5
+            verbose=verbose,
+            optionflags=doctest.REPORT_ONLY_FIRST_FAILURE)
+    tag = 'FAIL' if res.failed else 'OK'
+    print(TEST_MSG.format(cls.__name__, res, tag))  6
+
+
+if __name__ == '__main__':
+    import sys
+    main(sys.argv)
+
+==============
+Tombola tests
+==============
+
+Every concrete subclass of Tombola should pass these tests.
+
+
+Create and load instance from iterable::
+
+    >>> balls = list(range(3))
+    >>> globe = ConcreteTombola(balls)
+    >>> globe.loaded()
+    True
+    >>> globe.inspect()
+    (0, 1, 2)
+
+
+Pick and collect balls::
+
+    >>> picks = []
+    >>> picks.append(globe.pick())
+    >>> picks.append(globe.pick())
+    >>> picks.append(globe.pick())
+
+
+Check state and results::
+
+    >>> globe.loaded()
+    False
+    >>> sorted(picks) == balls
+    True
+
+
+Reload::
+
+    >>> globe.load(balls)
+    >>> globe.loaded()
+    True
+    >>> picks = [globe.pick() for i in balls]
+    >>> globe.loaded()
+    False
+
+
+Check that `LookupError` (or a subclass) is the exception
+thrown when the device is empty::
+
+    >>> globe = ConcreteTombola([])
+    >>> try:
+    ...     globe.pick()
+    ... except LookupError as exc:
+    ...     print('OK')
+    OK
+
+
+Load and pick 100 balls to verify that they all come out::
+
+    >>> balls = list(range(100))
+    >>> globe = ConcreteTombola(balls)
+    >>> picks = []
+    >>> while globe.inspect():
+    ...     picks.append(globe.pick())
+    >>> len(picks) == len(balls)
+    True
+    >>> set(picks) == set(balls)
+    True
+
+
+Check that the order has changed and is not simply reversed::
+
+    >>> picks != balls
+    True
+    >>> picks[::-1] != balls
+    True
+
+Note: the previous 2 tests have a *very* small chance of failing
+even if the implementation is OK. The probability of the 100
+balls coming out, by chance, in the order they were inspect is
+1/100!, or approximately 1.07e-158. It's much easier to win the
+Lotto or to become a billionaire working as a programmer.
+
+THE END
+
+Usage of register in Practice
+-------------------------------
+Sequence.register(tuple)Sequence.register(str)Sequence.register(range)Sequence.register(memoryview)
+
+>>> class Struggle:...     def __len__(self): return 23...>>> from collections import abc>>> isinstance(Struggle(), abc.Sized)True>>> issubclass(Struggle, abc.Sized)True
+
+
+class Sized(metaclass=ABCMeta):
+
+    __slots__ = ()
+
+    @abstractmethod
+    def __len__(self):
+        return 0
+
+    @classmethod
+    def __subclasshook__(cls, C):
+        if cls is Sized:
+            if any("__len__" in B.__dict__ for B in C.__mro__):  1
+                return True  2
+        return NotImplemented  3
+
+Inheritance: For Good or For Worse
+------------------------------------
+the code of the built-ins (written in C) does not call special methods overridden by user-defined classes.
+
+Example 12-1. Our __setitem__ override is ignored by the __init__ and __update__ methods of the built-in dict
+---------------------------------------------------------------------------------------------------------------
+>>> class DoppelDict(dict):
+...     def __setitem__(self, key, value):
+...         super().__setitem__(key, [value] * 2)  1
+...
+>>> dd = DoppelDict(one=1)  2
+>>> dd
+{'one': 1}
+>>> dd['two'] = 2  3
+>>> dd
+{'one': 1, 'two': [2, 2]}
+>>> dd.update(three=3)  4
+>>> dd
+{'three': 3, 'one': 1, 'two': [2, 2]}
+
+the search for methods should always start from the class of the target instance (self), even when the call happens inside a method implemented in a superclass.
+
+Example 12-2. The __getitem__ of AnswerDict is bypassed by dict.update
+>>> class AnswerDict(dict):
+...     def __getitem__(self, key):  1
+...         return 42
+...
+>>> ad = AnswerDict(a='foo')  2
+>>> ad['a']  3
+42
+>>> d = {}
+>>> d.update(ad)  4
+>>> d['a']  5
+'foo'
+>>> d
+{'a': 'foo'}
+
+Subclassing built-in types like dict or list or str directly is error-prone because the built-in methods mostly ignore user-defined overrides.
+Instead of subclassing the built-ins, derive your classes from the collections module using UserDict, UserList, and UserString, which are designed to be easily extended.
+
+Example 12-3. DoppelDict2 and AnswerDict2 work as expected because they extend UserDict and not dict
+>>> import collections
+>>>
+>>> class DoppelDict2(collections.UserDict):
+...     def __setitem__(self, key, value):
+...         super().__setitem__(key, [value] * 2)
+...
+>>> dd = DoppelDict2(one=1)
+>>> dd
+{'one': [1, 1]}
+>>> dd['two'] = 2
+>>> dd
+{'two': [2, 2], 'one': [1, 1]}
+>>> dd.update(three=3)
+>>> dd
+{'two': [2, 2], 'three': [3, 3], 'one': [1, 1]}
+>>>
+>>> class AnswerDict2(collections.UserDict):
+...     def __getitem__(self, key):
+...         return 42
+...
+>>> ad = AnswerDict2(a='foo')
+>>> ad['a']
+42
+>>> d = {}
+>>> d.update(ad)
+>>> d['a']
+42
+>>> d
+{'a': 42}
+
+If you subclass from a class coded in Python, such as UserDict or MutableMapping, you will not be troubled by this.3
+
+Multiple Inheritance and Method Resolution Order
+-------------------------------------------------
+Example 12-4. diamond.py: classes A, B, C, and D form the graph in Figure 12-1
+class A:
+    def ping(self):
+        print('ping:', self)
+
+
+class B(A):
+    def pong(self):
+        print('pong:', self)
+
+
+class C(A):
+    def pong(self):
+        print('PONG:', self)
+
+
+class D(B, C):
+
+    def ping(self):
+        super().ping()
+        print('post-ping:', self)
+
+    def pingpong(self):
+        self.ping()
+        super().ping()
+        self.pong()
+        super().pong()
+        C.pong(self)
+
+Example 12-5. Two ways of invoking method pong on an instance of class D
+>>> from diamond import *
+>>> d = D()
+>>> d.pong()  1
+pong: <diamond.D object at 0x10066c278>
+>>> C.pong(d)  2
+PONG: <diamond.D object at 0x10066c278>
+
+Classes have an attribute called __mro__ holding a tuple of references to the superclasses in MRO order, from the current class all the way to the object class.
+
+>>> D.__mro__
+(<class 'diamond.D'>, <class 'diamond.B'>, <class 'diamond.C'>,
+<class 'diamond.A'>, <class 'object'>)
+
+below also possible
+
+  def ping(self):
+        A.ping(self)  # instead of super().ping()
+        print('post-ping:', self)
+
+Example 12-6. Using super() to call ping (source code in Example 12-4)
+>>> from diamond import D
+>>> d = D()
+>>> d.ping()  1
+ping: <diamond.D object at 0x10cc40630>  2
+post-ping: <diamond.D object at 0x10cc40630>  3
+
+Example 12-7. The five calls made by pingpong (source code in Example 12-4)
+>>> from diamond import D
+>>> d = D()
+>>> d.pingpong()
+ping: <diamond.D object at 0x10bf235c0>  1
+post-ping: <diamond.D object at 0x10bf235c0>
+ping: <diamond.D object at 0x10bf235c0>  2
+pong: <diamond.D object at 0x10bf235c0>  3
+pong: <diamond.D object at 0x10bf235c0>  4
+PONG: <diamond.D object at 0x10bf235c0>  5
+
+The MRO takes into account not only the inheritance graph but also the order in which superclasses are listed in a subclass declaration. In other words, if in diamond.py (Example 12-4) the D class was declared as class D(C, B):, the __mro__ of class D would be different: C would be searched before B.
+
+Example 12-8. Inspecting the __mro__ attribute in several classes
+>>> bool.__mro__  1
+(<class 'bool'>, <class 'int'>, <class 'object'>)
+>>> def print_mro(cls):  2
+...     print(', '.join(c.__name__ for c in cls.__mro__))
+...
+>>> print_mro(bool)
+bool, int, object
+>>> from frenchdeck2 import FrenchDeck2
+>>> print_mro(FrenchDeck2)  3
+FrenchDeck2, MutableSequence, Sequence, Sized, Iterable, Container, object
+>>> import numbers
+>>> print_mro(numbers.Integral)  4
+Integral, Rational, Real, Complex, Number, object
+>>> import io  5
+>>> print_mro(io.BytesIO)
+BytesIO, _BufferedIOBase, _IOBase, object
+>>> print_mro(io.TextIOWrapper)
+TextIOWrapper, _TextIOBase, _IOBase, object
+
+>>> import tkinter
+>>> print_mro(tkinter.Text)
+Text, Widget, BaseWidget, Misc, Pack, Place, Grid, XView, YView, object
+
+>>> import tkinter
+>>> print_mro(tkinter.Toplevel)
+Toplevel, BaseWidget, Misc, Wm, object
+>>> print_mro(tkinter.Widget)
+Widget, BaseWidget, Misc, Pack, Place, Grid, object
+>>> print_mro(tkinter.Button)
+Button, Widget, BaseWidget, Misc, Pack, Place, Grid, object
+>>> print_mro(tkinter.Entry)
+Entry, Widget, BaseWidget, Misc, Pack, Place, Grid, XView, object
+>>> print_mro(tkinter.Text)
+Text, Widget, BaseWidget, Misc, Pack, Place, Grid, XView, YView, object
+
+ For example, in the following code, if Alpha is a concrete class, then Beta and Gamma must be ABCs or mixins:
+
+class MyConcreteClass(Alpha, Beta, Gamma):
+    """This is a concrete class: it can be instantiated."""
+    # ... more code ...
+
+ For example, in the following code, if Alpha is a concrete class, then Beta and Gamma must be ABCs or mixins:
+
+class MyConcreteClass(Alpha, Beta, Gamma):
+    """This is a concrete class: it can be instantiated."""
+    # ... more code ...
+
+
+
+
+Operator Overloading: Doing It Right
+-------------------------------------
+We cannot overload operators for the built-in types.
+
+We cannot create new operators, only overload existing ones.
+
+A few operators can’t be overloaded: is, and, or, not (but the bitwise &, |, ~, can).
+
+- + ~2 is -3 abs
+Example 13-1. vector_v6.py: unary operators - and + added to Example 10-16
+    def __abs__(self):
+        return math.sqrt(sum(x * x for x in self))
+
+    def __neg__(self):
+        return Vector(-x for x in self)  1
+
+    def __pos__(self):
+        return Vector(self)  2
+
+Example 13-2. A change in the arithmetic context precision may cause x to differ from +x
+>>> import decimal
+>>> ctx = decimal.getcontext()  1
+>>> ctx.prec = 40  2
+>>> one_third = decimal.Decimal('1') / decimal.Decimal('3')  3
+>>> one_third  4
+Decimal('0.3333333333333333333333333333333333333333')
+>>> one_third == +one_third  5
+True
+>>> ctx.prec = 28  6
+>>> one_third == +one_third  7
+False
+>>> +one_third  8
+Decimal('0.3333333333333333333333333333')
+
+>>> ct = Counter('abracadabra')
+>>> ct
+Counter({'a': 5, 'r': 2, 'b': 2, 'd': 1, 'c': 1})
+>>> ct['r'] = -3
+>>> ct['d'] = 0
+>>> ct
+Counter({'a': 5, 'b': 2, 'c': 1, 'd': 0, 'r': -3})
+>>> +ct
+Counter({'a': 5, 'b': 2, 'c': 1})
+
+sequences should support the + operator for concatenation and * for repetition. However, here we will implement + and * as mathematical vector operations, which are a bit harder but more meaningful for a Vector type.
+
+>>> v1 = Vector([3, 4, 5])
+>>> v2 = Vector([6, 7, 8])
+>>> v1 + v2
+Vector([9.0, 11.0, 13.0])
+>>> v1 + v2 == Vector([3+6, 4+7, 5+8])
+True
+
+>>> v1 = Vector([3, 4, 5, 6])
+>>> v3 = Vector([1, 2])
+>>> v1 + v3
+Vector([4.0, 6.0, 5.0, 6.0])
+
+Example 13-4. Vector.add method, take #1
+    # inside the Vector class
+
+    def __add__(self, other):
+        pairs = itertools.zip_longest(self, other, fillvalue=0.0)  1
+        return Vector(a + b for a, b in pairs)  2
+
+Example 13-5. Vector.__add__ take #1 supports non-Vector objects, too
+>>> v1 = Vector([3, 4, 5])
+>>> v1 + (10, 20, 30)
+Vector([13.0, 24.0, 35.0])
+>>> from vector2d_v3 import Vector2d
+>>> v2d = Vector2d(1, 2)
+>>> v1 + v2d
+Vector([4.0, 6.0, 5.0])
+
+>>> v1 = Vector([3, 4, 5])
+>>> (10, 20, 30) + v1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate tuple (not "Vector") to tuple
+>>> from vector2d_v3 import Vector2d
+>>> v2d = Vector2d(1, 2)
+>>> v2d + v1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'Vector2d' and 'Vector'
+
+def __add__(self, other):  1
+        pairs = itertools.zip_longest(self, other, fillvalue=0.0)
+        return Vector(a + b for a, b in pairs)
+
+def __radd__(self, other):  2
+    return self + other
+
+>>> v1 + 1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "vector_v6.py", line 328, in __add__
+    pairs = itertools.zip_longest(self, other, fillvalue=0.0)
+TypeError: zip_longest argument #2 must support iteration
+
+>>> v1 + 'ABC'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "vector_v6.py", line 329, in __add__
+    return Vector(a + b for a, b in pairs)
+  File "vector_v6.py", line 243, in __init__
+    self._components = array(self.typecode, components)
+  File "vector_v6.py", line 329, in <genexpr>
+    return Vector(a + b for a, b in pairs)
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+
+Example 13-10. vector_v6.py: operator + methods added to vector_v5.py (Example 10-16)
+    def __add__(self, other):
+        try:
+            pairs = itertools.zip_longest(self, other, fillvalue=0.0)
+            return Vector(a + b for a, b in pairs)
+        except TypeError:
+            return NotImplemented
+
+    def __radd__(self, other):
+        return self + other
+
+Overloading * for Scalar Multiplication
+-----------------------------------------
+>>> v1 = Vector([1, 2, 3])
+>>> v1 * 10
+Vector([10.0, 20.0, 30.0])
+>>> 11 * v1
+Vector([11.0, 22.0, 33.0])
+
+  # inside the Vector class
+
+    def __mul__(self, scalar):
+        return Vector(n * scalar for n in self)
+
+    def __rmul__(self, scalar):
+        return self * scalar
+
+
+Example 13-11. vector_v7.py: operator * methods added
+from array import array
+import reprlib
+import math
+import functools
+import operator
+import itertools
+import numbers  1
+
+class Vector:
+    typecode = 'd'
+
+    def __init__(self, components):
+        self._components = array(self.typecode, components)
+
+    # many methods omitted in book listing, see vector_v7.py
+    # in https://github.com/fluentpython/example-code ...
+
+    def __mul__(self, scalar):
+        if isinstance(scalar, numbers.Real):  2
+            return Vector(n * scalar for n in self)
+        else:  3
+            return NotImplemented
+
+    def __rmul__(self, scalar):
+        return self * scalar  4
+
+>>> v1 = Vector([1.0, 2.0, 3.0])
+>>> 14 * v1
+Vector([14.0, 28.0, 42.0])
+>>> v1 * True
+Vector([1.0, 2.0, 3.0])
+>>> from fractions import Fraction
+>>> v1 * Fraction(1, 3)
+Vector([0.3333333333333333, 0.6666666666666666, 1.0])
+
+
+>>> va = Vector([1, 2, 3])
+>>> vz = Vector([5, 6, 7])
+>>> va @ vz == 38.0  # 1*5 + 2*6 + 3*7
+True
+>>> [10, 20, 30] @ vz
+380.0
+>>> va @ 3
+Traceback (most recent call last):
+  ...
+TypeError: unsupported operand type(s) for @: 'Vector' and 'int'
+
+
+class Vector:
+    # many methods omitted in book listing
+
+    def __matmul__(self, other):
+        try:
+            return sum(a * b for a, b in zip(self, other))
+        except TypeError:
+            return NotImplemented
+
+    def __rmatmul__(self, other):
+        return self @ other
+
+class Vector:
+    # many lines omitted
+
+    def __eq__(self, other):
+        return (len(self) == len(other) and
+                all(a == b for a, b in zip(self, other)))
+
+>>> va = Vector([1.0, 2.0, 3.0])
+>>> vb = Vector(range(1, 4))
+>>> va == vb  1
+True
+>>> vc = Vector([1, 2])
+>>> from vector2d_v3 import Vector2d
+>>> v2d = Vector2d(1, 2)
+>>> vc == v2d  2
+True
+>>> t3 = (1, 2, 3)
+>>> va == t3  3
+True
+
+
+ def __eq__(self, other):
+        if isinstance(other, Vector):  1
+            return (len(self) == len(other) and
+                    all(a == b for a, b in zip(self, other)))
+        else:
+            return NotImplemented  2
+
+
+Example 13-14. Same comparisons as Example 13-12: last result changed
+>>> va = Vector([1.0, 2.0, 3.0])
+>>> vb = Vector(range(1, 4))
+>>> va == vb  1
+True
+>>> vc = Vector([1, 2])
+>>> from vector2d_v3 import Vector2d
+>>> v2d = Vector2d(1, 2)
+>>> vc == v2d  2
+True
+>>> t3 = (1, 2, 3)
+>>> va == t3  3
+False
+
+
+>>> va != vb
+False
+>>> vc != v2d
+False
+>>> va != (1, 2, 3)
+True
+
+
+ def __ne__(self, other):
+        eq_result = self == other
+        if eq_result is NotImplemented:
+            return NotImplemented
+        else:
+            return not eq_result
+
+Example 13-15. Augmented assignment works with immutable targets by creating new instances and rebinding
+>>> v1 = Vector([1, 2, 3])
+>>> v1_alias = v1  1
+>>> id(v1)  2
+4302860128
+>>> v1 += Vector([4, 5, 6])  3
+>>> v1  4
+Vector([5.0, 7.0, 9.0])
+>>> id(v1)  5
+4302859904
+>>> v1_alias  6
+Vector([1.0, 2.0, 3.0])
+>>> v1 *= 11  7
+>>> v1  8
+Vector([55.0, 77.0, 99.0])
+>>> id(v1)
+4302858336
+
+    >>> vowels = 'AEIOU'
+    >>> globe = AddableBingoCage(vowels)  1
+    >>> globe.inspect()
+    ('A', 'E', 'I', 'O', 'U')
+    >>> globe.pick() in vowels  2
+    True
+    >>> len(globe.inspect())  3
+    4
+    >>> globe2 = AddableBingoCage('XYZ')  4
+    >>> globe3 = globe + globe2
+    >>> len(globe3.inspect())  5
+    7
+    >>> void = globe + [10, 20]  6
+    Traceback (most recent call last):
+      ...
+    TypeError: unsupported operand type(s) for +: 'AddableBingoCage' and 'list'
+
+Example 13-17. An existing AddableBingoCage can be loaded with += (continuing from Example 13-16)
+    >>> globe_orig = globe  1
+    >>> len(globe.inspect())  2
+    4
+    >>> globe += globe2  3
+    >>> len(globe.inspect())
+    7
+    >>> globe += ['M', 'N']  4
+    >>> len(globe.inspect())
+    9
+    >>> globe is globe_orig  5
+    True
+    >>> globe += 1  6
+    Traceback (most recent call last):
+      ...
+    TypeError: right operand in += must be 'AddableBingoCage' or an iterable
+
+import itertools  1
+
+from tombola import Tombola
+from bingo import BingoCage
+
+
+class AddableBingoCage(BingoCage):  2
+
+    def __add__(self, other):
+        if isinstance(other, Tombola):  3
+            return AddableBingoCage(self.inspect() + other.inspect())
+        else:
+            return NotImplemented
+
+    def __iadd__(self, other):
+        if isinstance(other, Tombola):
+            other_iterable = other.inspect()  4
+        else:
+            try:
+                other_iterable = iter(other)  5
+            except TypeError:  6
+                self_cls = type(self).__name__
+                msg = "right operand in += must be {!r} or an iterable"
+                raise TypeError(msg.format(self_cls))
+        self.load(other_iterable)  7
+        return self  8
+
+unary and infix operators are supposed to produce results by creating new objects, and should never change their operands.
+
+To support operations with other types, we return the NotImplemented special value—not an exception—allowing the interpreter to try again by swapping the operands and calling the reverse special method for that operator
+
+Iterables, Iterators, and Generators
+-------------------------
+Every collection in Python is iterable, and iterators are used internally to support:
+loops, comprehension etc
+
+Sentence Take #1: A Sequence of Words
+---------------------------------------
+import re
+import reprlib
+
+RE_WORD = re.compile('\w+')
+
+
+class Sentence:
+
+    def __init__(self, text):
+        self.text = text
+        self.words = RE_WORD.findall(text)
+
+    def __getitem__(self, index):
+        return self.words[index]
+
+    def __len__(self):
+        return len(self.words)
+
+    def __repr__(self):
+        return 'Sentence(%s)' % reprlib.repr(self.text)  # abbreviated representation of huge data  # default 30 characters
+
+>>> s = Sentence('"The time has come," the Walrus said,')  1
+>>> s
+Sentence('"The time ha... Walrus said,')  2
+>>> for word in s:  3
+...     print(word)
+The
+time
+has
+come
+the
+Walrus
+said
+>>> list(s)  4
+['The', 'time', 'has', 'come', 'the', 'Walrus', 'said']
+
+
+>>> s[0]
+'The'
+>>> s[5]
+'Walrus'
+>>> s[-1]
+'said'
+
+to iterate over an object, iter function is called to create an iterator
+if __iter__ is there its called, if noy but __getitem__ is there, iterator is created
+else TypeError, C object is not iterable
+
+all sequence types have __getitem__ and __iter__, we should also have iter, better rather than backwards compatibility
+
+>>> class Foo:
+...     def __iter__(self):
+...         pass
+...
+>>> from collections import abc
+>>> issubclass(Foo, abc.Iterable)
+True
+>>> f = Foo()
+>>> isinstance(f, abc.Iterable)
+True
+
+testing iter(x) is more accurate as it checks __getitem__ also, our class wont pass above check which considers only iter
+
+iterable is an object from which we can obtain an iterator using iter function i.e. the ones with __getitem__ or iter method
+
+Python obtains iterators from iterables.
+
+>>> s = 'ABC'
+>>> for char in s:
+...     print(char)
+...
+A
+B
+C
+
+emulating for would look like
+
+>>> s = 'ABC'
+>>> it = iter(s)  1
+>>> while True:
+...     try:
+...         print(next(it))  2
+...     except StopIteration:  3
+...         del it  4
+...         break  5
+...
+A
+B
+C
+
+next is called on iterator, it raises StopIteration  when there are no more items
+StopIteration is handled internally by for loops, comprehensions etc
+
+iterator has __next__ and __iter__ method
+__iter__ is used for returning self, so that iterator can be in place where iterable is expected eg: for loop
+Example 14-3. abc.Iterator class; extracted from Lib/_collections_abc.py
+class Iterator(Iterable):
+
+    __slots__ = ()
+
+    @abstractmethod
+    def __next__(self):
+        'Return the next item from the iterator. When exhausted, raise StopIteration'
+        raise StopIteration
+
+    def __iter__(self):
+        return self
+
+    @classmethod
+    def __subclasshook__(cls, C):
+        if cls is Iterator:
+            if (any("__next__" in B.__dict__ for B in C.__mro__) and
+                any("__iter__" in B.__dict__ for B in C.__mro__)):
+                return True
+        return NotImplemented
+
+isinstance(x, abc.Iterator)
+
+>>> s3 = Sentence('Pig and Pepper')  1
+>>> it = iter(s3)  2
+>>> it  # doctest: +ELLIPSIS
+<iterator object at 0x...>
+>>> next(it)  3
+'Pig'
+>>> next(it)
+'and'
+>>> next(it)
+'Pepper'
+>>> next(it)  4
+Traceback (most recent call last):
+  ...
+StopIteration
+>>> list(it)  5
+[]
+>>> list(iter(s3))  6
+['Pig', 'and', 'Pepper']
+
+iter() gets exhausted and need to create new one
+
+Sentence Take #2: A Classic Iterator
+--------------------------------------
+Example 14-4. sentence_iter.py: Sentence implemented using the Iterator pattern
+import re
+import reprlib
+
+RE_WORD = re.compile('\w+')
+
+
+class Sentence:
+
+    def __init__(self, text):
+        self.text = text
+        self.words = RE_WORD.findall(text)
+
+    def __repr__(self):
+        return 'Sentence(%s)' % reprlib.repr(self.text)
+
+    def __iter__(self):  1
+        return SentenceIterator(self.words)  2
+
+
+class SentenceIterator:
+
+    def __init__(self, words):
+        self.words = words  3
+        self.index = 0  4
+
+    def __next__(self):
+        try:
+            word = self.words[self.index]  5
+        except IndexError:
+            raise StopIteration()  6
+        self.index += 1  7
+        return word  8
+
+    def __iter__(self):  9
+        return self
+
+issubclass(SentenceInterator, abc.Iterator)
+# passes
+
+Making Sentence an Iterator: Bad Idea
+--------------------------------------
+iterators are also iterable, but iterables are not iterators.
+
+Sentence Take #3: A Generator Function
+---------------------------------------
+Example 14-5. sentence_gen.py: Sentence implemented using a generator function
+import re
+import reprlib
+
+RE_WORD = re.compile('\w+')
+
+
+class Sentence:
+
+    def __init__(self, text):
+        self.text = text
+        self.words = RE_WORD.findall(text)
+
+    def __repr__(self):
+        return 'Sentence(%s)' % reprlib.repr(self.text)
+
+    def __iter__(self):
+        for word in self.words:  1
+            yield word  2
+        return  3
+
+# done! 4
+
+
+>>> def gen_123():  1
+...     yield 1  2
+...     yield 2
+...     yield 3
+...
+>>> gen_123  # doctest: +ELLIPSIS
+<function gen_123 at 0x...>  3
+>>> gen_123()   # doctest: +ELLIPSIS
+<generator object gen_123 at 0x...>  4
+>>> for i in gen_123():  5
+...     print(i)
+1
+2
+3
+>>> g = gen_123()  6
+>>> next(g)  7
+1
+>>> next(g)
+2
+>>> next(g)
+3
+>>> next(g)  8
+Traceback (most recent call last):
+  ...
+StopIteration
+
+
+Generators are iterators that produce the values of the expressions passed to yield.
+
+Example 14-6. A generator function that prints messages when it runs
+>>> def gen_AB():  1
+...     print('start')
+...     yield 'A'       2
+...     print('continue')
+...     yield 'B'       3
+...     print('end.')   4
+...
+>>> for c in gen_AB():  5
+...     print('-->', c)  6
+...
+start    7
+--> A   8
+continue 9
+--> B   10
+end.     11
+>>>  12
+
+
+To iterate, the for machinery does the equivalent of g = iter(gen_AB()) to get a generator object, and then next(g) at each iteration.
+
+__iter__ is a generator function which, when called, builds a generator object that implements the iterator interface, so the SentenceIterator class is no longer needed.
+
+Sentence Take #4: A Lazy Implementation
+
+re.finditer function is a lazy version of re.findall
+
+Example 14-7. sentence_gen2.py: Sentence implemented using a generator function calling the re.finditer generator function
+import re
+import reprlib
+
+RE_WORD = re.compile('\w+')
+
+
+class Sentence:
+
+    def __init__(self, text):
+        self.text = text  1
+
+    def __repr__(self):
+        return 'Sentence(%s)' % reprlib.repr(self.text)
+
+    def __iter__(self):
+        for match in RE_WORD.finditer(self.text):  2
+            yield match.group()  3
+
+Sentence Take #5: A Generator Expression
+Simple generator functions like the one in the previous Sentence class (Example 14-7) can be replaced by a generator expression.
+
+A generator expression can be understood as a lazy version of a list comprehension: it does not eagerly build a list, but returns a generator that will lazily produce the items on demand. In other words, if a list comprehension is a factory of lists, a generator expression is a factory of generators.
+
+Example 14-8 is a quick demo of a generator expression, comparing it to a list comprehension.
+
+Example 14-8. The gen_AB generator function is used by a list comprehension, then by a generator expression
+>>> def gen_AB():  1
+...     print('start')
+...     yield 'A'
+...     print('continue')
+...     yield 'B'
+...     print('end.')
+...
+>>> res1 = [x*3 for x in gen_AB()]  2
+start
+continue
+end.
+>>> for i in res1:  3
+...     print('-->', i)
+...
+--> AAA
+--> BBB
+>>> res2 = (x*3 for x in gen_AB())  4
+>>> res2  5
+<generator object <genexpr> at 0x10063c240>
+>>> for i in res2:  6
+...     print('-->', i)
+...
+start
+--> AAA
+continue
+--> BBB
+end.
+
+
+Example 14-9. sentence_genexp.py: Sentence implemented using a generator expression
+import re
+import reprlib
+
+RE_WORD = re.compile('\w+')
+
+
+class Sentence:
+
+    def __init__(self, text):
+        self.text = text
+
+    def __repr__(self):
+        return 'Sentence(%s)' % reprlib.repr(self.text)
+
+    def __iter__(self):
+        return (match.group() for match in RE_WORD.finditer(self.text))
+
+
+genexp is better than gen func, in terms of syntax
+
+
+Generator Expressions: When to Use Them
+--------------------------------------------
+with gen func we can write more code and use them as coroutines also
+
+def __mul__(self, scalar):
+    if isinstance(scalar, numbers.Real):
+        return Vector(n * scalar for n in self)
+    else:
+        return NotImplemented
+
+Another Example: Arithmetic Progression Generator
+---------------------------------------------------
+
+Example 14-10. Demonstration of an ArithmeticProgression class
+    >>> ap = ArithmeticProgression(0, 1, 3)
+    >>> list(ap)
+    [0, 1, 2]
+    >>> ap = ArithmeticProgression(1, .5, 3)
+    >>> list(ap)
+    [1.0, 1.5, 2.0, 2.5]
+    >>> ap = ArithmeticProgression(0, 1/3, 1)
+    >>> list(ap)
+    [0.0, 0.3333333333333333, 0.6666666666666666]
+    >>> from fractions import Fraction
+    >>> ap = ArithmeticProgression(0, Fraction(1, 3), 1)
+    >>> list(ap)
+    [Fraction(0, 1), Fraction(1, 3), Fraction(2, 3)]
+    >>> from decimal import Decimal
+    >>> ap = ArithmeticProgression(0, Decimal('.1'), .3)
+    >>> list(ap)
+    [Decimal('0.0'), Decimal('0.1'), Decimal('0.2')]
+
+Example 14-11 lists the implementation of the ArithmeticProgression class.
+
+Example 14-11. The ArithmeticProgression class
+class ArithmeticProgression:
+
+    def __init__(self, begin, step, end=None):  1
+        self.begin = begin
+        self.step = step
+        self.end = end  # None -> "infinite" series
+
+    def __iter__(self):
+        result = type(self.begin + self.step)(self.begin)  2
+        forever = self.end is None  3
+        index = 0
+        while forever or result < self.end:  4
+            yield result  5
+            index += 1
+            result = self.begin + self.step * index  6
+Example 14-12. The aritprog_gen generator function
+def aritprog_gen(begin, step, end=None):
+    result = type(begin + step)(begin)
+    forever = end is None
+    index = 0
+    while forever or result < end:
+        yield result
+        index += 1
+        result = begin + step * index
+
+Arithmetic Progression with itertools
+-------------------------------------
+>>> import itertools
+>>> gen = itertools.count(1, .5)
+>>> next(gen)
+1
+>>> next(gen)
+1.5
+>>> next(gen)
+2.0
+>>> next(gen)
+2.5
+
+# list(count()) - will use too much memory as it never stops
+
+itertools.takewhile function: it produces a generator that consumes another generator and stops when a given predicate evaluates to False.
+
+>>> gen = itertools.takewhile(lambda n: n < 3, itertools.count(1, .5))
+>>> list(gen)
+[1, 1.5, 2.0, 2.5]
+
+Example 14-13. aritprog_v3.py: this works like the previous aritprog_gen functions
+import itertools
+
+
+def aritprog_gen(begin, step, end=None):
+    first = type(begin + step)(begin)
+    ap_gen = itertools.count(first, step)
+    if end is not None:
+        ap_gen = itertools.takewhile(lambda n: n < end, ap_gen)
+    return ap_gen
+
+Generator Functions in the Standard Library
+----------------------------------------------
+os.walk
+
+filtering generator functions
+--------------------------------
+itertools
+compress(it, selector_it)
+Consumes two iterables in parallel; yields items from it whenever the corresponding item in selector_it is truthy
+
+itertools
+dropwhile(predicate, it)
+Consumes it skipping items while predicate computes truthy, then yields every remaining item (no further checks are made)
+
+filter(predicate, it)
+Applies predicate to each item of iterable, yielding the item if predicate(item) is truthy; if predicate is None, only truthy items are yielded
+
+filterfalse(predicate, it)
+Same as filter, with the predicate logic negated: yields items whenever predicate computes falsy
+
+islice(it, stop) or islice(it, start, stop, step=1)
+Yields items from a slice of it, similar to s[:stop] or s[start:stop:step] except it can be any iterable, and the operation is lazy
+
+takewhile(predicate, it)
+Yields items while predicate computes truthy, then stops and no further checks are made
+
+Example 14-14. Filtering generator functions examples
+>>> def vowel(c):
+...     return c.lower() in 'aeiou'
+...
+>>> list(filter(vowel, 'Aardvark'))
+['A', 'a', 'a']
+>>> import itertools
+>>> list(itertools.filterfalse(vowel, 'Aardvark'))
+['r', 'd', 'v', 'r', 'k']
+>>> list(itertools.dropwhile(vowel, 'Aardvark'))
+['r', 'd', 'v', 'a', 'r', 'k']
+>>> list(itertools.takewhile(vowel, 'Aardvark'))
+['A', 'a']
+>>> list(itertools.compress('Aardvark', (1,0,1,1,0,1)))
+['A', 'r', 'd', 'a']
+>>> list(itertools.islice('Aardvark', 4))
+['A', 'a', 'r', 'd']
+>>> list(itertools.islice('Aardvark', 4, 7))
+['v', 'a', 'r']
+>>> list(itertools.islice('Aardvark', 1, 7, 2))
+['a', 'd', 'a']
+
+
+Table 14-2. Mapping generator functions
+Module	Function	Description
+itertools
+
+accumulate(it, [func])
+
+Yields accumulated sums; if func is provided, yields the result of applying it to the first pair of items, then to the first result and next item, etc.
+
+(built-in)
+
+enumerate(iterable, start=0)
+
+Yields 2-tuples of the form (index, item), where index is counted from start, and item is taken from the iterable
+
+(built-in)
+
+map(func, it1, [it2, …, itN])
+
+Applies func to each item of it, yielding the result; if N iterables are given, func must take N arguments and the iterables will be consumed in parallel
+
+itertools
+
+starmap(func, it)
+
+Applies func to each item of it, yielding the result; the input iterable should yield iterable items iit, and func is applied as func(*iit)
+
+Example 14-15. itertools.accumulate generator function examples
+>>> sample = [5, 4, 2, 8, 7, 6, 3, 0, 9, 1]
+>>> import itertools
+>>> list(itertools.accumulate(sample))  1
+[5, 9, 11, 19, 26, 32, 35, 35, 44, 45]
+>>> list(itertools.accumulate(sample, min))  2
+[5, 4, 2, 2, 2, 2, 2, 0, 0, 0]
+>>> list(itertools.accumulate(sample, max))  3
+[5, 5, 5, 8, 8, 8, 8, 8, 9, 9]
+>>> import operator
+>>> list(itertools.accumulate(sample, operator.mul))  4
+[5, 20, 40, 320, 2240, 13440, 40320, 0, 0, 0]
+>>> list(itertools.accumulate(range(1, 11), operator.mul))
+[1, 2, 6, 24, 120, 720, 5040, 40320, 362880, 3628800]  5
+
+Example 14-16. Mapping generator function examples
+>>> list(enumerate('albatroz', 1))  1
+[(1, 'a'), (2, 'l'), (3, 'b'), (4, 'a'), (5, 't'), (6, 'r'), (7, 'o'), (8, 'z')]
+>>> import operator
+>>> list(map(operator.mul, range(11), range(11)))  2
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+>>> list(map(operator.mul, range(11), [2, 4, 8]))  3
+[0, 4, 16]
+>>> list(map(lambda a, b: (a, b), range(11), [2, 4, 8]))  4
+[(0, 2), (1, 4), (2, 8)]
+>>> import itertools
+>>> list(itertools.starmap(operator.mul, enumerate('albatroz', 1)))  5
+['a', 'll', 'bbb', 'aaaa', 'ttttt', 'rrrrrr', 'ooooooo', 'zzzzzzzz']
+>>> sample = [5, 4, 2, 8, 7, 6, 3, 0, 9, 1]
+>>> list(itertools.starmap(lambda a, b: b/a,
+...     enumerate(itertools.accumulate(sample), 1)))  6
+[5.0, 4.5, 3.6666666666666665, 4.75, 5.2, 5.333333333333333,
+5.0, 4.375, 4.888888888888889, 4.5]
+
+
+Table 14-3. Generator functions that merge multiple input iterables
+Module	Function	Description
+itertools
+
+chain(it1, …, itN)
+
+Yield all items from it1, then from it2 etc., seamlessly
+
+itertools
+
+chain.from_iterable(it)
+
+Yield all items from each iterable produced by it, one after the other, seamlessly; it should yield iterable items, for example, a list of iterables
+
+itertools
+
+product(it1, …, itN, repeat=1)
+
+Cartesian product: yields N-tuples made by combining items from each input iterable like nested for loops could produce; repeat allows the input iterables to be consumed more than once
+
+(built-in)
+
+zip(it1, …, itN)
+
+Yields N-tuples built from items taken from the iterables in parallel, silently stopping when the first iterable is exhausted
+
+itertools
+
+zip_longest(it1, …, itN, fillvalue=None)
+
+Yields N-tuples built from items taken from the iterables in parallel, stopping only when the last iterable is exhausted, filling the blanks with the fillvalue
+
+Example 14-17. Merging generator function examples
+>>> list(itertools.chain('ABC', range(2)))  1
+['A', 'B', 'C', 0, 1]
+>>> list(itertools.chain(enumerate('ABC')))  2
+[(0, 'A'), (1, 'B'), (2, 'C')]
+>>> list(itertools.chain.from_iterable(enumerate('ABC')))  3
+[0, 'A', 1, 'B', 2, 'C']
+>>> list(zip('ABC', range(5)))  4
+[('A', 0), ('B', 1), ('C', 2)]
+>>> list(zip('ABC', range(5), [10, 20, 30, 40]))  5
+[('A', 0, 10), ('B', 1, 20), ('C', 2, 30)]
+>>> list(itertools.zip_longest('ABC', range(5)))  6
+[('A', 0), ('B', 1), ('C', 2), (None, 3), (None, 4)]
+>>> list(itertools.zip_longest('ABC', range(5), fillvalue='?'))  7
+[('A', 0), ('B', 1), ('C', 2), ('?', 3), ('?', 4)]
+
+Example 14-18. itertools.product generator function examples
+>>> list(itertools.product('ABC', range(2)))  1
+[('A', 0), ('A', 1), ('B', 0), ('B', 1), ('C', 0), ('C', 1)]
+>>> suits = 'spades hearts diamonds clubs'.split()
+>>> list(itertools.product('AK', suits))  2
+[('A', 'spades'), ('A', 'hearts'), ('A', 'diamonds'), ('A', 'clubs'),
+('K', 'spades'), ('K', 'hearts'), ('K', 'diamonds'), ('K', 'clubs')]
+>>> list(itertools.product('ABC'))  3
+[('A',), ('B',), ('C',)]
+>>> list(itertools.product('ABC', repeat=2))  4
+[('A', 'A'), ('A', 'B'), ('A', 'C'), ('B', 'A'), ('B', 'B'),
+('B', 'C'), ('C', 'A'), ('C', 'B'), ('C', 'C')]
+>>> list(itertools.product(range(2), repeat=3))
+[(0, 0, 0), (0, 0, 1), (0, 1, 0), (0, 1, 1), (1, 0, 0),
+(1, 0, 1), (1, 1, 0), (1, 1, 1)]
+>>> rows = itertools.product('AB', range(2), repeat=2)
+>>> for row in rows: print(row)
+...
+('A', 0, 'A', 0)
+('A', 0, 'A', 1)
+('A', 0, 'B', 0)
+('A', 0, 'B', 1)
+('A', 1, 'A', 0)
+('A', 1, 'A', 1)
+('A', 1, 'B', 0)
+('A', 1, 'B', 1)
+('B', 0, 'A', 0)
+('B', 0, 'A', 1)
+('B', 0, 'B', 0)
+('B', 0, 'B', 1)
+('B', 1, 'A', 0)
+('B', 1, 'A', 1)
+('B', 1, 'B', 0)
+('B', 1, 'B', 1)
+
+Generator functions that expand each input item into multiple output items
+------------------------------------------------------------------------
+itertools combinations(it, out_len)
+combinations_with_replacement(it, out_len)
+count(start=0, step=1)
+cycle(it)
+permutations(it, out_len=None)
+repeat(item, [times])
+>>> ct = itertools.count()  1
+>>> next(ct)  2
+0
+>>> next(ct), next(ct), next(ct)  3
+(1, 2, 3)
+>>> list(itertools.islice(itertools.count(1, .3), 3))  4
+[1, 1.3, 1.6]
+>>> cy = itertools.cycle('ABC')  5
+>>> next(cy)
+'A'
+>>> list(itertools.islice(cy, 7))  6
+['B', 'C', 'A', 'B', 'C', 'A', 'B']
+>>> rp = itertools.repeat(7)  7
+>>> next(rp), next(rp)
+(7, 7)
+>>> list(itertools.repeat(8, 4))  8
+[8, 8, 8, 8]
+>>> list(map(operator.mul, range(11), itertools.repeat(5)))  9
+[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+
+>>> list(itertools.combinations('ABC', 2))  1
+[('A', 'B'), ('A', 'C'), ('B', 'C')]
+>>> list(itertools.combinations_with_replacement('ABC', 2))  2
+[('A', 'A'), ('A', 'B'), ('A', 'C'), ('B', 'B'), ('B', 'C'), ('C', 'C')]
+>>> list(itertools.permutations('ABC', 2))  3
+[('A', 'B'), ('A', 'C'), ('B', 'A'), ('B', 'C'), ('C', 'A'), ('C', 'B')]
+>>> list(itertools.product('ABC', repeat=2))  4
+[('A', 'A'), ('A', 'B'), ('A', 'C'), ('B', 'A'), ('B', 'B'), ('B', 'C'),
+('C', 'A'), ('C', 'B'), ('C', 'C')]
+
+itertools
+
+Rearranging generator functions
+-----------------------------------
+
+groupby(it, key=None)
+reversed(seq)
+tee(it, n=2)
+
+>>> list(itertools.groupby('LLLLAAGGG'))  1
+[('L', <itertools._grouper object at 0x102227cc0>),
+('A', <itertools._grouper object at 0x102227b38>),
+('G', <itertools._grouper object at 0x102227b70>)]
+>>> for char, group in itertools.groupby('LLLLAAAGG'):  2
+...     print(char, '->', list(group))
+...
+L -> ['L', 'L', 'L', 'L']
+A -> ['A', 'A',]
+G -> ['G', 'G', 'G']
+>>> animals = ['duck', 'eagle', 'rat', 'giraffe', 'bear',
+...            'bat', 'dolphin', 'shark', 'lion']
+>>> animals.sort(key=len)  3
+>>> animals
+['rat', 'bat', 'duck', 'bear', 'lion', 'eagle', 'shark',
+'giraffe', 'dolphin']
+>>> for length, group in itertools.groupby(animals, len):  4
+...     print(length, '->', list(group))
+...
+3 -> ['rat', 'bat']
+4 -> ['duck', 'bear', 'lion']
+5 -> ['eagle', 'shark']
+7 -> ['giraffe', 'dolphin']
+>>> for length, group in itertools.groupby(reversed(animals), len): 5
+...     print(length, '->', list(group))
+...
+7 -> ['dolphin', 'giraffe']
+5 -> ['shark', 'eagle']
+4 -> ['lion', 'bear', 'duck']
+3 -> ['bat', 'rat']
+>>>
+
+1
+
+>>> list(itertools.tee('ABC'))
+[<itertools._tee object at 0x10222abc8>, <itertools._tee object at 0x10222ac08>]
+>>> g1, g2 = itertools.tee('ABC')
+>>> next(g1)
+'A'
+>>> next(g2)
+'A'
+>>> next(g2)
+'B'
+>>> list(g1)
+['B', 'C']
+>>> list(g2)
+['C']
+>>> list(zip(*itertools.tee('ABC')))
+[('A', 'A'), ('B', 'B'), ('C', 'C')]
+
+>>> def chain(*iterables):
+...     for it in iterables:
+...         for i in it:
+...             yield i
+...
+>>> s = 'ABC'
+>>> t = tuple(range(3))
+>>> list(chain(s, t))
+['A', 'B', 'C', 0, 1, 2]
+
+>>> def chain(*iterables):
+...     for i in iterables:
+...         yield from i
+...
+>>> list(chain(s, t))
+['A', 'B', 'C', 0, 1, 2]
+
+Built-in functions that read iterables and return single values
+------------------------------------------------------------------
+all(it)
+any(it)
+max(it, [key=,] [default=])
+min(it, [key=,] [default=])
+functools - reduce(func, it, [initial])
+sum(it, start=0)
+a May also be called as max(arg1, arg2, …, [key=?]), in which case the maximum among the arguments is returned.
+
+b May also be called as min(arg1, arg2, …, [key=?]), in which case the minimum among the arguments is returned.
+
+>>> all([1, 2, 3])
+True
+>>> all([1, 0, 3])
+False
+>>> all([])
+True
+>>> any([1, 2, 3])
+True
+>>> any([1, 0, 3])
+True
+>>> any([0, 0.0])
+False
+>>> any([])
+False
+>>> g = (n for n in [0, 0.0, 7, 8])
+>>> any(g)
+True
+>>> next(g)
+8
+
+A Closer Look at the iter Function
+------------------------------------
+>>> def d6():
+...     return randint(1, 6)
+...
+>>> d6_iter = iter(d6, 1)
+>>> d6_iter
+<callable_iterator object at 0x00000000029BE6A0>
+>>> for roll in d6_iter:
+...     print(roll)
+...
+4
+3
+6
+3
+
+with open('mydata.txt') as fp:
+        for line in iter(fp.readline, '\n'):
+            process_line(line)
+
+
+
+Generators produce data for iteration
+
+Coroutines are consumers of data
+
+Context Managers and else Blocks
+----------------------------------
+
+Do This, Then That: else Blocks Beyond if
+--------------------------------------------
+if, for , while, try - else
+for - else will work if for loop is executed completely without break
+while - else will work when while is broken because of condition being false without a break
+try - else will work if there was no exception
+else is not executed if break/return/continue/exception is encountered
+for item in my_list:
+    if item.flavor == 'banana':
+        break
+else:
+    raise ValueError('No banana flavor found!')
+
+try:
+    dangerous_call()
+    after_call()
+except OSError:
+    log('OSError...')
+
+better with else
+
+try:
+    dangerous_call()
+except OSError:
+    log('OSError...')
+else:
+    after_call()
+
+EAFP
+try except when assumption of being correct fails
+
+LBYL - other languages
+
+
+Context Managers and with Blocks
+-------------------------------
+with
+context manager has __enter__ and __exit__ methods
+>>> with open('mirror.py') as fp:  1
+...     src = fp.read(60)  2
+...
+>>> len(src)
+60
+>>> fp  3
+<_io.TextIOWrapper name='mirror.py' mode='r' encoding='UTF-8'>
+>>> fp.closed, fp.encoding  4
+(True, 'UTF-8')
+>>> fp.read(60)  5
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: I/O operation on closed file.
+
+  >>> from mirror import LookingGlass
+    >>> with LookingGlass() as what:  1
+    ...      print('Alice, Kitty and Snowdrop')  2
+    ...      print(what)
+    ...
+    pordwonS dna yttiK ,ecilA  3
+    YKCOWREBBAJ
+    >>> what  4
+    'JABBERWOCKY'
+    >>> print('Back to normal.')  5
+    Back to normal.
+
+class LookingGlass:
+
+    def __enter__(self):  1
+        import sys
+        self.original_write = sys.stdout.write  2
+        sys.stdout.write = self.reverse_write  3
+        return 'JABBERWOCKY'  4
+
+    def reverse_write(self, text):  5
+        self.original_write(text[::-1])
+
+    def __exit__(self, exc_type, exc_value, traceback):  6
+        import sys  7
+        sys.stdout.write = self.original_write  8
+        if exc_type is ZeroDivisionError:  9
+            print('Please DO NOT divide by zero!')
+            return True  10
+
+ >>> from mirror import LookingGlass
+    >>> manager = LookingGlass()  1
+    >>> manager
+    <mirror.LookingGlass object at 0x2a578ac>
+    >>> monster = manager.__enter__()  2
+    >>> monster == 'JABBERWOCKY'  3
+    eurT
+    >>> monster
+    'YKCOWREBBAJ'
+    >>> manager
+    >ca875a2x0 ta tcejbo ssalGgnikooL.rorrim<
+    >>> manager.__exit__(None, None, None)  4
+    >>> monster
+    'JABBERWOCKY'
+
+http://bit.ly/1MM89PC
+http://bit.ly/1MM8eTw
+http://bit.ly/1MM8imk
+
+The contextlib Utilities
+--------------------------
+http://bit.ly/1HGqZpJ
+closing
+A function to build context managers out of objects that provide a close() method but don’t implement the __enter__/__exit__ protocol.
+
+suppress
+A context manager to temporarily ignore specified exceptions.
+
+@contextmanager
+A decorator that lets you build a context manager from a simple generator function, instead of creating a class and implementing the protocol.
+ContextDecorator
+A base class for defining class-based context managers that can also be used as function decorators, running the entire function within a managed context.
+ExitStack
+A context manager that lets you enter a variable number of context managers. When the with block ends, ExitStack calls the stacked context managers’ __exit__ methods in LIFO order (last entered, first exited). Use this class when you don’t know beforehand how many context managers you need to enter in your with block; for example, when opening all files from an arbitrary list of files at the same time.
+yield is used to separate __enter__ and __exit__ kinda code
+
+import contextlib
+
+
+@contextlib.contextmanager  1
+def looking_glass():
+    import sys
+    original_write = sys.stdout.write  2
+
+    def reverse_write(text):  3
+        original_write(text[::-1])
+
+    sys.stdout.write = reverse_write  4
+    yield 'JABBERWOCKY'  5
+    sys.stdout.write = original_write  6
+
+>>> from mirror_gen import looking_glass
+>>> with looking_glass() as what:  1
+...      print('Alice, Kitty and Snowdrop')
+...      print(what)
+...
+pordwonS dna yttiK ,ecilA
+YKCOWREBBAJ
+>>> what
+'JABBERWOCKY'
+
+@contextlib.contextmanager
+def looking_glass():
+    import sys
+    original_write = sys.stdout.write
+
+    def reverse_write(text):
+        original_write(text[::-1])
+
+    sys.stdout.write = reverse_write
+    msg = ''  1
+    try:
+        yield 'JABBERWOCKY'
+    except ZeroDivisionError:  2
+        msg = 'Please DO NOT divide by zero!'
+    finally:
+        sys.stdout.write = original_write  3
+        if msg:
+            print(msg)  4
+
+import csv
+
+with inplace(csvfilename, 'r', newline='') as (infh, outfh):
+    reader = csv.reader(infh)
+    writer = csv.writer(outfh)
+
+    for row in reader:
+        row += ['new', 'columns']
+        writer.writerow(row)
+
+http://bit.ly/1HGr6Sq
+
+http://bit.ly/1MM96aR
+
+coroutine: a procedure that runs up to a point, then suspends to let the client code run until the client wants the coroutine to proceed with its job.
+
+Chapter 16. Coroutines
+----------------------------
+>>> def simple_coroutine():  1
+...     print('-> coroutine started')
+...     x = yield  2
+...     print('-> coroutine received:', x)
+...
+>>> my_coro = simple_coroutine()
+>>> my_coro  3
+<generator object simple_coroutine at 0x100c2be10>
+>>> next(my_coro)  4
+-> coroutine started
+>>> my_coro.send(42)  5
+-> coroutine received: 42
+Traceback (most recent call last):  6
+  ...
+StopIteration
+
+my_coro = simple_coroutine()
+>>> my_coro.send(1729)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can't send non-None value to a just-started generator
+
+Example 16-2. A coroutine that yields twice
+>>> def simple_coro2(a):
+...     print('-> Started: a =', a)
+...     b = yield a
+...     print('-> Received: b =', b)
+...     c = yield a + b
+...     print('-> Received: c =', c)
+...
+>>> my_coro2 = simple_coro2(14)
+>>> from inspect import getgeneratorstate
+>>> getgeneratorstate(my_coro2)  1
+'GEN_CREATED'
+>>> next(my_coro2)  2
+-> Started: a = 14
+14
+>>> getgeneratorstate(my_coro2)  3
+'GEN_SUSPENDED'
+>>> my_coro2.send(28)  4
+-> Received: b = 28
+42
+>>> my_coro2.send(99)  5
+-> Received: c = 99
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+>>> getgeneratorstate(my_coro2)  6
+'GEN_CLOSED'
+
+    >>> coro_avg = averager()  1
+    >>> next(coro_avg)  2
+    >>> coro_avg.send(10)  3
+    10.0
+    >>> coro_avg.send(30)
+    20.0
+    >>> coro_avg.send(5)
+    15.0
+
+Example 16-5. coroutil.py: decorator for priming coroutine
+from functools import wraps
+
+def coroutine(func):
+    """Decorator: primes `func` by advancing to first `yield`"""
+    @wraps(func)
+    def primer(*args,**kwargs):  1
+        gen = func(*args,**kwargs)  2
+        next(gen)  3
+        return gen  4
+    return primer
+
+Example 16-6 shows the @coroutine decorator in use. Contrast with Example 16-3.
+
+Example 16-6. coroaverager1.py: doctest and code for a running average coroutine using the @coroutine decorator from Example 16-5
+"""
+A coroutine to compute a running average
+
+    >>> coro_avg = averager()  1
+    >>> from inspect import getgeneratorstate
+    >>> getgeneratorstate(coro_avg)  2
+    'GEN_SUSPENDED'
+    >>> coro_avg.send(10)  3
+    10.0
+    >>> coro_avg.send(30)
+    20.0
+    >>> coro_avg.send(5)
+    15.0
+
+"""
+
+from coroutil import coroutine  4
+
+@coroutine  5
+def averager():  6
+    total = 0.0
+    count = 0
+    average = None
+    while True:
+        term = yield average
+        total += term
+        count += 1
+        average = total/count
+
+Example 16-7. How an unhandled exception kills a coroutine
+>>> from coroaverager1 import averager
+>>> coro_avg = averager()
+>>> coro_avg.send(40)  1
+40.0
+>>> coro_avg.send(50)
+45.0
+>>> coro_avg.send('spam')  2
+Traceback (most recent call last):
+  ...
+TypeError: unsupported operand type(s) for +=: 'float' and 'str'
+>>> coro_avg.send(60)  3
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+
+class DemoException(Exception):
+    """An exception type for the demonstration."""
+
+def demo_exc_handling():
+    print('-> coroutine started')
+    while True:
+        try:
+            x = yield
+        except DemoException:  1
+            print('*** DemoException handled. Continuing...')
+        else:  2
+            print('-> coroutine received: {!r}'.format(x))
+    raise RuntimeError('This line should never run.')  3
+
+Example 16-9. Activating and closing demo_exc_handling without an exception
+    >>> exc_coro = demo_exc_handling()
+    >>> next(exc_coro)
+    -> coroutine started
+    >>> exc_coro.send(11)
+    -> coroutine received: 11
+    >>> exc_coro.send(22)
+    -> coroutine received: 22
+    >>> exc_coro.close()
+    >>> from inspect import getgeneratorstate
+    >>> getgeneratorstate(exc_coro)
+    'GEN_CLOSED'
+
+Example 16-10. Throwing DemoException into demo_exc_handling does not break it
+    >>> exc_coro = demo_exc_handling()
+    >>> next(exc_coro)
+    -> coroutine started
+    >>> exc_coro.send(11)
+    -> coroutine received: 11
+    >>> exc_coro.throw(DemoException)
+    *** DemoException handled. Continuing...
+    >>> getgeneratorstate(exc_coro)
+    'GEN_SUSPENDED'
+
+Example 16-11. Coroutine terminates if it can’t handle an exception thrown into it
+    >>> exc_coro = demo_exc_handling()
+    >>> next(exc_coro)
+    -> coroutine started
+    >>> exc_coro.send(11)
+    -> coroutine received: 11
+    >>> exc_coro.throw(ZeroDivisionError)
+    Traceback (most recent call last):
+      ...
+    ZeroDivisionError
+    >>> getgeneratorstate(exc_coro)
+    'GEN_CLOSED'
+
+Example 16-12. coro_finally_demo.py: use of try/finally to perform actions on coroutine termination
+class DemoException(Exception):
+    """An exception type for the demonstration."""
+
+
+def demo_finally():
+    print('-> coroutine started')
+    try:
+        while True:
+            try:
+                x = yield
+            except DemoException:
+                print('*** DemoException handled. Continuing...')
+            else:
+                print('-> coroutine received: {!r}'.format(x))
+    finally:
+        print('-> coroutine ending')
+
+Example 16-13. coroaverager2.py: code for an averager coroutine that returns a result
+from collections import namedtuple
+
+Result = namedtuple('Result', 'count average')
+
+
+def averager():
+    total = 0.0
+    count = 0
+    average = None
+    while True:
+        term = yield
+        if term is None:
+            break  1
+        total += term
+        count += 1
+        average = total/count
+    return Result(count, average)  2
+
+Example 16-14. coroaverager2.py: doctest showing the behavior of averager
+    >>> coro_avg = averager()
+    >>> next(coro_avg)
+    >>> coro_avg.send(10)  1
+    >>> coro_avg.send(30)
+    >>> coro_avg.send(6.5)
+    >>> coro_avg.send(None)  2
+    Traceback (most recent call last):
+       ...
+    StopIteration: Result(count=3, average=15.5)
+
+    >>> coro_avg = averager()
+    >>> next(coro_avg)
+    >>> coro_avg.send(10)
+    >>> coro_avg.send(30)
+    >>> coro_avg.send(6.5)
+    >>> try:
+    ...     coro_avg.send(None)
+    ... except StopIteration as exc:
+    ...     result = exc.value
+    ...
+    >>> result
+    Result(count=3, average=15.5)
+
+
+>>> def gen():
+...     for c in 'AB':
+...         yield c
+...     for i in range(1, 3):
+...         yield i
+...
+>>> list(gen())
+['A', 'B', 1, 2]
+Can be written as:
+
+>>> def gen():
+...     yield from 'AB'
+...     yield from range(1, 3)
+...
+>>> list(gen())
+['A', 'B', 1, 2]
+
+Example 16-16. Chaining iterables with yield from
+>>> def chain(*iterables):
+...     for it in iterables:
+...         yield from it
+...
+>>> s = 'ABC'
+>>> t = tuple(range(3))
+>>> list(chain(s, t))
+['A', 'B', 'C', 0, 1, 2]
+
+delegating generator
+The generator function that contains the yield from <iterable> expression.
+
+subgenerator
+The generator obtained from the <iterable> part of the yield from expression. This is the “subgenerator” mentioned in the title of PEP 380: “Syntax for Delegating to a Subgenerator.”
+
+caller
+PEP 380 uses the term “caller” to refer to the client code that calls the delegating generator. Depending on context, I use “client” instead of “caller,” to distinguish from the delegating generator, which is also a “caller” (it calls the subgenerator).
+
+
+Example 16-17. coroaverager3.py: using yield from to drive averager and report statistics
+from collections import namedtuple
+
+Result = namedtuple('Result', 'count average')
+
+
+# the subgenerator
+def averager():  1
+    total = 0.0
+    count = 0
+    average = None
+    while True:
+        term = yield  2
+        if term is None:  3
+            break
+        total += term
+        count += 1
+        average = total/count
+    return Result(count, average)  4
+
+
+# the delegating generator
+def grouper(results, key):  5
+    while True:  6
+        results[key] = yield from averager()  7
+
+
+# the client code, a.k.a. the caller
+def main(data):  8
+    results = {}
+    for key, values in data.items():
+        group = grouper(results, key)  9
+        next(group)  10
+        for value in values:
+            group.send(value)  11
+        group.send(None)  # important! 12
+
+    # print(results)  # uncomment to debug
+    report(results)
+
+
+# output report
+def report(results):
+    for key, result in sorted(results.items()):
+        group, unit = key.split(';')
+        print('{:2} {:5} averaging {:.2f}{}'.format(
+              result.count, group, result.average, unit))
+
+
+data = {
+    'girls;kg':
+        [40.9, 38.5, 44.3, 42.2, 45.2, 41.7, 44.5, 38.0, 40.6, 44.5],
+    'girls;m':
+        [1.6, 1.51, 1.4, 1.3, 1.41, 1.39, 1.33, 1.46, 1.45, 1.43],
+    'boys;kg':
+        [39.0, 40.8, 43.2, 40.8, 43.1, 38.6, 41.4, 40.6, 36.3],
+    'boys;m':
+        [1.38, 1.5, 1.32, 1.25, 1.37, 1.48, 1.25, 1.49, 1.46],
+}
+
+
+if __name__ == '__main__':
+    main(data)
+
+RESULT = yield from EXPR
+
+Example 16-18. Simplified pseudocode equivalent to the statement RESULT = yield from EXPR in the delegating generator (this covers the simplest case: .throw(…) and .close() are not supported; the only exception handled is StopIteration)
+_i = iter(EXPR)  1
+try:
+    _y = next(_i)  2
+except StopIteration as _e:
+    _r = _e.value  3
+else:
+    while 1:  4
+        _s = yield _y  5
+        try:
+            _y = _i.send(_s)  6
+        except StopIteration as _e:  7
+            _r = _e.value
+            break
+
+RESULT = _r  8
+
+_i (iterator)
+The subgenerator
+
+_y (yielded)
+A value yielded from the subgenerator
+
+_r (result)
+The eventual result (i.e., the value of the yield from expression when the subgenerator ends)
+
+_s (sent)
+A value sent by the caller to the delegating generator, which is forwarded to the subgenerator
+
+_e (exception)
+An exception (always an instance of StopIteration in this simplified pseudocode)
+
+
+RESULT = yield from EXPR
+Example 16-19. Pseudocode equivalent to the statement RESULT = yield from EXPR in the delegating generator
+_i = iter(EXPR)  1
+try:
+    _y = next(_i)  2
+except StopIteration as _e:
+    _r = _e.value  3
+else:
+    while 1:  4
+        try:
+            _s = yield _y  5
+        except GeneratorExit as _e:  6
+            try:
+                _m = _i.close
+            except AttributeError:
+                pass
+            else:
+                _m()
+            raise _e
+        except BaseException as _e:  7
+            _x = sys.exc_info()
+            try:
+                _m = _i.throw
+            except AttributeError:
+                raise _e
+            else:  8
+                try:
+                    _y = _m(*_x)
+                except StopIteration as _e:
+                    _r = _e.value
+                    break
+        else:  9
+            try:  10
+                if _s is None:  11
+                    _y = next(_i)
+                else:
+                    _y = _i.send(_s)
+            except StopIteration as _e:  12
+                _r = _e.value
+                break
+
+RESULT = _r  13
+
+
+Example 16-20. taxi_sim.py: taxi_process coroutine that implements the activities of each taxi
+def taxi_process(ident, trips, start_time=0):  1
+    """Yield to simulator issuing event at each state change"""
+    time = yield Event(start_time, ident, 'leave garage')  2
+    for i in range(trips):  3
+        time = yield Event(time, ident, 'pick up passenger')  4
+        time = yield Event(time, ident, 'drop off passenger')  5
+
+    yield Event(time, ident, 'going home')  6
+    # end of taxi process 7
+
+
+Example 16-21. Driving the taxi_process coroutine
+>>> from taxi_sim import taxi_process
+>>> taxi = taxi_process(ident=13, trips=2, start_time=0)  1
+>>> next(taxi)  2
+Event(time=0, proc=13, action='leave garage')
+>>> taxi.send(_.time + 7)  3
+Event(time=7, proc=13, action='pick up passenger')  4
+>>> taxi.send(_.time + 23)  5
+Event(time=30, proc=13, action='drop off passenger')
+>>> taxi.send(_.time + 5)  6
+Event(time=35, proc=13, action='pick up passenger')
+>>> taxi.send(_.time + 48)  7
+Event(time=83, proc=13, action='drop off passenger')
+>>> taxi.send(_.time + 1)
+Event(time=84, proc=13, action='going home')  8
+>>> taxi.send(_.time + 10)  9
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+
+
+
+ taxis = {i: taxi_process(i, (i + 1) * 2, i * DEPARTURE_INTERVAL)
+             for i in range(num_taxis)}
+    sim = Simulator(taxis)
+DEPARTURE_INTERVAL is 5; if num_taxis is 3 as in the sample run, the preceding lines will do the same as:
+
+    taxis = {0: taxi_process(ident=0, trips=2, start_time=0),
+             1: taxi_process(ident=1, trips=4, start_time=5),
+             2: taxi_process(ident=2, trips=6, start_time=10)}
+    sim = Simulator(taxis)
+
+Example 16-22. taxi_sim.py: Simulator class initializer
+class Simulator:
+
+    def __init__(self, procs_map):
+        self.events = queue.PriorityQueue()  1
+        self.procs = dict(procs_map)  2
+
+Event(time=14, proc=0, action='pick up passenger')
+Event(time=11, proc=1, action='pick up passenger')
+
+    sim = Simulator(taxis)
+    sim.run(end_time)
+
+Example 16-23. taxi_sim.py: Simulator, a bare-bones discrete event simulation class; focus on the run method
+class Simulator:
+
+    def __init__(self, procs_map):
+        self.events = queue.PriorityQueue()
+        self.procs = dict(procs_map)
+
+    def run(self, end_time):  1
+        """Schedule and display events until time is up"""
+        # schedule the first event for each cab
+        for _, proc in sorted(self.procs.items()):  2
+            first_event = next(proc)  3
+            self.events.put(first_event)  4
+
+        # main loop of the simulation
+        sim_time = 0  5
+        while sim_time < end_time:  6
+            if self.events.empty():  7
+                print('*** end of events ***')
+                break
+
+            current_event = self.events.get()  8
+            sim_time, proc_id, previous_action = current_event  9
+            print('taxi:', proc_id, proc_id * '   ', current_event)  10
+            active_proc = self.procs[proc_id]  11
+            next_time = sim_time + compute_duration(previous_action)  12
+            try:
+                next_event = active_proc.send(next_time)  13
+            except StopIteration:
+                del self.procs[proc_id]  14
+            else:
+                self.events.put(next_event)  15
+        else:  16
+            msg = '*** end of simulation time: {} events pending ***'
+            print(msg.format(self.events.qsize()))
+
+

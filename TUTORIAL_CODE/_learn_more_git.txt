@@ -1,0 +1,536 @@
+﻿Learn more about
+------------------
+SHA-1 checksum
+hashes - commit hash, tree hash, parent hash
+rebasing chapter - publically
+
+install on linux
+------------------
+
+On RPM-based distribution, such as RHEL or CentOS-->
+sudo dnf install git-all
+
+On Debian-based distribution, such as Ubuntu-->
+sudo apt install git-all
+
+On other versions-->
+https://git-scm.com/download/linux
+
+install on macOS
+-----------------
+use Xcode command
+
+OR
+
+download and use binary installer from https://git-scm.com/download/mac.
+
+OR
+
+download and use GUI tool from https://desktop.github.com.
+
+
+install on linux from source
+----------------------------
+sudo dnf install dh-autoreconf curl-devel expat-devel gettext-devel openssl-devel perl-devel zlib-devel
+sudo apt-get install dh-autoreconf libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
+
+On RHEL and RHEL-derivatives like CentOS and Scientific Linux-->
+https://fedoraproject.org/wiki/EPEL#How_can_I_use_these_extra_packages.3F
+sudo dnf install asciidoc xmlto docbook2X
+sudo apt-get install asciidoc xmlto docbook2x
+
+On Debian-based distribution (Debian/Ubuntu/Ubuntu-derivatives)-->
+sudo apt-get install install-info
+
+On RPM-based distribution (Fedora/RHEL/RHEL-derivatives)-->
+sudo dnf install getopt
+sudo apt-get install getopt
+
+Then,
+get tarball from https://www.kernel.org/pub/software/scm/git
+
+OR
+
+get mirror from https://github.com/git/git/releases
+
+Then,
+tar -zxf git-2.0.0.tar.gz
+cd git-2.0.0
+make configure
+./configure --prefix=/usr
+make all doc info
+sudo make install install-doc install-html install-info
+git clone git://git.kernel.org/pub/scm/git/git.git
+
+
+install on windows
+------------------
+
+download from https://git-scm.com/download/win
+
+OR
+
+get automated installation from https://chocolatey.org/packages/git
+
+OR
+
+use github desktop from https://desktop.github.com/
+
+check installed version
+-----------------------
+git --version
+
+
+setup
+---------
+
+/etc/gitconfig - all users - (--system - read and write from this file specifically)
+~/.gitconfig or ~/.config/git/config - you (--global - all repos of you)
+.git/config - for repo (--local - force read write)
+
+In version 2.x or later of Git for Windows,
+there is also a system-level config file at C:\Documents and Settings\All Users\Application Data\Git\config on Windows XP,
+and in C:\ProgramData\Git\config on Windows Vista and newer.
+This config file can only be changed by git config -f <file> as an admin.
+
+git config --list --show-origin - all settings and file names
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+if different editor is needed-
+linux - git config --global core.editor emacs
+windows - specify whole path of package
+
+for notepad++,
+git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+git config --list - see all settings
+last value used for duplicate keys from diff files
+
+git config <key>
+
+git config --show-origin rerere.autoUpdate
+
+git help <verb>
+git <verb> --help
+man git-<verb>
+
+git add -h
+
+You can take a local directory that is currently not under version control, and turn it into a Git repository, or
+You can clone an existing Git repository from elsewhere.
+
+for Linux:
+cd /home/user/my_project
+for macOS:
+cd /Users/user/my_project
+for Windows:
+cd /c/user/my_project
+
+git init - .git dir gets created
+
+git add *.c
+git add LICENSE
+git commit -m 'initial project version'
+
+for existing repo-->
+git clone
+git clone <url>
+
+git clone https://github.com/libgit2/libgit2
+git clone https://github.com/libgit2/libgit2 mylibgit - new name
+
+The previous example uses the https:// protocol,
+but you may also see git:// or user@server:path/to/repo.git,
+which uses the SSH transfer protocol.
+
+git status
+git add README
+git status -s or git status --short
+
+cat .gitignore
+*.[oa]
+*~
+
+end with / means directory
+start with / means non recursive
+! negate
+
+An asterisk (*) matches zero or more characters;
+[abc] matches any character inside the brackets (in this case a, b, or c);
+a question mark (?) matches a single character;
+and brackets enclosing characters separated by a hyphen ([0-9]) matches any character between them (in this case 0 through 9).
+You can also use two asterisks to match nested directories; a/**/z would match a/z, a/b/z, a/b/c/z, and so on.
+
+*.a
+!lib.a
+/TODO - only ignore TODO from current dir not subdir
+build/ - ignore all files in any dir names build/
+doc/*.txt
+doc/**/*.pdf
+
+sample - https://github.com/github/gitignore
+
+git diff
+
+git diff --staged
+
+--staged and --cached
+
+git difftool 
+git difftool --tool-help
+
+git commit
+git commit -v (to see changes while typing commit msg)
+git commit -m "Story 182: Fix benchmarks for speed"
+
+git commit -a -m 'added new benchmarks'(all tracked files automatically staged)
+
+rm PROJECTS.md
+git rm PROJECTS.md
+
+-f - remove staged file
+
+git rm --cached README --> keep on system but remove from git staged
+git rm log/\*.log
+Note the backslash (\) in front of the *.
+This is necessary because Git does its own filename expansion in addition to your shell’s filename expansion.
+
+git rm \*~
+
+git mv file_from file_to
+
+same as
+mv README.md README
+git rm README.md
+git add README
+
+git log - commit history
+
+git clone https://github.com/schacon/simplegit-progit
+git log
+
+reverse chronological order
+
+-p or --patch - shows difference
+
+-2 - last two entries
+
+git log --stat --> abbreviated stats
+list of modified files, how many files were changed,
+and how many lines in those files were added and removed.
+It also puts a summary of the information at the end.
+
+git log --pretty=oneline
+oneline option, short, full, and fuller options, format,
+which allows you to specify your own log output format.
+
+git log --pretty=format:"%h - %an, %ar : %s"
+
+%H Commit hash
+%h Abbreviated commit hash
+%T Tree hash
+%t Abbreviated tree hash
+%P Parent hashes
+%p Abbreviated parent hashes
+%an Author name
+%ae Author email
+%ad Author date (format respects the --date=option)
+%ar Author date, relative
+%cn Committer name
+%ce Committer email
+%cd Committer date
+%cr Committer date, relative
+%s Subject The author is the person who originally wrote the work, whereas the committer is the person who last applied the work.
+ 
+--graph
+
+git log --pretty=format:"%h %s" --graph
+
+-p Show the patch introduced with each commit.
+--stat Show statistics for files modified in each commit.
+--shortstat Display only the changed/insertions/deletions line from the --stat command.
+--name-only Show the list of files modified after the commit information.
+--name-status Show the list of files affected with added/modified/deleted information as well.
+--abbrev-commit Show only the first few characters of the SHA-1 checksum instead of all 40.
+--relative-date Display the date in a relative format (for example, “2 weeks ago”) instead of using the full date format.
+--graph Display an ASCII graph of the branch and merge history beside the log output.
+--pretty Show commits in an alternate format. Options include oneline, short, full, fuller, and format (where you specify your own format).
+--oneline Shorthand for --pretty=oneline --abbrev-commit used together.
+--since and --until git log --since=2.weeks - specific date like "2008-01-15", or a relative date such as "2 years 1 day 3 minutes ago"
+--author
+--grep (commit msg) - multiple author and grep also but --all-match needs all to match for grep
+-S option (to get commits where that string was changed) - git log -S function_name (when func was added and removed)
+--<<path>> - changes in those paths
+-<n> Show only the last n commits
+--since, --after Limit the commits to those made after the specified date.
+--until, --before Limit the commits to those made before the specified date.
+--author Only show commits in which the author entry matches the specified string.
+--committer Only show commits in which the committer entry matches the specified string.
+--grep Only show commits with a commit message containing the string
+-S Only show commits adding or removing code matching the string
+
+git log --pretty="%h - %s" --author='Junio C Hamano' --since="2008-10-01" \
+   --before="2008-11-01" --no-merges -- t/
+   
+--no-merges If you want to redo that commit, make the additional changes you forgot, stage them, and commit again using the --amend option:
+
+git commit --amend
+
+git commit -m 'initial commit'
+git add forgotten_file
+git commit --amend
+
+git add * - adds all modified files
+
+git reset HEAD CONTRIBUTING.md - to unstage
+
+use "git checkout -- <file>..." to discard changes in working directory
+
+git checkout -- CONTRIBUTING.md
+
+git remote
+ 
+git clone https://github.com/schacon/ticgit
+cd ticgit
+git remote
+ 
+git remote -v (shows url also)
+ 
+git remote add <shortname> <url>
+ 
+git remote add pb https://github.com/paulboone/ticgit
+ 
+git fetch pb (get all info from pb that you dont have)
+ 
+Paul’s master branch is now accessible locally as pb/master — you can merge it into one of your branches, or you can check out a local branch at that point if you want to inspect it.
+ 
+git fetch <remote>
+ 
+git fetch origin (from where we cloned)
+ 
+If your current branch is set up to track a remote branch (see the next section and Git Branching for more information), you can use the git pull command to automatically fetch and then merge that remote branch into your current branch.
+ 
+git push <remote> <branch>
+git push origin master
+
+If you and someone else clone at the same time and they push upstream and then you push upstream, your push will rightly be rejected. You’ll have to fetch their work first and incorporate it into yours before you’ll be allowed to push.
+
+git remote show <remote>
+
+git remote rename pb paul
+
+git remote remove or git remote rm:
+
+git remote remove paul
+
+git tag (alpha order)
+git tag -l "v1.8.5*" (grep) (or --list)
+
+A lightweight tag is very much like a branch that doesn’t change — it’s just a pointer to a specific commit.
+
+Annotated tags, however, are stored as full objects in the Git database. They’re checksummed; contain the tagger name, email, and date; have a tagging message; and can be signed and verified with GNU Privacy Guard (GPG).
+
+git tag -a v1.4 -m "my version 1.4"
+git tag -a v1.4 (editor for msg)
+
+git show v1.4
+
+git tag v1.4-lw
+
+git show v1.4-lw
+
+git log --pretty=oneline
+git tag -a v1.2 9fceb02 (old commit tag)
+
+git push origin <tagname>
+git push origin v1.5
+
+git push origin --tags (all tags)
+
+git tag -d v1.4-lw (delete)
+git push <remote> :refs/tags/<tagname>
+null is sent to tag before :
+git push origin --delete <tagname>
+
+git checkout 2.0.0 (tag) 
+git checkout -b <new-branch> (create)
+
+git checkout -b version2 v2.0.0
+
+git config --global alias.unstage 'reset HEAD --'
+git unstage fileA
+git reset HEAD -- fileA
+
+git config --global alias.last 'log -1 HEAD'
+git last
+
+git config --global alias.visual '!gitk' (non git commnds)
+
+git add README test.rb LICENSE
+git commit -m 'The initial commit of my project'
+
+branch - pointer to commit
+
+git branch testing -  new pointer added to same commit (not switched)
+HEAD - current branch
+
+git log --oneline --decorate (see which branch yiou are on)
+
+To switch to an existing branch, you run the git checkout command
+git checkout testing
+head points to testing now
+
+vim test.rb
+git commit -a -m 'made a change'
+
+head and testing moves forward to new commit
+master remains behind
+
+git checkout master
+head goes behind
+
+vim test.rb
+git commit -a -m 'made other changes'
+diverged
+master and testing has diff thiongs
+
+git log --oneline --decorate --graph --all
+
+git checkout -b <newbranchname> (create and switch)
+
+Do some work on a website.
+Create a branch for a new user story you’re working on.
+Do some work in that branch.
+Switch to your production branch.
+Create a branch to add the hotfix.
+After it’s tested, merge the hotfix branch, and push to production.
+Switch back to your original user story and continue working.
+
+git checkout -b iss53
+This is shorthand for:
+git branch iss53
+git checkout iss53
+
+vim index.html
+git commit -a -m 'added a new footer [issue 53]'
+commit
+
+git checkout master
+git checkout -b hotfix
+vim index.html
+git commit -a -m 'fixed the broken email address'
+
+git checkout master
+git merge hotfix
+fast forward - c3 was skipped
+git branch -d hotfix (work done and merged)
+
+git checkout iss53
+vim index.html
+git commit -a -m 'finished the new footer [issue 53]'
+
+git merge master - !! will integrate latest commit here - or do later
+git checkout master
+git merge iss53
+merge commit created - three way, common ancestor and 2 changes
+git branch -d iss53
+
+
+git status - see files not merged due to conflicts
+relace conflict block with what you want to keep
+
+git add <<file>> - to mark it resolved
+
+git mergetool - ui
+
+git commit
+
+git branch (list) (* before head)
+git branch -v (last commit on each branch)
+
+git branch --merged
+iss53
+* master
+
+git branch --no-merged
+testing
+  
+no merged branches cannot be deleted
+git branch -D testing (forcibly)
+  
+git checkout testing
+git branch --no-merged master  (details of other branch no merged without switching)
+
+git ls-remote [remote]
+git remote show [remote]
+for remote branches as well as more information
+ 
+<remote>/<branch>
+eg: origin/master
+origin/iss53
+
+If you run git clone -o booyah - booyah instead of origin
+
+git fetch <remote>
+git fetch origin
+
+git push <remote> <branch>
+git push origin serverfix
+git push origin serverfix:serverfix
+git push origin serverfix:awesomebranch
+
+creds store some time - git config --global credential.helper cache
+git fetch origin
+
+git merge origin/serverfix - merge to current local branch
+
+
+git checkout -b <branch> <remote>/<branch>
+shorthand: git checkout --track origin/serverfix
+more short - git checkout serverfix(doesnt exist and matches one remote)
+git checkout -b sf origin/serverfix
+
+-u or --set-upstream-to
+git branch -u origin/serverfix
+
+@{upstream} or @{u} 
+
+git merge @{u} instead of git merge origin/master if you wish
+
+git branch -vv - tracking info
+git fetch --all; git branch -vv - latest info from servers
+
+git pull which is essentially a git fetch immediately followed by a git merge in most cases.
+
+git push origin --delete serverfix
+
+rebasing
+git checkout experiment
+git rebase master
+git checkout master
+git merge experiment
+CLEANER history than three way merge
+
+git rebase --onto master server client - skips parts which were used from other branch and applies further changes to master
+git checkout master
+git merge client
+
+git rebase master server
+
+git checkout master
+git merge server
+
+git branch -d client
+git branch -d server
+
+Do not rebase commits that exist outside your repository and people may have based work on them.
+
+git rebase teamone/master
+
+git pull --rebase teamone/master
+OR
+git fetch followed by a git rebase teamone/master
+
+If you are using git pull and want to make --rebase the default, you can set the pull.rebase config value with something like git config --global pull.rebase true.

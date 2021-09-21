@@ -1,0 +1,144 @@
+docusign_esign
+attrs
+idna
+glom
+PyYAML
+openpyxl
+validators
+xlrd
+pyjwt
+responses
+validate_email
+isort
+twine
+wheel
+gcc
+
+## Books
+1. Effective Python: 59 Specific Ways to Write Better Python
+   * https://www.safaribooksonline.com/library/view/effective-python-59/9780134034416/
+1. Fluent Python
+    * https://www.safaribooksonline.com/library/view/fluent-python/9781491946237/
+1. Pro Git
+    * https://git-scm.com/book/
+
+
+## Videos
+###  Code Style/Python Idioms	
+* Beyond PEP 8 – Best Practices for Beautiful Intelligible Code: https://www.youtube.com/watch?v=wf-BqAjZb8M
+* Transforming Code into Beautiful, Idiomatic Python: https://www.youtube.com/watch?v=OSGv2VnC0go
+
+### Classes & Subclassing (and when not to)
+  * The Art of Subclassing
+https://www.youtube.com/watch?v=miGolgp9xq8
+  * Python’s Class Development Toolkit
+https://www.youtube.com/watch?v=HTLu2DFOdTg
+  * Super Considered Super!
+https://www.youtube.com/watch?v=EiOglTERPEo
+  * Stop Writing Classes
+https://www.youtube.com/watch?v=o9pEzgHorH0
+
+### Data Structures
+  * The Mighty Dictionary
+https://www.youtube.com/watch?v=C4Kc8xzcA68
+  * All Your Ducks in a Row: Data Structures in the Standard Library and Beyond
+https://www.youtube.com/watch?v=fYlnfvKVDoM
+
+### Architecture/Design
+  * Designing Poetic APIs
+https://www.youtube.com/watch?v=JQYnFyG7A8c
+  * How to Be More Effective with Functions
+https://www.youtube.com/watch?v=WjJUPxKB164
+  * Python Design Patterns 1
+https://www.youtube.com/watch?v=Er5K_nR5lDQ
+  * The Clean Architecture in Python
+https://www.youtube.com/watch?v=DJtef410XaM
+Testing
+  * Getting Started Testing
+https://www.youtube.com/watch?v=FxSsnHeWQBY
+  * Fast Test, Slow Test
+https://www.youtube.com/watch?v=RAxiiRPHS9k
+### Miscellaneous Topics
+  * Loop like a Native
+https://www.youtube.com/watch?v=EnSu9hHGq5o
+  * Become a Logging Expert in 30 Minutes
+https://www.youtube.com/watch?v=24_4WWkSmNo
+  * Understanding the Python GIL
+https://www.youtube.com/watch?v=Obt-vMVdM8s
+  * Python Concurrency from the Ground Up: LIVE!
+https://www.youtube.com/watch?v=MCs5OvhV9S4
+  * Discovering Descriptors
+https://www.youtube.com/watch?v=D3-NZXHO5QI
+### Optional Reference Materials
+  *	Effective Python – Companion videos for the Effective Python book
+https://www.safaribooksonline.com/library/view/effective-python/9780134175249/
+  * O’Reilly Python Cookbook
+https://www.safaribooksonline.com/library/view/python-cookbook-3rd/9781449357337/
+  * The Hitchhiker’s Guide to Python
+http://docs.python-guide.org/en/latest/
+ 
+## Suggested Schedule
+### Month 1
+#### Read:
+  * Pro Git Chapters 1 - 3 (done)
+  * Effective Python Chapters 1 & 2 (done)
+  * Fluent Python Chapter 1 (done)
+#### Watch:
+  * Beyond PEP 8 – Best Practices for Beautiful Intelligible Code (done)
+  * Getting Started Testing (done)
+### Month 2
+#### Read:
+  * Effective Python Chapters 3 & 4 (done)
+  * Fluent Python Chapter 2 (done)
+#### Watch:
+  * Python’s Class Development Toolkit (done)
+  * All Your Ducks in a Row: Data Structures in the Standard Library and Beyond (done)
+### Month 3
+#### Read:
+   * Effective Python Chapters 5 & 6 (done)
+   * Fluent Python Chapter 3 (done)
+#### Watch:
+  * Transforming Code into Beautiful, Idiomatic Python (done)
+  * The Mighty Dictionary
+### Month 4
+#### Read:
+  * Effective Python Chapters 7 & 8
+  * Fluent Python Chapter 4
+#### Watch:
+  * Become a Logging Expert in 30 Minutes
+  * Fast Test, Slow Test
+### Month 5
+#### Read:
+  * Fluent Python Chapter 5 - 7
+#### Watch:
+  * Stop Writing Classes
+  * How to Be More Effective with Functions
+### Month 6
+#### Read:
+  * Fluent Python Chapters 8 - 10
+#### Watch:
+  * Designing Poetic APIs
+### Month 7
+#### Read:
+  * Fluent Python Chapters 11 - 13
+#### Watch:
+  * The Art of Subclassing
+  * Super Considered Super!
+### Month 8
+#### Read:
+  * Fluent Python Chapters 14 & 15
+#### Watch:
+  * Loop like a Native
+  * Python Design Patterns 1
+### Months 9 & 10
+#### Read:
+  * Fluent Python Chapters 16 - 18
+#### Watch:
+  * Understanding the Python GIL
+  * Python Concurrency from the Ground Up: LIVE!
+### Months 11 & 12
+#### Read:
+  * Fluent Python Chapters 19 - 21
+#### Watch:
+  * Discovering Descriptors
+  * The Clean Architecture in Python

@@ -1,0 +1,612 @@
+﻿Learn more about
+-----------------
+
+context mgr
+key= for sorted
+-m - module unittest
+setUp tearDown called b4 each test
+dependency injection in mock
+addCleanup
+doctest
+nose
+pytest
+ddt - data driven tests
+travis
+TDD
+BDD
+Integration tests
+load testing
+seed(13344)
+what ur computer does while you wait
+misaligning data can increase performance 12x
+pypy
+Counter
+All Your Ducks in a Row: Data Structures in the Standard Library and Beyond - data structures
+f.read(n)
+functools.partial
+cmd.py
+dynamic dispatch
+
+Beyond PEP 8 – Best Practices for Beautiful Intelligible Code
+-------------------------------------------------------------
+
+no useless comments
+
+with object as name - cleaned up after use
+
+no dot this dot that imports
+import everything as a package
+i.e. avoid unnecssary packaging
+
+use all features like[], magic methods, lint methods,
+context mgr for recurring setup and teardown logic,
+properties instead of getter methods,
+add __repr__, use __len__, __get_item__ for iterability
+
+create custom exceptions
+class NetworkElementError(Exception):
+	pass
+except xx:
+    raise  NetworkElementError(msg)
+
+@property
+def abc
+
+obj.abc
+
+# context mgr
+def __enter__
+def __exit
+
+repr with
+return '%s(%r)' %(self.__class__.__name__, self.ipaddr)
+
+good names
+
+keyword args
+named tuples better than normal
+
+Getting Started Testing
+------------------------
+
+see if code works
+save time
+better modular code
+remove fear
+testing better than debugging
+
+reliable tests
+focused tests
+
+import unittest
+import code
+class C(unittest.TestCase):
+	def test_xx(self):
+		call code
+		assert resp
+
+python -m unittest test_xx
+
+backend - testclass object create , test method run in try except assertionerror, else success
+
+. for passed test
+obj created for each test
+
+isolate tests
+F for failed tests
+
+stacktrace for failed tests at the end
+
+self.assertEqual() shows expected output and actual* output
+many asserts
+
+base class with common method that calls builtins assert 
+and use that method in all tests
+
+E - any exception other than assertionerror
+
+assertRaises - negative
+contextmgr - with
+
+setUp(): - before each test method
+tearDown()
+
+fixtures - if we are creating lot of common data
+
+live data
+unpredictable
+slow
+unavailable
+assume yahoo is working, how we test our code
+
+coverage report -m
+
+mock
+act like something
+
+from mock import Mock
+func = Mock()
+func.return_value = "Hello!"
+
+func(17, "something")
+'Hello!'
+
+func.call_args()
+call(17, 'something')
+
+with mock.patch('urllib.urlopen') as urlopen:
+	urlopen.return_value = 'www.abc.com'
+	self.assertEqual(self.p.value(), 17200)
+	urlopen.assert_called_with('www.abc.com')
+
+
+speeds up
+fragile tests - if code refactored
+
+addCleanup - nicer than teardown
+
+doctest - tests docs
+
+nose, pytest are better runners than unittest
+
+ddt - data driven tests
+
+selenium - UI testing
+tijenkins, travis - run tests all the time
+
+TDD - tests before code
+BDD - behavior driven
+
+integration tests - realistic scenarios - bigger chunk
+
+load testing - how much traffic is ok..
+
+if __name__ == __main__ should be as below for testing for coverage
+if sys.exit(main(sys.argv))
+takes list of args and returns a status code
+
+apply DRY - do not repeat urself to tests
+
+dependency injection - instead of hardcoding url in method, we can take in class init, so that tests can be run on diff url
+makes code cluttered
+
+Python’s Class Development Toolkit
+-----------------------------------
+inheriting from object gives additional capability to classes in python2.7
+python3 its already like that
+instance variable in init, only for unique values for instances
+init is not a constructor, its calling self i.e an instance which is already created
+its an initializer
+regular method - with self (or anything which is not recommended)
+use reusable things like math.pi instead of 3.14
+data inside class is a own module i.e u can write print, for etc in it
+minimum viable product - to be given to customer in agile
+give version as class variable (string recommended)
+xrange - 2.7 - saves memory
+expose attrs, no getters and setters or priv and prot
+if parent method is called in child method its called extending else overrriding
+expect subclassing
+instead of using converted functions, we need to change the constructor signature
+example: Circle(radius) and Circle(bbd) instead of Circle(bbd_to_radius(bbd))
+but we cant do that so we can have something like datetime.fromtimestamp, datetime.fromordinal, datetime.now, datetime(2013,1,2)
+eg: dict.fromkeys([1,2,3]) - class methods that return object after processing
+but subclass will also make circle not say Tire
+class method takes cls and make cls() instead of hardcoded Circle()
+function that does not need to know anything about the instance - staticmethod
+one method from parent class is calling other method which is extended in child class
+issue as child class's method is not called from inside it, but parent only
+_permiter = perimeter - spare copy..!! what if child also does same..!!
+keep class name before like _Circle_permieter and _Tire_parameter
+its automated u can directly use __permitere() in the function - class name will be merged - class local reference
+change radius to diamtere
+make radius property and set diameter in it
+return diameter / 2
+set radius*2
+i.e. convert dotted access to method calls
+evry instance has a dict
+when many objects of circle are to be created, make them lightweight
+__slots__ = ['diameter'] - no dict now - we cant inspect dict and add more attrs now
+keep it as last option for millions of instances
+this is called flyweight design pattern
+slots doesnt inherit, subclasses can have own attrs
+
+All Your Ducks in a Row: Data Structures in the Standard Library and Beyond
+----------------------------------------------------------------------------
+computer memory is byte array
+i.e. values can be held from 0 to 255
+bytes are named by sequential integers called address
+RAM chips provide random access
+python object has 8 bytes of reference count of address of type on a 64 but machine and the value
+total 24 bytes
+str - 6 fields - ref count, type, len, hash, flags, address, value
+this is called record
+field is referred as beginning of address + bytes
+like a+8 will give type of int, where a is ref count, a+16 will give value
+buildig structures,
+from struct import pack, unpack
+data = pack ('IIf', 2,9,20.0) - int int float  # used for binary communications with C libraries or IO
+print(len(data))
+print(data.encode('hex')) --> hex value
+print(unpack('IIf', data)) --> (2, 9, 20.0)
+--------
+array - each character is same length in string say 4 bytes
+a+0 h
+a+ 4 e
+a+8 l
+record - heterogeneous
+array - homogenous
+from array import array
+a = array('d', [1.0,2.0])
+print(a[3])
+print(a)
+print(a.itemsize)
+print(len(a))
+for binary conversations
+specialized arrays - str, unicode, StringIO, memoryview, bytearray, bytes
+accessing elements of array - requires repeated building of object contained within eg: floats
+---
+python array for C or I/O
+NumPy - for math - no intermediate python objects built - operations done at c level
+import numps as np
+a = np.arange(0, 5)
+print(a) --> [0 1 2 3 4]
+print(a.sum()) --> 10
+print(a*a) --> list of squares
+print(a+10) --> 10 added to each element
+similarly pandas(data oriented)
+blaze upcoming like numpy
+pypy gets to know list of only ints or floats and might change it to fast array
+tuple stores addresses of where each object is stored
+this for all generic type data types
+so when we copy, only address gets copied
+so there is only one copy of object no matter how many times it occurs in tuple, list or dict
+list has - ref count, address of type, address of actual block where it keeps addresses of all elements, one blank space
+extra space - to not move elements due to append
+insert/pop from start - very time consuming
+hence use reversed(list)
+list slicing, new list is created
+numpy and pandas slicing is just a view not a copy
+dict - behind it is an array which stores keys in index as per hash value
+key and value saved in slot in dict
+some slots are empty for speed
+key is directly found and jumped to
+default dict we can append values to key, without assigning a list to it
+from collections import Counter
+c = Counter('abc')
+c.most_common(2)
+tuples can be keys of dict
+frozenset if we dont care of order of elements within
+dict iterates in arbitrary order as it uses hashing
+OrderedDict for features of list and dict - remembers order in which keys were added
+used for headers or json fields
+set is a dict with keys and no values
+each element in a class is a dictionary
+but we can turn in records by using __slots__
+bisect - binary search
+deque - both ended operations - append and pop
+import bisect
+bisect.bisect_left(l, 3.0)
+bisect.bisect_right(1,4.0)
+a[left:right]
+all numbers on and between them
+from collections import deque
+d = deque
+d.append(5)
+d.appendleft(4)
+pop
+popleft
+from queue import Queue is also deque with locks
+import heapq - top t elements from n without sorting in less time
+a = []
+heap1.heapify(a)
+pop and push in any order
+heapq.heappop(a)
+heapq.heappush(a, 0)
+PriorityQueue - heap1 with locks - labelled with priorities to come off earlier
+sched.scheduler - uses heapq - shows how long to wait until next one triggers from our tasks
+
+linked lists, doubly linked lists and trees are not needed as we are saving addressess not actual data
+
+deque and orderedlists have doublylinkedlists inside
+
+trees are outsourced to data layers like sqllite, postgresql mongodb couchdb
+they have trees for indexing
+data coming in and out will be kept in order
+
+write once, throw away - comprehensions
+
+Transforming Code into Beautiful, Idiomatic Python
+--------------------------------------------------
+do not loop over indices
+use for like foreach
+use reversed
+use enumerate
+use zip # creates new list of tuples in memory - tuples are separate objects with pointers to original
+better izip  #makes iterator
+use sorted
+use sorted with reverse=True
+use sorted with key=xx
+loop over iter(function, sentinel) --> when u get sentinel break (iter needs function with no args hence use partial)
+
+else clause with for, if loop ended without any break
+
+loop over dictionary keys instead of dictionary, coz then you can update dict on the go without side effects
+d.items()
+d.iteritems() --> geerates list
+dict(izip(l1,l2)) --> uses the sample tuple again and again
+d.get - to get something if key is not present
+d.setdefault(key, []).append(value) --> grouping
+use defaultdict(datatype) --> factory function, int with no args produces 0 --> use list for grouping
+d.popitem() - atomic, can be used with threads
+ChainMap(d1, d2, d3) --> searching happens sequentially
+
+use keyword arguments
+
+use named tuples
+
+use join not +
+
+use unpacking - a, b = b,a instead of adding in a list and then taking by i indices
+
+for doing fifo use deque
+deque(list)
+del/popleft/appendleft - efficiient
+
+i.e. use decorators to separate admin logic from business logic
+
+factor out temporary contexts
+getcontext, setcontext
+with localcontext(Context(x=5))
+
+use with open file instead of open and close
+with lock:
+
+with ignore(error):
+    do something
+--------------------
+@contextmanager
+def ignored(*exceptions):
+    try:
+        yield
+    except exceptions:
+        pass
+------------------------
+with redirect_stdout
+
+not too much and too less in one line
+one line should be one english sentence
+
+use list comps and gen exp
+
+The Mighty Dictionary
+----------------------
+dictionary is a list containing
+index, hash, key and value
+i.e. hash table
+keys are hashed to produce index
+hash function generates string and reduces it to 32 bits of 1s and 0s
+hash on same value generates same hash again
+last 3 bits of hash used to make index like 001
+collision - try again with diff location
+if at start empty place is found while searching keyerror, if diff value is found, keep searching and decide at end
+integer is its own hash (in bits)
+when deleting key, python leaves dummy key
+coz otherwise the other item which was pushed ahead due to collision will never get found due to empty value here
+dicts resize after 2/3rd full
+small dicts x4 size, big x2 - save ram
+on resizing more last bits are considered and therefore existing elements r placed differently with less collisions
+trade space for time
+To avoid class dicts use __slots__
+set is a dict without storage of values
+
+Python Tutorial: Logging Basics - Logging to Files, Setting Levels, and Formatting - extra
+------------------------------------------------------------------------------------------
+# logging, logging_1, logging_2
+
+Python Tutorial: Logging Advanced - Loggers, Handlers, and Formatters
+----------------------------------------------------------------------
+90% unit - 10% system - no of testcases - web apps
+
+Stop Writing Classes
+-----------------------
+easy than complex
+not too much of nesting namespaces
+xnotfound --> not xnotfoundexception
+better builtin exceptions
+use class for bundling up similar functions and data
+class with one method and one init is not a class
+
+how to be more effective with functions
+---------------------------------------
+variable positional arguments(*args)
+
+log('smita', [1, 2])
+log('smita', [])
+
+log('smita', 1, 2) or log('smita', *[1, 2])
+log('smita')
+but cant use generators
+---------------------------------------
+keyword arguments for optional behavior (bar=123)
+
+m(bar=1)
+
+m()
+-----------------------------------------
+keyword only arguments for clarity m(*, a, b)
+
+not clear which value is for which arg while calling
+m(1,2)
+
+anything after * needs to be passed as keyword argument only
+m(a=1,b=2)
+good for boolean values
+optional arguments must use keywords
+--------------------------------------------------
+Extending *args function
+
+m(a, *args)
+changed to
+m(x, a , *args)
+breaks existimg callers
+
+hence use keyword only argument at end as None
+m(a , *args,x=None)
+----------------------------------------------
+generators instead of lists(yield foo)
+-------------------------------------------
+iter(foo) is iter(foo)
+
+unable to identify whether generator is exhausted or doesnt have anything
+
+iter() on list gives iterator
+iter() on iterator returns itself
+
+iterator lets you go over sequence one at a time
+
+iter() over sequence 2 times gives diff iterators
+
+for looping twice you can use list
+OR
+turn generator to iterable container
+make your method that yields as __iter__(...) in class and instantaite it where required
+
+when you loop over generator using for
+it calls iter(x)
+that inturn calls x.__iter__()
+
+hence we are making __iter__() method to get a new iterator each time
+instead of before where the old echausted one was used second time
+
+use if iter(x) is iter(x) to check defensively and throw error - works for list or __iter__
+
+
+designing poetic apis
+-----------------------
+extract than invent
+consistent conventions - u dhudnt need to go back to source code or docs again and again
+brevity - make common things short - u dont need to copy paste things, write things instead of assuming defaults, no need to have large args list
+composability - do not have classes with lot of states - you can separate them, no need to have deep inheritcance hierarrchies coz it comes with baggage, no need to mock too many dependencies
+plain data - better to use builtin data types, no need for user to take ur object and immediately format it in a different way
+grooviness - get rid of unnecessary representations like method args, it should not be had to example
+safety - exceptions better than return values, no need to remember to do something
+dont put anything in name that is not cared while calling it
+
+art of subclassing
+-----------------------
+adding, overriding, extending
+
+dependency injection - adding improvement without changing existing code like by creating new sub class
+help shows MRO
+
+Loop like a native
+-------------------
+iterable produces stream of values
+d.itervalues()
+d.iteritems()
+for line in f:
+for element in list:
+for character in string:
+re.finditer(match, string)
+for root, dirs, files in os.walk("somepath")
+for num in itertools.count() # infinite
+
+from itertools import chain, repeat, cycle
+seq = chain(repeat(17, 3), cycle(range(4)))
+for num in seq:
+
+new_list = list(iterable)
+
+results = [f(x) for x in iterable]
+
+total = sum(iterable)
+
+min(it)
+max(it)
+"".join(iterable)
+
+for i, v in enumerate(my_list): --> tuples
+
+for linenum, line in enumerate(f, start=1):
+
+for name, height in zip(names, heights):
+
+dict(zip(names, heights))
+
+max(d.values())
+max(d.items(), key=lambda b: b[1])
+max(d.items(), key=d.get)
+
+generator - yield
+
+book is iterable
+bookmark is iterator
+
+iterator = iter(iterable)
+value = next(iterator)
+
+iterable produces iterator
+iterator produces stream of values
+
+next(f)
+for line in f:
+to skip first line
+
+implement __iter__ method and return iter(self.list)
+
+for task in Class object:
+
+
+or we can yield from __iter__()
+
+next() will raise StopIteration
+
+Python Design Patterns
+-----------------------
+eg: dict get method
+eg: continue
+for x in xx:
+    if something:
+        do something
+        if something:
+            do something
+# better
+for x in xx:
+    if not something:
+        continue
+    do something
+    if not something:
+        continue
+    do something
+
+oop patterns - classes, objects, references
+
+language feature - dynamic, we dont specify data types of function parameters
+
+creational patterns---------------------->
+no separate syntax for object instantiation than calling function
+we can return anything from function
+bad to use global vars mymodule.foo cant be intercepted, hence you can create function to return that global var than directly keeping the value there, coz then we can create properties
+i.e. like singleton
+we can also implement __new__ in such a way that it returns same instance every time that is singleton class
+prototype is an object that we can make a copy of
+builder pattern - details hidden by python - eg: lxml package over xml
+
+structural patterns---------------->
+adapter - write a class in wrapper so that it behaves like other class eg: socket class
+socket._fileobject adapter to convert say read and write into send nd receive
+bridge - have diff layers pr subclassings for diff things and then mix and match
+eg: business logic layer, storage layer
+facade - lets you interact with live network of objects eg: xml, root.find(), root.iter()
+flyweight - small immutable reusable object
+proxy - object that wraps another object and accepts exact same set of methods
+e: wekaref.proxy()
+decorator - like proxy but makes changes in behaviour behind in a hidden way
+
+behavioral patterns------->
+chain of responsibility - do you want to handle, else go to next
+command - save commands to allow undo
+interpreter -
+iterator  -
+mediator - genric buttons and text field and take click signal and tell page to update
+actions are in one place
