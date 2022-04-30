@@ -1,6 +1,7 @@
 # program: https://www.codingninjas.com/codestudio/problems/bubble-sort_980524
 # program: bubble sort
-# logic: first round sorts last element and so on, first element will already be sorted at end, so number of rounds = n - 1
+# logic: create BUBBLE of 2 elements each time and move greater element forward so that each round puts one left over largest element towards the end
+# first round sorts last element and so on, first element will already be sorted at end, so number of rounds = n - 1
 # inside one more variable for start of bubble, start bubble at 0 and end at already sorted array - 1 i.e. n-i-1 because bubble consists of start and next element
 # at the end all elements will be sorted
 # chances are array gets sorted in between itself or is sorted at start itself in that case we dont need more rounds

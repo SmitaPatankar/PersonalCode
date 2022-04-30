@@ -5,6 +5,8 @@ ascending/descending order
 
 # selection sort details
 """
+SELECT leftover minimum element each time and put it in left pointer position
+
 in each round, select the smallest element and put it in right position
 have a pointer for where to put the lowest element - it will be on 0 at start
 put lowest value from entire including and further array over there by swapping and move the pointer forward
