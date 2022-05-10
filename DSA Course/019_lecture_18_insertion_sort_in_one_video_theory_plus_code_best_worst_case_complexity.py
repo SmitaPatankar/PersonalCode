@@ -13,7 +13,7 @@ eg: 13452678 --> 12345678
 # hw: program: insertion sort program: while loop
 # hw: program: https://www.codingninjas.com/codestudio/problems/insertion-sort_3155179: while loop
 # logic: start from index 1 because 0th element is needed as it is in beginning for comparison
-# when swap is needed from righ to left, put elements between initial position and final position forward by one to make one empty space
+# when swap is needed from right to left, put elements between initial position and final position forward by one to make one empty space
 # comparison is to be done with all elements before it from right to left until we keep finding greater elements and then put in left of last great element by making empty space by pushing others forward
 # if greater, keep in right only
 # shift, dont swap

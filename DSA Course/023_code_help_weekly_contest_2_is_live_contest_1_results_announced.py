@@ -97,6 +97,7 @@ def bitwise_and(n, q, arr, queries):
 print(bitwise_and(4, 2, [3,7,9,16],[2,1]))
 """
 
+# TODO: revise
 # program: contest: https://www.codingninjas.com/codestudio/contests/love-babbar-contest-ii/problems/14751
 # street of length n
 # light up the street with lights
@@ -111,7 +112,6 @@ print(bitwise_and(4, 2, [3,7,9,16],[2,1]))
 # R = 3 ( The range of the street-lights)
 # ans = 2 & 7 i.e. 2
 # positioning of bulbs starts from 1
-# TODO: revise
 """
 def light_up_street(l, r, checkpoints):
     ans = 0
