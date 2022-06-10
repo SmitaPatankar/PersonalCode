@@ -146,8 +146,8 @@ def is_possible_solution(arr, min_distance, no_of_cows):
             cow_number += 1
             if cow_number == no_of_cows:
                 return True
-        else:
-            last_position = i
+            else:
+                last_position = i
     return False
 print(find_largest_minimum_distance([4,2,1,3,6],2))
 """

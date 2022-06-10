@@ -23,7 +23,6 @@ print(get_pivot_rotated_sorted([7,9,1,2,3]))
 # logic: find pivot and see whether value lies between pivot and end or not
 # if yes, search on second line i.e. pivot to end, else search on first line i.e. start to pivot - 1
 # this way we are deciding which line to apply binary search on, as both a re monotonic functions
-"""
 def get_pivot_rotated_sorted(a):
     start = 0
     end = len(a) - 1
@@ -55,7 +54,6 @@ def search_in_rotated_sorted_array(a, n):
 a = [7,9,1,2,3]
 n = 2
 print(search_in_rotated_sorted_array(a, n))
-"""
 
 # hw: program: alternate approach for https://www.codingninjas.com/codestudio/problems/search-in-rotated-sorted-array_1082554 other than pivot and binary search ine one part
 # logic: take start, end, mid
